@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "interfaces": [
+    {
+      "id": "tv-config",
+      "name": "影视配置接口",
+      "description": "复制到播放器的点播配置中使用",
+      "url": "https://cloudflare-nodes.52985298.xyz/TV/config.json"
+    }
+  ],
+  "download_mirrors": [
+    {
+      "id": "cainisi",
+      "label": "CDN 1",
+      "provider": "菜妮丝 CDN",
+      "url_template": "https://cns.菜妮丝.top/{url}"
+    },
+    {
+      "id": "gh-proxy",
+      "label": "CDN 2",
+      "provider": "GH Proxy",
+      "url_template": "https://gh-proxy.com/{url}"
+    }
+  ],
+  "sources": [
+    {
+      "id": "fongmi",
+      "name": "FongMi",
+      "description": "开源 Android 影视播放器",
+      "homepage": "https://github.com/FongMi/TV",
+      "repository": "FongMi/Release",
+      "branch": "fongmi",
+      "directory": "apk",
+      "icon": "https://raw.githubusercontent.com/FongMi/TV/fongmi/app/src/main/ic_launcher-playstore.png",
+      "packages": [
+        {
+          "id": "mobile",
+          "label": "手机版",
+          "platform": "mobile",
+          "metadata": "mobile.json",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true
+            }
+          ]
+        },
+        {
+          "id": "leanback",
+          "label": "电视版",
+          "platform": "tv",
+          "metadata": "leanback.json",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": true
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

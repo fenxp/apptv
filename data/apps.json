@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-28T17:05:49Z",
+  "interfaces": [
+    {
+      "id": "tv-config",
+      "name": "影视配置接口",
+      "description": "复制到播放器的点播配置中使用",
+      "url": "https://cloudflare-nodes.52985298.xyz/TV/config.json"
+    }
+  ],
+  "apps": [
+    {
+      "id": "fongmi",
+      "name": "FongMi",
+      "description": "开源 Android 影视播放器",
+      "homepage": "https://github.com/FongMi/TV",
+      "repository": "FongMi/Release",
+      "icon": "https://raw.githubusercontent.com/FongMi/TV/fongmi/app/src/main/ic_launcher-playstore.png",
+      "source_revision": "95929cf358c0519adbdb865d9b9471e049adeccb",
+      "updated_at": "2026-06-28T17:05:49Z",
+      "releases": [
+        {
+          "id": "mobile",
+          "label": "手机版",
+          "platform": "mobile",
+          "version": "5.5.6",
+          "version_code": 556,
+          "notes": [
+            "支持 av3a 格式",
+            "EXO 新增 DV7 回退設定",
+            "調整 QRCode 混淆保留規則"
+          ],
+          "updated_at": "2026-06-28T17:05:49Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 78918749,
+              "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 91960115,
+              "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "5.5.6",
+          "version_code": 556,
+          "notes": [
+            "支持 av3a 格式",
+            "EXO 新增 DV7 回退設定",
+            "調整 QRCode 混淆保留規則"
+          ],
+          "updated_at": "2026-06-28T17:05:49Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": true,
+              "size": 78938566,
+              "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": false,
+              "size": 91979932,
+              "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
