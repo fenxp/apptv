@@ -131,7 +131,7 @@ main {
 
 .intro {
   max-width: 720px;
-  padding-bottom: 46px;
+  padding-bottom: 26px;
 }
 
 .eyebrow,
@@ -187,7 +187,7 @@ h1 {
 .interface-section {
   margin-bottom: 30px;
   padding: 26px 0 30px;
-  border-top: 1px solid var(--line-strong);
+  border-top: 0;
 }
 
 .interface-heading {
@@ -609,10 +609,19 @@ h2 {
   display: grid;
   grid-template-columns: 42px minmax(0, 1fr);
   gap: 16px;
-  margin-top: 30px;
   padding: 24px 0;
   border-top: 1px solid var(--line-strong);
   border-bottom: 1px solid var(--line-strong);
+}
+
+.global-notice {
+  margin-bottom: 0;
+  padding: 18px 0;
+}
+
+.catalog .notice {
+  margin-bottom: 18px;
+  padding: 16px 0;
 }
 
 .notice-icon {
@@ -625,15 +634,29 @@ h2 {
   color: var(--teal);
 }
 
+.notice-warm .notice-icon {
+  background: var(--red-soft);
+  color: var(--red-dark);
+}
+
 .notice h2 {
   font-size: 16px;
 }
 
-.notice p {
+.notice p,
+.notice-list {
   margin: 7px 0 0;
   color: var(--muted);
   font-size: 14px;
   line-height: 1.7;
+}
+
+.notice-list {
+  padding-left: 19px;
+}
+
+.notice-list li::marker {
+  color: var(--red);
 }
 
 footer {
@@ -680,7 +703,7 @@ footer {
   }
 
   .intro {
-    padding-bottom: 36px;
+    padding-bottom: 24px;
   }
 
   .toolbar {
