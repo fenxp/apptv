@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-02T00:38:47Z",
+  "generated_at": "2026-08-03T10:49:21Z",
   "interfaces": [
     {
       "id": "tv-config",
@@ -17,32 +17,27 @@
       "homepage": "https://github.com/FongMi/TV",
       "repository": "FongMi/Release",
       "icon": "https://raw.githubusercontent.com/FongMi/TV/fongmi/app/src/main/ic_launcher-playstore.png",
-      "source_revision": "5981b8a26260d3a02e534af561afab04d1f51b22",
-      "updated_at": "2026-08-02T00:38:47Z",
+      "source_revision": "8c2a984a3d8d5b84ed47c49f96987a6c2669711a",
+      "updated_at": "2026-08-03T10:49:21Z",
       "releases": [
         {
           "id": "mobile",
           "label": "手机版",
           "platform": "mobile",
-          "version": "5.5.7",
-          "version_code": 557,
+          "version": "5.5.8",
+          "version_code": 558,
           "notes": [
-            "新增音質調整",
-            "新增畫質調整",
-            "新增字幕樣式調整",
-            "新增字幕搜尋",
-            "新增預載下集",
-            "優化解碼切換",
-            "提升播放穩定性"
+            "優化解碼",
+            "優化vulkan"
           ],
-          "updated_at": "2026-08-02T00:38:47Z",
+          "updated_at": "2026-08-03T10:49:21Z",
           "downloads": [
             {
               "filename": "mobile-armeabi_v7a.apk",
               "label": "32 位",
               "architecture": "armeabi-v7a",
               "recommended": false,
-              "size": 80912738,
+              "size": 80951622,
               "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
@@ -64,7 +59,7 @@
               "label": "64 位",
               "architecture": "arm64-v8a",
               "recommended": true,
-              "size": 93937722,
+              "size": 93976606,
               "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
@@ -87,25 +82,20 @@
           "id": "leanback",
           "label": "电视版",
           "platform": "tv",
-          "version": "5.5.7",
-          "version_code": 557,
+          "version": "5.5.8",
+          "version_code": 558,
           "notes": [
-            "新增音質調整",
-            "新增畫質調整",
-            "新增字幕樣式調整",
-            "新增字幕搜尋",
-            "新增預載下集",
-            "優化解碼切換",
-            "提升播放穩定性"
+            "優化解碼",
+            "優化vulkan"
           ],
-          "updated_at": "2026-08-02T00:38:47Z",
+          "updated_at": "2026-08-03T10:49:21Z",
           "downloads": [
             {
               "filename": "leanback-armeabi_v7a.apk",
               "label": "32 位",
               "architecture": "armeabi-v7a",
               "recommended": true,
-              "size": 81008820,
+              "size": 81047724,
               "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
@@ -127,7 +117,7 @@
               "label": "64 位",
               "architecture": "arm64-v8a",
               "recommended": false,
-              "size": 94033804,
+              "size": 94072708,
               "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
