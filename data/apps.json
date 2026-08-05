@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-03T10:49:21Z",
+  "generated_at": "2026-08-05T01:00:09Z",
   "interfaces": [
     {
       "id": "tv-config",
@@ -17,20 +17,19 @@
       "homepage": "https://github.com/FongMi/TV",
       "repository": "FongMi/Release",
       "icon": "https://raw.githubusercontent.com/FongMi/TV/fongmi/app/src/main/ic_launcher-playstore.png",
-      "source_revision": "8c2a984a3d8d5b84ed47c49f96987a6c2669711a",
-      "updated_at": "2026-08-03T10:49:21Z",
+      "source_revision": "b0a73f9e11a5ec844e929039f695b349b72830c3",
+      "updated_at": "2026-08-05T01:00:09Z",
       "releases": [
         {
           "id": "mobile",
           "label": "手机版",
           "platform": "mobile",
-          "version": "5.5.8",
-          "version_code": 558,
+          "version": "5.5.9",
+          "version_code": 559,
           "notes": [
-            "優化解碼",
             "優化vulkan"
           ],
-          "updated_at": "2026-08-03T10:49:21Z",
+          "updated_at": "2026-08-05T01:00:09Z",
           "downloads": [
             {
               "filename": "mobile-armeabi_v7a.apk",
@@ -82,13 +81,12 @@
           "id": "leanback",
           "label": "电视版",
           "platform": "tv",
-          "version": "5.5.8",
-          "version_code": 558,
+          "version": "5.5.9",
+          "version_code": 559,
           "notes": [
-            "優化解碼",
             "優化vulkan"
           ],
-          "updated_at": "2026-08-03T10:49:21Z",
+          "updated_at": "2026-08-05T01:00:09Z",
           "downloads": [
             {
               "filename": "leanback-armeabi_v7a.apk",
