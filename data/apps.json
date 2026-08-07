@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-05T01:00:09Z",
+  "generated_at": "2026-08-07T04:33:58Z",
   "interfaces": [
     {
       "id": "tv-config",
@@ -17,26 +17,26 @@
       "homepage": "https://github.com/FongMi/TV",
       "repository": "FongMi/Release",
       "icon": "https://raw.githubusercontent.com/FongMi/TV/fongmi/app/src/main/ic_launcher-playstore.png",
-      "source_revision": "b0a73f9e11a5ec844e929039f695b349b72830c3",
-      "updated_at": "2026-08-05T01:00:09Z",
+      "source_revision": "3441f1db2aad8cb141713b3e1c95bf662c77a157",
+      "updated_at": "2026-08-07T04:33:58Z",
       "releases": [
         {
           "id": "mobile",
           "label": "手机版",
           "platform": "mobile",
-          "version": "5.5.9",
-          "version_code": 559,
+          "version": "5.6.0",
+          "version_code": 560,
           "notes": [
-            "優化vulkan"
+            "修正閃退問題"
           ],
-          "updated_at": "2026-08-05T01:00:09Z",
+          "updated_at": "2026-08-07T04:33:58Z",
           "downloads": [
             {
               "filename": "mobile-armeabi_v7a.apk",
               "label": "32 位",
               "architecture": "armeabi-v7a",
               "recommended": false,
-              "size": 80951622,
+              "size": 80951626,
               "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
@@ -58,7 +58,7 @@
               "label": "64 位",
               "architecture": "arm64-v8a",
               "recommended": true,
-              "size": 93976606,
+              "size": 93976610,
               "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
@@ -81,12 +81,12 @@
           "id": "leanback",
           "label": "电视版",
           "platform": "tv",
-          "version": "5.5.9",
-          "version_code": 559,
+          "version": "5.6.0",
+          "version_code": 560,
           "notes": [
-            "優化vulkan"
+            "修正閃退問題"
           ],
-          "updated_at": "2026-08-05T01:00:09Z",
+          "updated_at": "2026-08-07T04:33:58Z",
           "downloads": [
             {
               "filename": "leanback-armeabi_v7a.apk",
