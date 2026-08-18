@@ -5,7 +5,7 @@
       "id": "tv-config",
       "name": "影视配置接口",
       "description": "复制到播放器的点播配置中使用",
-      "url": "https://cloudflare-nodes.52985298.xyz/TV/config.json"
+      "url": "https://tv.52985298.xyz/TV/config.json"
     }
   ],
   "download_mirrors": [
