@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-28T17:05:49Z",
+  "generated_at": "2026-08-18T01:26:18Z",
   "interfaces": [
     {
       "id": "tv-config",
@@ -17,28 +17,28 @@
       "homepage": "https://github.com/FongMi/TV",
       "repository": "FongMi/Release",
       "icon": "https://raw.githubusercontent.com/FongMi/TV/fongmi/app/src/main/ic_launcher-playstore.png",
-      "source_revision": "95929cf358c0519adbdb865d9b9471e049adeccb",
-      "updated_at": "2026-06-28T17:05:49Z",
+      "source_revision": "cf3809d789a5337996ac6f5a1102a82bda1cc5ac",
+      "updated_at": "2026-08-09T12:23:11Z",
       "releases": [
         {
           "id": "mobile",
           "label": "手机版",
           "platform": "mobile",
-          "version": "5.5.6",
-          "version_code": 556,
+          "version": "5.6.1",
+          "version_code": 561,
           "notes": [
-            "支持 av3a 格式",
-            "EXO 新增 DV7 回退設定",
-            "調整 QRCode 混淆保留規則"
+            "更新 ffmpeg",
+            "更新 media3",
+            "修正閃退問題"
           ],
-          "updated_at": "2026-06-28T17:05:49Z",
+          "updated_at": "2026-08-09T12:23:11Z",
           "downloads": [
             {
               "filename": "mobile-armeabi_v7a.apk",
               "label": "32 位",
               "architecture": "armeabi-v7a",
               "recommended": false,
-              "size": 78918749,
+              "size": 81013370,
               "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
@@ -60,7 +60,7 @@
               "label": "64 位",
               "architecture": "arm64-v8a",
               "recommended": true,
-              "size": 91960115,
+              "size": 94071122,
               "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
@@ -83,21 +83,21 @@
           "id": "leanback",
           "label": "电视版",
           "platform": "tv",
-          "version": "5.5.6",
-          "version_code": 556,
+          "version": "5.6.1",
+          "version_code": 561,
           "notes": [
-            "支持 av3a 格式",
-            "EXO 新增 DV7 回退設定",
-            "調整 QRCode 混淆保留規則"
+            "更新 ffmpeg",
+            "更新 media3",
+            "修正閃退問題"
           ],
-          "updated_at": "2026-06-28T17:05:49Z",
+          "updated_at": "2026-08-09T12:23:11Z",
           "downloads": [
             {
               "filename": "leanback-armeabi_v7a.apk",
               "label": "32 位",
               "architecture": "armeabi-v7a",
               "recommended": true,
-              "size": 78938566,
+              "size": 81097702,
               "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
@@ -119,7 +119,7 @@
               "label": "64 位",
               "architecture": "arm64-v8a",
               "recommended": false,
-              "size": 91979932,
+              "size": 94155454,
               "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
@@ -133,6 +133,356 @@
                   "label": "CDN 2",
                   "provider": "GH Proxy",
                   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tvbox-osc",
+      "name": "TVBox",
+      "description": "q215613905 的开源 Android 影视播放器",
+      "homepage": "https://github.com/q215613905/TVBoxOSCRelease/releases",
+      "repository": "q215613905/TVBoxOSCRelease",
+      "icon": "https://raw.githubusercontent.com/q215613905/TVBoxOS/refs/heads/main/app/src/main/res/drawable-xxxhdpi/app_icon.png",
+      "source_revision": "master",
+      "updated_at": "2026-08-18T01:26:18Z",
+      "releases": [
+        {
+          "id": "tv",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "20260817-1745",
+          "version_code": null,
+          "notes": [
+            "去广告增强",
+            "py兼容性增强",
+            "详情展示优化html标签过滤",
+            "样式微调"
+          ],
+          "updated_at": "2026-08-18T01:26:18Z",
+          "downloads": [
+            {
+              "filename": "TVBox_q215613905_20260817-1745-java.apk",
+              "label": "Java 通用版",
+              "architecture": "universal",
+              "recommended": false,
+              "size": 33451176,
+              "url": "https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260817-1745/TVBox_q215613905_20260817-1745-java.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260817-1745/TVBox_q215613905_20260817-1745-java.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260817-1745/TVBox_q215613905_20260817-1745-java.apk"
+                }
+              ]
+            },
+            {
+              "filename": "TVBox_q215613905_20260817-1745-java32.apk",
+              "label": "Java 32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 19952227,
+              "url": "https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260817-1745/TVBox_q215613905_20260817-1745-java32.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260817-1745/TVBox_q215613905_20260817-1745-java32.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260817-1745/TVBox_q215613905_20260817-1745-java32.apk"
+                }
+              ]
+            },
+            {
+              "filename": "TVBox_q215613905_20260817-1745-java64.apk",
+              "label": "Java 64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 20914941,
+              "url": "https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260817-1745/TVBox_q215613905_20260817-1745-java64.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260817-1745/TVBox_q215613905_20260817-1745-java64.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260817-1745/TVBox_q215613905_20260817-1745-java64.apk"
+                }
+              ]
+            },
+            {
+              "filename": "TVBox_q215613905_20260817-1745-python.apk",
+              "label": "Python 通用版",
+              "architecture": "universal",
+              "recommended": false,
+              "size": 52781561,
+              "url": "https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260817-1745/TVBox_q215613905_20260817-1745-python.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260817-1745/TVBox_q215613905_20260817-1745-python.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260817-1745/TVBox_q215613905_20260817-1745-python.apk"
+                }
+              ]
+            },
+            {
+              "filename": "TVBox_q215613905_20260817-1745-python32.apk",
+              "label": "Python 32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 31762590,
+              "url": "https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260817-1745/TVBox_q215613905_20260817-1745-python32.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260817-1745/TVBox_q215613905_20260817-1745-python32.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260817-1745/TVBox_q215613905_20260817-1745-python32.apk"
+                }
+              ]
+            },
+            {
+              "filename": "TVBox_q215613905_20260817-1745-python64.apk",
+              "label": "Python 64 位",
+              "architecture": "arm64-v8a",
+              "recommended": false,
+              "size": 33203935,
+              "url": "https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260817-1745/TVBox_q215613905_20260817-1745-python64.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260817-1745/TVBox_q215613905_20260817-1745-python64.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260817-1745/TVBox_q215613905_20260817-1745-python64.apk"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "webhtv",
+      "name": "webhtv",
+      "description": "开源 Android WebHome 影视播放器",
+      "homepage": "https://github.com/fish2018/webhtv/releases",
+      "repository": "fish2018/webhtv",
+      "icon": "https://raw.githubusercontent.com/fish2018/webhtv/main/app/src/main/ic_launcher-playstore.png",
+      "source_revision": "112f35dbdf0f5d8434bd1c6e89f09a61d758f6b3",
+      "updated_at": "2026-08-07T12:23:17Z",
+      "releases": [
+        {
+          "id": "mobile",
+          "label": "手机版",
+          "platform": "mobile",
+          "version": "5.5.6-202608072014",
+          "version_code": null,
+          "notes": [
+            "### 更新内容",
+            "播放器弹窗选择切换",
+            "优化mpv/exo/ijk缓冲",
+            "优化手机端音频沉浸模式布局",
+            "修复mpv拖动进度条蓝屏",
+            "修复手机端全屏切换剧集后返回竖屏时选集网格显示异常",
+            "兼容 Android 低版本 ExoPlayer API，避免播放崩溃。",
+            "同步 MPV AImageReader 新帧与 fence，减少重复帧、黑屏和丢帧。",
+            "优化夸克网盘短显，支持目录前缀、幕次及番外文件名识别。",
+            "修复直播播放自动跳频道，移除默认异常 UA。",
+            "修复节目单历史节目点击无响应，支持直播回看切换。",
+            "优化 MPV 请求头及 PNG 封装 HLS 分片兼容性。",
+            "优化 EXO 代理点播缓冲与重缓冲恢复。",
+            "修复 Android 9 剧集标题解析导致的崩溃。",
+            "重构播放性能策略，档位收敛为“自动 / 轻量”；自动档动态适配设备、网络和播放状态，轻量档重点保障低端设备流畅播放。",
+            "优化 EXO 缓冲、码率选择和解码恢复，修复长时间暂停或屏保唤醒后画面无法恢复。",
+            "优化 MPV 电视直出、缓存和弱网策略；修复网盘恢复进度、Seek 后长时间黑屏及旋转启动崩溃。",
+            "修复 MPV ASS/SSA 字幕大小调节；增加系统字体回退，减少中文字幕显示方框。",
+            "优化 IJK 缓冲水位和实时流积压控制，限制低端设备上的缓存占用。",
+            "加强 EXO、MPV、IJK 磁盘缓存保护，避免并发写入、缓存清理或磁盘空间不足影响前台播放。",
+            "音频模式统一使用普通后台播放，避免进入画中画后退出播放。",
+            "TV 全屏控制栏移除投屏按钮。",
+            "播放性能设置根据当前播放器内核显示对应参数，弹窗样式统一。",
+            "新增接口时，默认名称改为根据路径或 URL 生成。",
+            "优化代理规则UI。",
+            "扩展播放记录同步能力，支持记录删除同步及多种服务端部署方案。",
+            "优化 EXO 高码率、4K/5K、H.265 及大文件播放，完善缓冲预载、断点续传、隧道模式和解码回退。",
+            "新增动态网络保护，根据实时网络、视频码率和缓冲状态自动调整播放策略。",
+            "优化 MPV 4K 播放输出、电视直出兼容性及播放诊断。",
+            "重构播放参数面板，完善码率、帧率、编码格式及网络状态显示。",
+            "修复网页直播嗅探及特殊直播源兼容性问题。",
+            "新增局域网推送 APK，支持选择目标设备并快速安装APP。",
+            "优化大目录登录态学习和文件扫描性能，减少无关日志及临时文件处理开销。"
+          ],
+          "updated_at": "2026-08-07T12:23:17Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 97120883,
+              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202608072014/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202608072014/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202608072014/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 113917809,
+              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202608072014/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202608072014/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202608072014/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "5.5.6-202608072014",
+          "version_code": null,
+          "notes": [
+            "### 更新内容",
+            "播放器弹窗选择切换",
+            "优化mpv/exo/ijk缓冲",
+            "优化手机端音频沉浸模式布局",
+            "修复mpv拖动进度条蓝屏",
+            "修复手机端全屏切换剧集后返回竖屏时选集网格显示异常",
+            "兼容 Android 低版本 ExoPlayer API，避免播放崩溃。",
+            "同步 MPV AImageReader 新帧与 fence，减少重复帧、黑屏和丢帧。",
+            "优化夸克网盘短显，支持目录前缀、幕次及番外文件名识别。",
+            "修复直播播放自动跳频道，移除默认异常 UA。",
+            "修复节目单历史节目点击无响应，支持直播回看切换。",
+            "优化 MPV 请求头及 PNG 封装 HLS 分片兼容性。",
+            "优化 EXO 代理点播缓冲与重缓冲恢复。",
+            "修复 Android 9 剧集标题解析导致的崩溃。",
+            "重构播放性能策略，档位收敛为“自动 / 轻量”；自动档动态适配设备、网络和播放状态，轻量档重点保障低端设备流畅播放。",
+            "优化 EXO 缓冲、码率选择和解码恢复，修复长时间暂停或屏保唤醒后画面无法恢复。",
+            "优化 MPV 电视直出、缓存和弱网策略；修复网盘恢复进度、Seek 后长时间黑屏及旋转启动崩溃。",
+            "修复 MPV ASS/SSA 字幕大小调节；增加系统字体回退，减少中文字幕显示方框。",
+            "优化 IJK 缓冲水位和实时流积压控制，限制低端设备上的缓存占用。",
+            "加强 EXO、MPV、IJK 磁盘缓存保护，避免并发写入、缓存清理或磁盘空间不足影响前台播放。",
+            "音频模式统一使用普通后台播放，避免进入画中画后退出播放。",
+            "TV 全屏控制栏移除投屏按钮。",
+            "播放性能设置根据当前播放器内核显示对应参数，弹窗样式统一。",
+            "新增接口时，默认名称改为根据路径或 URL 生成。",
+            "优化代理规则UI。",
+            "扩展播放记录同步能力，支持记录删除同步及多种服务端部署方案。",
+            "优化 EXO 高码率、4K/5K、H.265 及大文件播放，完善缓冲预载、断点续传、隧道模式和解码回退。",
+            "新增动态网络保护，根据实时网络、视频码率和缓冲状态自动调整播放策略。",
+            "优化 MPV 4K 播放输出、电视直出兼容性及播放诊断。",
+            "重构播放参数面板，完善码率、帧率、编码格式及网络状态显示。",
+            "修复网页直播嗅探及特殊直播源兼容性问题。",
+            "新增局域网推送 APK，支持选择目标设备并快速安装APP。",
+            "优化大目录登录态学习和文件扫描性能，减少无关日志及临时文件处理开销。"
+          ],
+          "updated_at": "2026-08-07T12:23:17Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 97277205,
+              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202608072014/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202608072014/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202608072014/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 114074131,
+              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202608072014/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202608072014/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202608072014/leanback-arm64_v8a.apk"
                 }
               ]
             }

@@ -74,6 +74,109 @@
           ]
         }
       ]
+    },
+    {
+      "id": "tvbox-osc",
+      "type": "github-release",
+      "name": "TVBox",
+      "description": "q215613905 的开源 Android 影视播放器",
+      "homepage": "https://github.com/q215613905/TVBoxOSCRelease/releases",
+      "repository": "q215613905/TVBoxOSCRelease",
+      "icon": "https://raw.githubusercontent.com/q215613905/TVBoxOS/refs/heads/main/app/src/main/res/drawable-xxxhdpi/app_icon.png",
+      "packages": [
+        {
+          "id": "tv",
+          "label": "电视版",
+          "platform": "tv",
+          "downloads": [
+            {
+              "asset_suffix": "-java.apk",
+              "label": "Java 通用版",
+              "architecture": "universal",
+              "recommended": false
+            },
+            {
+              "asset_suffix": "-java32.apk",
+              "label": "Java 32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false
+            },
+            {
+              "asset_suffix": "-java64.apk",
+              "label": "Java 64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true
+            },
+            {
+              "asset_suffix": "-python.apk",
+              "label": "Python 通用版",
+              "architecture": "universal",
+              "recommended": false
+            },
+            {
+              "asset_suffix": "-python32.apk",
+              "label": "Python 32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false
+            },
+            {
+              "asset_suffix": "-python64.apk",
+              "label": "Python 64 位",
+              "architecture": "arm64-v8a",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "webhtv",
+      "type": "github-release",
+      "name": "webhtv",
+      "description": "开源 Android WebHome 影视播放器",
+      "homepage": "https://github.com/fish2018/webhtv/releases",
+      "repository": "fish2018/webhtv",
+      "icon": "https://raw.githubusercontent.com/fish2018/webhtv/main/app/src/main/ic_launcher-playstore.png",
+      "packages": [
+        {
+          "id": "mobile",
+          "label": "手机版",
+          "platform": "mobile",
+          "downloads": [
+            {
+              "asset_suffix": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false
+            },
+            {
+              "asset_suffix": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true
+            }
+          ]
+        },
+        {
+          "id": "leanback",
+          "label": "电视版",
+          "platform": "tv",
+          "downloads": [
+            {
+              "asset_suffix": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false
+            },
+            {
+              "asset_suffix": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true
+            }
+          ]
+        }
+      ]
     }
   ]
 }

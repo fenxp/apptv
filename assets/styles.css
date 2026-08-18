@@ -79,8 +79,7 @@ footer {
   gap: 20px;
 }
 
-.brand,
-.source-link {
+.brand {
   display: inline-flex;
   align-items: center;
   text-decoration: none;
@@ -103,18 +102,7 @@ footer {
   font-weight: 800;
 }
 
-.source-link {
-  gap: 7px;
-  color: var(--muted);
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.source-link:hover {
-  color: var(--ink);
-}
-
-.source-link svg,
+.release-source-link svg,
 .notice-icon svg,
 .search-field svg,
 .icon-button svg,
@@ -131,7 +119,7 @@ main {
 
 .intro {
   max-width: 720px;
-  padding-bottom: 46px;
+  padding-bottom: 26px;
 }
 
 .eyebrow,
@@ -187,7 +175,7 @@ h1 {
 .interface-section {
   margin-bottom: 30px;
   padding: 26px 0 30px;
-  border-top: 1px solid var(--line-strong);
+  border-top: 0;
 }
 
 .interface-heading {
@@ -424,10 +412,36 @@ h2 {
   text-transform: uppercase;
 }
 
+.release-title {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
 .release-summary h3 {
   margin: 0;
   font-size: 20px;
   letter-spacing: 0;
+}
+
+.release-source-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.release-source-link:hover {
+  color: var(--ink);
+}
+
+.release-source-link svg {
+  width: 15px;
+  height: 15px;
 }
 
 .version {
@@ -459,7 +473,7 @@ h2 {
 
 .notes {
   min-height: 60px;
-  margin: 0 0 21px;
+  margin: 0;
   padding-left: 20px;
   color: #454a51;
   font-size: 14px;
@@ -468,6 +482,33 @@ h2 {
 
 .notes li::marker {
   color: var(--red);
+}
+
+.notes-section {
+  margin-bottom: 21px;
+}
+
+.notes-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 6px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--blue);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.notes-toggle:hover {
+  color: var(--ink);
+}
+
+.notes-toggle svg {
+  width: 15px;
+  height: 15px;
 }
 
 .download-list {
@@ -609,10 +650,19 @@ h2 {
   display: grid;
   grid-template-columns: 42px minmax(0, 1fr);
   gap: 16px;
-  margin-top: 30px;
   padding: 24px 0;
   border-top: 1px solid var(--line-strong);
   border-bottom: 1px solid var(--line-strong);
+}
+
+.global-notice {
+  margin-bottom: 0;
+  padding: 18px 0;
+}
+
+.catalog .notice {
+  margin-bottom: 18px;
+  padding: 16px 0;
 }
 
 .notice-icon {
@@ -625,15 +675,29 @@ h2 {
   color: var(--teal);
 }
 
+.notice-warm .notice-icon {
+  background: var(--red-soft);
+  color: var(--red-dark);
+}
+
 .notice h2 {
   font-size: 16px;
 }
 
-.notice p {
+.notice p,
+.notice-list {
   margin: 7px 0 0;
   color: var(--muted);
   font-size: 14px;
   line-height: 1.7;
+}
+
+.notice-list {
+  padding-left: 19px;
+}
+
+.notice-list li::marker {
+  color: var(--red);
 }
 
 footer {
@@ -680,7 +744,7 @@ footer {
   }
 
   .intro {
-    padding-bottom: 36px;
+    padding-bottom: 24px;
   }
 
   .toolbar {
@@ -727,7 +791,7 @@ footer {
   }
 
   .platform-label,
-  .release-summary h3,
+  .release-title,
   .version,
   .updated-time {
     grid-column: 2;
@@ -744,18 +808,6 @@ footer {
 }
 
 @media (max-width: 480px) {
-  .source-link span {
-    display: none;
-  }
-
-  .source-link {
-    width: 36px;
-    height: 36px;
-    justify-content: center;
-    border: 1px solid var(--line);
-    border-radius: 5px;
-  }
-
   h1 {
     font-size: 30px;
   }

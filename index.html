@@ -19,10 +19,6 @@
           <span class="brand-mark">TV</span>
           <span>影视 APP 下载</span>
         </a>
-        <a class="source-link" href="https://github.com/FongMi/TV" target="_blank" rel="noreferrer">
-          <i data-lucide="github" aria-hidden="true"></i>
-          <span>上游项目</span>
-        </a>
       </div>
     </header>
 
@@ -32,6 +28,18 @@
         <h1 id="page-title">下载最新版影视应用</h1>
         <p>版本信息与安装包每 6 小时自动检查。请选择与你设备匹配的平台和架构。</p>
         <div class="sync-meta" id="sync-meta" aria-live="polite">正在读取最新数据…</div>
+      </section>
+
+      <section class="notice notice-warm global-notice" aria-labelledby="warm-notice-title">
+        <div class="notice-icon"><i data-lucide="circle-alert" aria-hidden="true"></i></div>
+        <div>
+          <h2 id="warm-notice-title">温馨提示</h2>
+          <ul class="notice-list">
+            <li>本站没有任何群和公众号</li>
+            <li>接口完全免费，切勿付费购买。</li>
+            <li>本页内容整理自互联网公开信息，仅供学习与交流。</li>
+          </ul>
+        </div>
       </section>
 
       <section class="interface-section" id="interface-section" aria-labelledby="interface-title" hidden>
@@ -67,18 +75,19 @@
           </div>
         </div>
 
+        <section class="notice download-notice" aria-labelledby="notice-title">
+          <div class="notice-icon"><i data-lucide="shield-check" aria-hidden="true"></i></div>
+          <div>
+            <h2 id="notice-title">下载提示</h2>
+            <p>安装包来自项目公开 GitHub 仓库。红色按钮为原始地址，CDN 按钮为第三方加速；加速异常时请使用原始下载。</p>
+          </div>
+        </section>
+
         <div id="catalog-list" class="catalog-list" aria-live="polite" aria-busy="true">
           <div class="loading-row"><span></span><span></span><span></span></div>
         </div>
       </section>
 
-      <section class="notice" aria-labelledby="notice-title">
-        <div class="notice-icon"><i data-lucide="shield-check" aria-hidden="true"></i></div>
-        <div>
-          <h2 id="notice-title">下载提示</h2>
-          <p>安装包来自项目公开 GitHub 仓库。红色按钮为原始地址，CDN 按钮为第三方加速；加速异常时请使用原始下载。</p>
-        </div>
-      </section>
     </main>
 
     <footer>

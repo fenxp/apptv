@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sys
 import time
 from datetime import datetime, timezone
@@ -64,6 +65,14 @@ def parse_notes(value: Any) -> list[str]:
         if cleaned:
             notes.append(cleaned)
     return notes
+
+
+def parse_release_notes(value: Any) -> list[str]:
+    """Prefer the changelog code block used by the release workflow."""
+    if not isinstance(value, str):
+        return []
+    match = re.search(r"```[^\n]*\n(?P<notes>.*?)```", value, flags=re.DOTALL)
+    return parse_notes(match.group("notes") if match else value)
 
 
 def validate_download_url(url: Any) -> str:
@@ -136,11 +145,89 @@ def github_api_url(repository: str, suffix: str) -> str:
     return f"https://api.github.com/repos/{safe_repo}/{suffix}"
 
 
+def build_release_source(
+    source: dict[str, Any],
+    getter: Callable[[str], Any],
+    mirrors: list[dict[str, str]],
+) -> dict[str, Any]:
+    required = ("id", "name", "repository", "packages")
+    missing = [key for key in required if not source.get(key)]
+    if missing:
+        raise CatalogError(f"Release source is missing required fields: {', '.join(missing)}")
+
+    repository = str(source["repository"])
+    release = getter(github_api_url(repository, "releases/latest"))
+    if not isinstance(release, dict):
+        raise CatalogError(f"Unexpected release response for {repository}")
+    version = str(release.get("tag_name") or release.get("name") or "").strip().removeprefix("v")
+    if not version:
+        raise CatalogError(f"Latest release has no version for {repository}")
+    assets = release.get("assets")
+    if not isinstance(assets, list):
+        raise CatalogError(f"Latest release has no assets for {repository}")
+
+    releases = []
+    updated_at = release.get("published_at") or release.get("updated_at") or ""
+    for package in source["packages"]:
+        downloads = []
+        for download in package.get("downloads", []):
+            suffix = str(download.get("asset_suffix", ""))
+            if not suffix:
+                raise CatalogError(f"Release download is missing asset_suffix: {package.get('id')}")
+            matches = [asset for asset in assets if str(asset.get("name", "")).endswith(suffix)]
+            if len(matches) != 1:
+                raise CatalogError(
+                    f"Expected one asset ending with {suffix!r}, found {len(matches)} for {repository}"
+                )
+            asset = matches[0]
+            direct_url = validate_download_url(asset.get("browser_download_url"))
+            downloads.append(
+                {
+                    "filename": asset["name"],
+                    "label": download.get("label", asset["name"]),
+                    "architecture": download.get("architecture", "unknown"),
+                    "recommended": bool(download.get("recommended")),
+                    "size": int(asset.get("size") or 0),
+                    "url": direct_url,
+                    "mirrors": create_mirror_downloads(mirrors, direct_url),
+                }
+            )
+        if not downloads:
+            raise CatalogError(f"Release package has no downloads: {package.get('id')}")
+        releases.append(
+            {
+                "id": package["id"],
+                "label": package["label"],
+                "platform": package["platform"],
+                "version": version,
+                "version_code": None,
+                "notes": parse_release_notes(release.get("body")),
+                "updated_at": updated_at,
+                "downloads": downloads,
+            }
+        )
+
+    return {
+        "id": source["id"],
+        "name": source["name"],
+        "description": source.get("description", ""),
+        "homepage": source.get("homepage", f"https://github.com/{repository}"),
+        "repository": repository,
+        "icon": source.get("icon", ""),
+        "source_revision": release.get("target_commitish", ""),
+        "updated_at": updated_at,
+        "releases": releases,
+    }
+
+
 def build_source(
     source: dict[str, Any],
     getter: Callable[[str], Any],
     mirrors: list[dict[str, str]],
 ) -> dict[str, Any]:
+    if source.get("type") == "github-release":
+        return build_release_source(source, getter, mirrors)
+
     required = ("id", "name", "repository", "branch", "directory", "packages")
     missing = [key for key in required if not source.get(key)]
     if missing:

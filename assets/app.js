@@ -158,10 +158,21 @@ function createReleaseCard(app, release) {
   image.height = 58;
   image.loading = "lazy";
   image.referrerPolicy = "no-referrer";
+  const titleRow = element("div", "release-title");
+  titleRow.append(element("h3", "", `${app.name} ${release.label}`));
+  if (app.homepage) {
+    const sourceLink = element("a", "release-source-link", "上游项目");
+    sourceLink.href = app.homepage;
+    sourceLink.target = "_blank";
+    sourceLink.rel = "noreferrer";
+    sourceLink.setAttribute("aria-label", `打开 ${app.name} 上游项目`);
+    sourceLink.prepend(icon("github"));
+    titleRow.append(sourceLink);
+  }
   summary.append(
     image,
     element("p", "platform-label", release.platform === "tv" ? "Android TV" : "Android Mobile"),
-    element("h3", "", `${app.name} ${release.label}`),
+    titleRow,
     element("span", "version", `v${release.version}`),
     element("span", "updated-time", `发布于 ${formatDate(release.updated_at)}`),
   );
@@ -170,8 +181,35 @@ function createReleaseCard(app, release) {
   detail.append(element("p", "detail-title", "本次更新"));
   const notes = element("ul", "notes");
   const noteItems = release.notes?.length ? release.notes : ["上游未提供更新说明"];
-  noteItems.forEach((note) => notes.append(element("li", "", note)));
-  detail.append(notes, element("p", "detail-title", "选择安装包"));
+  const notesSection = element("div", "notes-section");
+  const hiddenNotes = [];
+  noteItems.forEach((note, index) => {
+    const item = element("li", "", note);
+    if (index >= 5) {
+      item.hidden = true;
+      hiddenNotes.push(item);
+    }
+    notes.append(item);
+  });
+  notesSection.append(notes);
+  if (hiddenNotes.length) {
+    let expanded = false;
+    const toggle = element("button", "notes-toggle", "更多");
+    toggle.type = "button";
+    toggle.setAttribute("aria-expanded", "false");
+    toggle.prepend(icon("chevron-down"));
+    toggle.addEventListener("click", () => {
+      expanded = !expanded;
+      hiddenNotes.forEach((item) => {
+        item.hidden = !expanded;
+      });
+      toggle.setAttribute("aria-expanded", String(expanded));
+      toggle.replaceChildren(icon(expanded ? "chevron-up" : "chevron-down"), expanded ? "收起" : "更多");
+      window.lucide?.createIcons();
+    });
+    notesSection.append(toggle);
+  }
+  detail.append(notesSection, element("p", "detail-title", "选择安装包"));
   const downloads = element("div", "download-list");
   release.downloads.forEach((download) => downloads.append(createDownloadRow(download)));
   detail.append(downloads);

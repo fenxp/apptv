@@ -97,11 +97,12 @@ https://你的项目名.pages.dev/
 
 ## 添加其他软件
 
-编辑 `config/sources.json`，增加一个 GitHub 目录数据源。每个数据源需要：
+编辑 `config/sources.json`，可增加以下两类 GitHub 数据源：
 
-- GitHub 仓库、分支和发布目录；
-- 包含 `name`、`code`、`desc` 字段的版本 JSON；
-- 对应安装包文件名、平台和架构标签。
+- 目录数据源：GitHub 仓库、分支和发布目录，以及包含 `name`、`code`、`desc` 字段的版本 JSON；
+- Release 数据源：设置 `type: "github-release"`，并为每个安装包配置稳定的 `asset_suffix` 后缀。脚本会读取最新正式 Release 并自动匹配实际文件名。
+
+两类数据源都需要为安装包提供平台和架构标签。Release 资产下载地址同样只允许 GitHub 官方域名。
 
 当前下载地址仅允许 GitHub 官方域名。需要增加其他可信发布域名时，同时更新 `scripts/update_apps.py` 中的 `ALLOWED_DOWNLOAD_HOSTS`。
 

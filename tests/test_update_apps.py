@@ -94,6 +94,56 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(result["generated_at"], "2026-07-14T00:00:00Z")
         self.assertEqual(result["interfaces"][0]["url"], "https://example.org/config.json")
 
+    def test_builds_catalog_from_latest_github_release(self):
+        self.config["sources"] = [
+            {
+                "id": "release-demo",
+                "type": "github-release",
+                "name": "Release Demo",
+                "repository": "owner/releases",
+                "packages": [
+                    {
+                        "id": "tv",
+                        "label": "电视版",
+                        "platform": "tv",
+                        "downloads": [
+                            {
+                                "asset_suffix": "-arm64.apk",
+                                "label": "64 位",
+                                "architecture": "arm64-v8a",
+                                "recommended": True,
+                            }
+                        ],
+                    }
+                ],
+            }
+        ]
+
+        def release_getter(url):
+            self.assertTrue(url.endswith("/repos/owner/releases/releases/latest"))
+            return {
+                "tag_name": "v20260817-1745",
+                "target_commitish": "abc123",
+                "published_at": "2026-08-18T01:26:18Z",
+                "body": "Credit: Example\nChangelog:\n```\n* First change\n- Second change\n```",
+                "assets": [
+                    {
+                        "name": "release-arm64.apk",
+                        "size": 1234,
+                        "browser_download_url": "https://github.com/owner/releases/download/v1/release-arm64.apk",
+                    }
+                ],
+            }
+
+        result = update_apps.build_catalog(self.config, release_getter)
+        app = result["apps"][0]
+        release = app["releases"][0]
+        self.assertEqual(app["source_revision"], "abc123")
+        self.assertEqual(release["version"], "20260817-1745")
+        self.assertEqual(release["notes"], ["First change", "Second change"])
+        self.assertEqual(release["downloads"][0]["filename"], "release-arm64.apk")
+        self.assertTrue(release["downloads"][0]["recommended"])
+
     def test_rejects_untrusted_download_host(self):
         with self.assertRaises(update_apps.CatalogError):
             update_apps.validate_download_url("https://example.com/app.apk")
