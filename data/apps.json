@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-20T10:27:02Z",
+  "generated_at": "2026-08-21T01:30:41Z",
   "interfaces": [
     {
       "id": "tv-config",
@@ -148,148 +148,151 @@
       "repository": "q215613905/TVBoxOSCRelease",
       "icon": "https://raw.githubusercontent.com/q215613905/TVBoxOS/refs/heads/main/app/src/main/res/drawable-xxxhdpi/app_icon.png",
       "source_revision": "master",
-      "updated_at": "2026-08-20T01:26:51Z",
+      "updated_at": "2026-08-21T01:30:41Z",
       "releases": [
         {
           "id": "tv",
           "label": "电视版",
           "platform": "tv",
-          "version": "20260819-1640",
+          "version": "20260820-2314",
           "version_code": null,
           "notes": [
-            "搜索智能排序"
+            "历史和收藏长按进搜索",
+            "详情为空兜底逻辑优化",
+            "修正多jar配置搜索偶发崩溃",
+            "解决个别站点分类无数据"
           ],
-          "updated_at": "2026-08-20T01:26:51Z",
+          "updated_at": "2026-08-21T01:30:41Z",
           "downloads": [
             {
-              "filename": "TVBox_q215613905_20260819-1640-java.apk",
+              "filename": "TVBox_q215613905_20260820-2314-java.apk",
               "label": "Java 通用版",
               "architecture": "universal",
               "recommended": false,
-              "size": 33451221,
-              "url": "https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260819-1640/TVBox_q215613905_20260819-1640-java.apk",
+              "size": 33451444,
+              "url": "https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260820-2314/TVBox_q215613905_20260820-2314-java.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260819-1640/TVBox_q215613905_20260819-1640-java.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260820-2314/TVBox_q215613905_20260820-2314-java.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260819-1640/TVBox_q215613905_20260819-1640-java.apk"
+                  "url": "https://gh-proxy.com/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260820-2314/TVBox_q215613905_20260820-2314-java.apk"
                 }
               ]
             },
             {
-              "filename": "TVBox_q215613905_20260819-1640-java32.apk",
+              "filename": "TVBox_q215613905_20260820-2314-java32.apk",
               "label": "Java 32 位",
               "architecture": "armeabi-v7a",
               "recommended": false,
-              "size": 19952270,
-              "url": "https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260819-1640/TVBox_q215613905_20260819-1640-java32.apk",
+              "size": 19952488,
+              "url": "https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260820-2314/TVBox_q215613905_20260820-2314-java32.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260819-1640/TVBox_q215613905_20260819-1640-java32.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260820-2314/TVBox_q215613905_20260820-2314-java32.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260819-1640/TVBox_q215613905_20260819-1640-java32.apk"
+                  "url": "https://gh-proxy.com/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260820-2314/TVBox_q215613905_20260820-2314-java32.apk"
                 }
               ]
             },
             {
-              "filename": "TVBox_q215613905_20260819-1640-java64.apk",
+              "filename": "TVBox_q215613905_20260820-2314-java64.apk",
               "label": "Java 64 位",
               "architecture": "arm64-v8a",
               "recommended": true,
-              "size": 20914900,
-              "url": "https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260819-1640/TVBox_q215613905_20260819-1640-java64.apk",
+              "size": 20915334,
+              "url": "https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260820-2314/TVBox_q215613905_20260820-2314-java64.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260819-1640/TVBox_q215613905_20260819-1640-java64.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260820-2314/TVBox_q215613905_20260820-2314-java64.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260819-1640/TVBox_q215613905_20260819-1640-java64.apk"
+                  "url": "https://gh-proxy.com/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260820-2314/TVBox_q215613905_20260820-2314-java64.apk"
                 }
               ]
             },
             {
-              "filename": "TVBox_q215613905_20260819-1640-python.apk",
+              "filename": "TVBox_q215613905_20260820-2314-python.apk",
               "label": "Python 通用版",
               "architecture": "universal",
               "recommended": false,
-              "size": 52781508,
-              "url": "https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260819-1640/TVBox_q215613905_20260819-1640-python.apk",
+              "size": 52782199,
+              "url": "https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260820-2314/TVBox_q215613905_20260820-2314-python.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260819-1640/TVBox_q215613905_20260819-1640-python.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260820-2314/TVBox_q215613905_20260820-2314-python.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260819-1640/TVBox_q215613905_20260819-1640-python.apk"
+                  "url": "https://gh-proxy.com/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260820-2314/TVBox_q215613905_20260820-2314-python.apk"
                 }
               ]
             },
             {
-              "filename": "TVBox_q215613905_20260819-1640-python32.apk",
+              "filename": "TVBox_q215613905_20260820-2314-python32.apk",
               "label": "Python 32 位",
               "architecture": "armeabi-v7a",
               "recommended": false,
-              "size": 31762589,
-              "url": "https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260819-1640/TVBox_q215613905_20260819-1640-python32.apk",
+              "size": 31763139,
+              "url": "https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260820-2314/TVBox_q215613905_20260820-2314-python32.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260819-1640/TVBox_q215613905_20260819-1640-python32.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260820-2314/TVBox_q215613905_20260820-2314-python32.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260819-1640/TVBox_q215613905_20260819-1640-python32.apk"
+                  "url": "https://gh-proxy.com/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260820-2314/TVBox_q215613905_20260820-2314-python32.apk"
                 }
               ]
             },
             {
-              "filename": "TVBox_q215613905_20260819-1640-python64.apk",
+              "filename": "TVBox_q215613905_20260820-2314-python64.apk",
               "label": "Python 64 位",
               "architecture": "arm64-v8a",
               "recommended": false,
-              "size": 33203772,
-              "url": "https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260819-1640/TVBox_q215613905_20260819-1640-python64.apk",
+              "size": 33204616,
+              "url": "https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260820-2314/TVBox_q215613905_20260820-2314-python64.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260819-1640/TVBox_q215613905_20260819-1640-python64.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260820-2314/TVBox_q215613905_20260820-2314-python64.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260819-1640/TVBox_q215613905_20260819-1640-python64.apk"
+                  "url": "https://gh-proxy.com/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20260820-2314/TVBox_q215613905_20260820-2314-python64.apk"
                 }
               ]
             }
