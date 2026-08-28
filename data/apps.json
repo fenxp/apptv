@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-28T11:02:09Z",
+  "generated_at": "2026-08-28T12:27:09Z",
   "interfaces": [
     {
       "id": "tv-config",
@@ -17,22 +17,22 @@
       "homepage": "https://github.com/FongMi/TV",
       "repository": "FongMi/Release",
       "icon": "https://raw.githubusercontent.com/FongMi/TV/fongmi/app/src/main/ic_launcher-playstore.png",
-      "source_revision": "812fdef76e107c2f38ebff3358e911492c66c08f",
-      "updated_at": "2026-08-28T11:02:09Z",
+      "source_revision": "f649a86a667432ba38a050c7304beda6d6986511",
+      "updated_at": "2026-08-28T12:27:09Z",
       "releases": [
         {
           "id": "mobile",
           "label": "手机版",
           "platform": "mobile",
-          "version": "5.6.2",
-          "version_code": 562,
+          "version": "5.6.3",
+          "version_code": 563,
           "notes": [
             "支持雙字幕",
             "支持字形設置",
             "支持 libass",
             "調整倍速頁面寬度"
           ],
-          "updated_at": "2026-08-28T11:02:09Z",
+          "updated_at": "2026-08-28T12:27:09Z",
           "downloads": [
             {
               "filename": "mobile-armeabi_v7a.apk",
@@ -84,15 +84,15 @@
           "id": "leanback",
           "label": "电视版",
           "platform": "tv",
-          "version": "5.6.2",
-          "version_code": 562,
+          "version": "5.6.3",
+          "version_code": 563,
           "notes": [
             "支持雙字幕",
             "支持字形設置",
             "支持 libass",
             "調整倍速頁面寬度"
           ],
-          "updated_at": "2026-08-28T11:02:09Z",
+          "updated_at": "2026-08-28T12:27:09Z",
           "downloads": [
             {
               "filename": "leanback-armeabi_v7a.apk",
