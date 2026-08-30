@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-28T12:27:09Z",
+  "generated_at": "2026-08-30T07:46:31Z",
   "interfaces": [
     {
       "id": "tv-config",
@@ -312,60 +312,53 @@
       "homepage": "https://github.com/fish2018/webhtv/releases",
       "repository": "fish2018/webhtv",
       "icon": "https://raw.githubusercontent.com/fish2018/webhtv/main/app/src/main/ic_launcher-playstore.png",
-      "source_revision": "75516a3d6a748adbde3aaa66001a739985ad0ff9",
-      "updated_at": "2026-08-20T10:27:02Z",
+      "source_revision": "3005574c10bacff08291df665e19725c5337fa9e",
+      "updated_at": "2026-08-30T07:46:31Z",
       "releases": [
         {
           "id": "mobile",
           "label": "手机版",
           "platform": "mobile",
-          "version": "5.6.0-202608201815",
+          "version": "5.6.0-202608301534",
           "version_code": null,
           "notes": [
-            "### 新增与增强",
-            "升级 MPV、FFmpeg、libplacebo、Media3 及 JNI/native 播放组件，重新同步 64 位与 32 位播放器依赖。",
-            "完善 Android MediaCodec、OpenGL、Vulkan、AImageReader 和 HDR 输出路径，提升电视直出与 GPU 渲染兼容性。",
-            "增强 Dolby Vision 播放：",
-            "Exo 支持 DV7 升级为 P8.1，也可手动降级为 HDR10。",
-            "MPV 根据设备能力自动选择电视直出或 GPU 渲染。",
-            "改善 DV5、DV7、HDR10/HDR10+ 及相关元数据处理。",
-            "增强音频播放策略，完善电视直出、音频直通、多声道音频和不兼容设备的软解兜底，并加入 Exo AV3A 软件解码支持。",
-            "新增和完善“播放性能”设置，可分别控制缓存、预载、输出模式、Vulkan 视频路径、DV7 处理和音频策略；自动模式支持单项手动覆盖。",
-            "扩展播放参数监控，可查看 GPU、CPU、内存、网络、解码与渲染状态。",
-            "优化 LUT 色彩预设、预览对比和播放器切换体验。",
-            "恢复并优化 Exo、MPV 的磁盘预载、暂停后持续预载、缓冲数据统计和缓冲进度显示。",
-            "手机端主页新增局域网推送播放，可选择电视设备直接推送播放链接。",
-            "### 播放与兼容性优化",
-            "优化 MPV 启动、Surface、MediaCodec 输出调度和帧释放，减少启动卡顿、掉帧、画面闪烁及退出异常。",
-            "改善 HLS、Range、CDN 重试、短读和远程媒体拖动处理。",
-            "增强字幕、OSD、TTML、ARIB、MMT/TLV、蓝光/DVD 镜像及 HDR 容器兼容性。",
-            "更新浏览器 User-Agent，并优化 DoH 初始化和旧版 Android/电视固件兼容性。",
-            "### 构建与依赖",
-            "版本更新至 `5.6.0`，`versionCode 560`。",
-            "MPV 使用新版原生依赖重新构建，双 ABI 组件保持成套同步。",
-            "更新 Media3 定制补丁、第三方依赖锁定信息及原生库构建文档。"
+            "### 播放能力",
+            "Dolby Vision 自动适配",
+            "播放 DV7 视频时，设备支持原始 DV7 就直接播放；不支持时自动转换为 P8.1；如果 P8.1 也不支持，则自动降级为 HDR10，减少手动切换设置的需要。",
+            "DV5 色彩和流畅度优化",
+            "对不支持原生 DV5 的设备，MPV 会自动使用 Vulkan GPU 渲染，改善画面偏色、卡顿和掉帧问题。",
+            "拖动、远程 MKV 和缓存体验改善",
+            "大体积远程 MKV 不再一开始就读取完整索引；拖动播放、预缓存和网络异常恢复更加稳定。",
+            "本地光盘和 ISO 兼容性增强",
+            "支持跨多个数据片段的 ISO/UDF、蓝光和部分多段光盘文件读取，改善原盘视频的章节、音轨和字幕识别。",
+            "字幕和音频兼容性增强",
+            "改善 ASS、SRT、TTML 等文本字幕的读取和显示；手机端字幕入口恢复正常。Android 12 及以上连接 HDMI/eARC/USB 音频设备时，DTS-HD MA 多声道直通能力得到增强。",
+            "MPV 播放稳定性提升",
+            "修复部分视频打开后看似正在播放、实际需要再次点击的问题，并改善暂停恢复、画中画、退出播放和重新打开视频时的稳定性。",
+            "底层播放组件更新",
+            "Exo 和 MPV 使用 FFmpeg 9.0.1 重新构建，并同步更新两套 ARM ABI 播放库，提升新格式和异常媒体文件的兼容性。"
           ],
-          "updated_at": "2026-08-20T10:27:02Z",
+          "updated_at": "2026-08-30T07:46:31Z",
           "downloads": [
             {
               "filename": "mobile-armeabi_v7a.apk",
               "label": "32 位",
               "architecture": "armeabi-v7a",
               "recommended": false,
-              "size": 105891323,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608201815/mobile-armeabi_v7a.apk",
+              "size": 112676528,
+              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608301534/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608201815/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608301534/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608201815/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608301534/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -374,20 +367,20 @@
               "label": "64 位",
               "architecture": "arm64-v8a",
               "recommended": true,
-              "size": 123963471,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608201815/mobile-arm64_v8a.apk",
+              "size": 133583090,
+              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608301534/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608201815/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608301534/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608201815/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608301534/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -397,53 +390,46 @@
           "id": "leanback",
           "label": "电视版",
           "platform": "tv",
-          "version": "5.6.0-202608201815",
+          "version": "5.6.0-202608301534",
           "version_code": null,
           "notes": [
-            "### 新增与增强",
-            "升级 MPV、FFmpeg、libplacebo、Media3 及 JNI/native 播放组件，重新同步 64 位与 32 位播放器依赖。",
-            "完善 Android MediaCodec、OpenGL、Vulkan、AImageReader 和 HDR 输出路径，提升电视直出与 GPU 渲染兼容性。",
-            "增强 Dolby Vision 播放：",
-            "Exo 支持 DV7 升级为 P8.1，也可手动降级为 HDR10。",
-            "MPV 根据设备能力自动选择电视直出或 GPU 渲染。",
-            "改善 DV5、DV7、HDR10/HDR10+ 及相关元数据处理。",
-            "增强音频播放策略，完善电视直出、音频直通、多声道音频和不兼容设备的软解兜底，并加入 Exo AV3A 软件解码支持。",
-            "新增和完善“播放性能”设置，可分别控制缓存、预载、输出模式、Vulkan 视频路径、DV7 处理和音频策略；自动模式支持单项手动覆盖。",
-            "扩展播放参数监控，可查看 GPU、CPU、内存、网络、解码与渲染状态。",
-            "优化 LUT 色彩预设、预览对比和播放器切换体验。",
-            "恢复并优化 Exo、MPV 的磁盘预载、暂停后持续预载、缓冲数据统计和缓冲进度显示。",
-            "手机端主页新增局域网推送播放，可选择电视设备直接推送播放链接。",
-            "### 播放与兼容性优化",
-            "优化 MPV 启动、Surface、MediaCodec 输出调度和帧释放，减少启动卡顿、掉帧、画面闪烁及退出异常。",
-            "改善 HLS、Range、CDN 重试、短读和远程媒体拖动处理。",
-            "增强字幕、OSD、TTML、ARIB、MMT/TLV、蓝光/DVD 镜像及 HDR 容器兼容性。",
-            "更新浏览器 User-Agent，并优化 DoH 初始化和旧版 Android/电视固件兼容性。",
-            "### 构建与依赖",
-            "版本更新至 `5.6.0`，`versionCode 560`。",
-            "MPV 使用新版原生依赖重新构建，双 ABI 组件保持成套同步。",
-            "更新 Media3 定制补丁、第三方依赖锁定信息及原生库构建文档。"
+            "### 播放能力",
+            "Dolby Vision 自动适配",
+            "播放 DV7 视频时，设备支持原始 DV7 就直接播放；不支持时自动转换为 P8.1；如果 P8.1 也不支持，则自动降级为 HDR10，减少手动切换设置的需要。",
+            "DV5 色彩和流畅度优化",
+            "对不支持原生 DV5 的设备，MPV 会自动使用 Vulkan GPU 渲染，改善画面偏色、卡顿和掉帧问题。",
+            "拖动、远程 MKV 和缓存体验改善",
+            "大体积远程 MKV 不再一开始就读取完整索引；拖动播放、预缓存和网络异常恢复更加稳定。",
+            "本地光盘和 ISO 兼容性增强",
+            "支持跨多个数据片段的 ISO/UDF、蓝光和部分多段光盘文件读取，改善原盘视频的章节、音轨和字幕识别。",
+            "字幕和音频兼容性增强",
+            "改善 ASS、SRT、TTML 等文本字幕的读取和显示；手机端字幕入口恢复正常。Android 12 及以上连接 HDMI/eARC/USB 音频设备时，DTS-HD MA 多声道直通能力得到增强。",
+            "MPV 播放稳定性提升",
+            "修复部分视频打开后看似正在播放、实际需要再次点击的问题，并改善暂停恢复、画中画、退出播放和重新打开视频时的稳定性。",
+            "底层播放组件更新",
+            "Exo 和 MPV 使用 FFmpeg 9.0.1 重新构建，并同步更新两套 ARM ABI 播放库，提升新格式和异常媒体文件的兼容性。"
           ],
-          "updated_at": "2026-08-20T10:27:02Z",
+          "updated_at": "2026-08-30T07:46:31Z",
           "downloads": [
             {
               "filename": "leanback-armeabi_v7a.apk",
               "label": "32 位",
               "architecture": "armeabi-v7a",
               "recommended": false,
-              "size": 106043353,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608201815/leanback-armeabi_v7a.apk",
+              "size": 112828598,
+              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608301534/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608201815/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608301534/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608201815/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608301534/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -452,20 +438,20 @@
               "label": "64 位",
               "architecture": "arm64-v8a",
               "recommended": true,
-              "size": 124115501,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608201815/leanback-arm64_v8a.apk",
+              "size": 133735160,
+              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608301534/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608201815/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608301534/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608201815/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608301534/leanback-arm64_v8a.apk"
                 }
               ]
             }
