@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import os
 import re
@@ -180,6 +181,44 @@ def release_entry_key(release: dict[str, Any]) -> tuple[str, str]:
     return (str(release.get("tag_name") or release.get("version") or ""), str(release.get("id") or ""))
 
 
+def package_matches_release(package: dict[str, Any], release: dict[str, Any]) -> bool:
+    tag = release_tag(release)
+    pattern = package.get("tag_pattern")
+    excluded_pattern = package.get("exclude_tag_pattern")
+    try:
+        if pattern and not re.search(str(pattern), tag):
+            return False
+        if excluded_pattern and re.search(str(excluded_pattern), tag):
+            return False
+    except re.error as error:
+        raise CatalogError(f"Invalid release tag pattern for package {package.get('id')}: {error}") from error
+    return True
+
+
+def release_history_signature(source: dict[str, Any]) -> str:
+    """Identify the package matching rules used to build release history."""
+    payload = []
+    for package in source["packages"]:
+        payload.append(
+            {
+                "id": package.get("id"),
+                "tag_pattern": package.get("tag_pattern"),
+                "exclude_tag_pattern": package.get("exclude_tag_pattern"),
+                "downloads": [
+                    {
+                        "asset_suffix": download.get("asset_suffix"),
+                        "architecture": download.get("architecture"),
+                        "label": download.get("label"),
+                        "recommended": bool(download.get("recommended")),
+                    }
+                    for download in package.get("downloads", [])
+                ],
+            }
+        )
+    rendered = json.dumps(payload, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+    return hashlib.sha256(rendered.encode("utf-8")).hexdigest()
+
+
 def merge_release_history(
     existing: list[dict[str, Any]], incoming: list[dict[str, Any]]
 ) -> list[dict[str, Any]]:
@@ -211,6 +250,8 @@ def build_release_entries(
     updated_at = release_updated_at(release)
     tag_name = release_tag(release)
     for package in source["packages"]:
+        if not package_matches_release(package, release):
+            continue
         downloads = []
         for download in package.get("downloads", []):
             suffix = str(download.get("asset_suffix", ""))
@@ -249,6 +290,8 @@ def build_release_entries(
                 "downloads": downloads,
             }
         )
+    if not entries:
+        raise CatalogError(f"Release has no matching packages for {source['repository']}: {tag_name}")
     return entries
 
 
@@ -267,8 +310,14 @@ def build_release_source(
     existing_releases = existing_app.get("releases", []) if isinstance(existing_app, dict) else []
     if not isinstance(existing_releases, list):
         existing_releases = []
+    history_signature = release_history_signature(source)
+    history_initialized = (
+        isinstance(existing_app, dict)
+        and existing_app.get("history_complete")
+        and existing_app.get("history_signature") == history_signature
+    )
 
-    if not isinstance(existing_app, dict) or not existing_app.get("history_complete"):
+    if not history_initialized:
         history = fetch_all_releases(repository, getter)
         if not history:
             raise CatalogError(f"No formal releases found for {repository}")
@@ -295,7 +344,11 @@ def build_release_source(
             )
             for item in existing_releases
         }
-        expected = {(latest_tag, str(package.get("id") or "")) for package in source["packages"]}
+        expected = {
+            (latest_tag, str(package.get("id") or ""))
+            for package in source["packages"]
+            if package_matches_release(package, latest)
+        }
         incoming = [] if expected <= known else build_release_entries(source, latest, mirrors)
 
     updated_at = release_updated_at(latest)
@@ -311,6 +364,7 @@ def build_release_source(
         "source_revision": latest.get("target_commitish", ""),
         "updated_at": updated_at,
         "history_complete": True,
+        "history_signature": history_signature,
         "releases": releases,
     }
 

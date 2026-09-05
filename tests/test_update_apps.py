@@ -176,6 +176,7 @@ class CatalogTests(unittest.TestCase):
                 {
                     "id": "release-demo",
                     "history_complete": True,
+                    "history_signature": update_apps.release_history_signature(self.config["sources"][0]),
                     "releases": [
                         {
                             "id": "tv",
@@ -237,7 +238,14 @@ class CatalogTests(unittest.TestCase):
         }
         existing = {
             "schema_version": 1,
-            "apps": [{"id": "release-demo", "history_complete": True, "releases": [existing_release]}],
+            "apps": [
+                {
+                    "id": "release-demo",
+                    "history_complete": True,
+                    "history_signature": update_apps.release_history_signature(self.config["sources"][0]),
+                    "releases": [existing_release],
+                }
+            ],
         }
 
         def latest_getter(url):
@@ -246,6 +254,42 @@ class CatalogTests(unittest.TestCase):
 
         result = update_apps.build_catalog(self.config, latest_getter, existing)
         self.assertEqual(result["apps"][0]["releases"], [existing_release])
+
+    def test_release_tag_patterns_select_matching_package_group(self):
+        source = {
+            "id": "variants",
+            "name": "Variants",
+            "repository": "owner/variants",
+            "packages": [
+                {
+                    "id": "standard",
+                    "label": "普通版",
+                    "platform": "mobile",
+                    "exclude_tag_pattern": "-pro$",
+                    "downloads": [{"asset_suffix": "-arm64.apk", "architecture": "arm64-v8a"}],
+                },
+                {
+                    "id": "pro",
+                    "label": "Pro",
+                    "platform": "mobile",
+                    "tag_pattern": "-pro$",
+                    "downloads": [{"asset_suffix": "-pro.apk", "architecture": "universal"}],
+                },
+            ],
+        }
+        release = {
+            "tag_name": "2.0.0-pro",
+            "published_at": "2026-08-20T00:00:00Z",
+            "assets": [
+                {
+                    "name": "app-pro.apk",
+                    "size": 10,
+                    "browser_download_url": "https://github.com/owner/variants/releases/download/2.0.0-pro/app-pro.apk",
+                }
+            ],
+        }
+        entries = update_apps.build_release_entries(source, release, [])
+        self.assertEqual([entry["id"] for entry in entries], ["pro"])
 
     def test_rejects_untrusted_download_host(self):
         with self.assertRaises(update_apps.CatalogError):

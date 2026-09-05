@@ -188,13 +188,54 @@
       "icon": "https://avatars.githubusercontent.com/u/117786160?v=4",
       "packages": [
         {
-          "id": "mobile",
+          "id": "mobile-standard",
           "label": "手机版",
           "platform": "mobile",
+          "exclude_tag_pattern": "-pro$",
+          "downloads": [
+            {
+              "asset_suffix": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false
+            },
+            {
+              "asset_suffix": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "exclude_tag_pattern": "-pro$",
+          "downloads": [
+            {
+              "asset_suffix": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false
+            },
+            {
+              "asset_suffix": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true
+            }
+          ]
+        },
+        {
+          "id": "mobile",
+          "label": "手机版 Pro",
+          "platform": "mobile",
+          "tag_pattern": "-pro$",
           "downloads": [
             {
               "asset_suffix": "mobile-pro.apk",
-              "label": "手机版",
+              "label": "手机版 Pro",
               "architecture": "universal",
               "recommended": true
             }
@@ -202,8 +243,9 @@
         },
         {
           "id": "leanback",
-          "label": "电视版",
+          "label": "电视版 Pro",
           "platform": "tv",
+          "tag_pattern": "-pro$",
           "downloads": [
             {
               "asset_suffix": "leanback-pro.apk",

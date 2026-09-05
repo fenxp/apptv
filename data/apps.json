@@ -153,6 +153,7 @@
       "source_revision": "master",
       "updated_at": "2026-09-03T03:37:54Z",
       "history_complete": true,
+      "history_signature": "b0e2be09070cb0ce3f3c99148f77ccae118e03acf36057df74e58a9773d5626f",
       "releases": [
         {
           "id": "tv",
@@ -5449,6 +5450,7 @@
       "source_revision": "ec478b0b697422a7785171c7b51a35b7a526564e",
       "updated_at": "2026-08-31T03:12:58Z",
       "history_complete": true,
+      "history_signature": "a0ab2b7aca1ee31e85706d249cdde8cd2addd5772664f3fe1fc3b82108d24a1a",
       "releases": [
         {
           "id": "mobile",
@@ -9084,10 +9086,11 @@
       "source_revision": "main",
       "updated_at": "2026-04-19T11:14:12Z",
       "history_complete": true,
+      "history_signature": "f64b935c8eaf37d18e719daf2c83c1cfb5194d70044156661412e7f06d05b5ca",
       "releases": [
         {
           "id": "mobile",
-          "label": "手机版",
+          "label": "手机版 Pro",
           "platform": "mobile",
           "version": "5.2.1-pro",
           "tag_name": "5.2.1-pro",
@@ -9103,7 +9106,7 @@
           "downloads": [
             {
               "filename": "mobile-pro.apk",
-              "label": "手机版",
+              "label": "手机版 Pro",
               "architecture": "universal",
               "recommended": true,
               "size": 147828985,
@@ -9127,7 +9130,7 @@
         },
         {
           "id": "leanback",
-          "label": "电视版",
+          "label": "电视版 Pro",
           "platform": "tv",
           "version": "5.2.1-pro",
           "tag_name": "5.2.1-pro",
@@ -9188,8 +9191,252 @@
           ]
         },
         {
-          "id": "mobile",
+          "id": "mobile-standard",
           "label": "手机版",
+          "platform": "mobile",
+          "version": "5.1.6",
+          "tag_name": "5.1.6",
+          "version_code": null,
+          "notes": [
+            "[Exo]",
+            "支持m2ts",
+            "ts支持bdmv",
+            "[App]",
+            "BUG修复"
+          ],
+          "updated_at": "2026-04-19T11:11:41Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 82202735,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.1.6/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.1.6/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.1.6/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 81414523,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.1.6/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.1.6/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.1.6/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "5.1.6",
+          "tag_name": "5.1.6",
+          "version_code": null,
+          "notes": [
+            "[Exo]",
+            "支持m2ts",
+            "ts支持bdmv",
+            "[App]",
+            "BUG修复"
+          ],
+          "updated_at": "2026-04-19T11:11:41Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 86782075,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.1.6/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.1.6/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.1.6/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 85666249,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.1.6/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.1.6/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.1.6/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mobile-standard",
+          "label": "手机版",
+          "platform": "mobile",
+          "version": "5.1.5",
+          "tag_name": "5.1.5",
+          "version_code": null,
+          "notes": [
+            "[App]",
+            "优化弹幕性能",
+            "BUG修复"
+          ],
+          "updated_at": "2026-04-18T12:01:23Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 82202735,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.1.5/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.1.5/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.1.5/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 81414524,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.1.5/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.1.5/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.1.5/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "5.1.5",
+          "tag_name": "5.1.5",
+          "version_code": null,
+          "notes": [
+            "[App]",
+            "优化弹幕性能",
+            "BUG修复"
+          ],
+          "updated_at": "2026-04-18T12:01:23Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 86782072,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.1.5/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.1.5/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.1.5/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 85666256,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.1.5/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.1.5/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.1.5/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mobile",
+          "label": "手机版 Pro",
           "platform": "mobile",
           "version": "5.2.0-pro",
           "tag_name": "5.2.0-pro",
@@ -9208,7 +9455,7 @@
           "downloads": [
             {
               "filename": "mobile-pro.apk",
-              "label": "手机版",
+              "label": "手机版 Pro",
               "architecture": "universal",
               "recommended": true,
               "size": 147812601,
@@ -9232,7 +9479,7 @@
         },
         {
           "id": "leanback",
-          "label": "电视版",
+          "label": "电视版 Pro",
           "platform": "tv",
           "version": "5.2.0-pro",
           "tag_name": "5.2.0-pro",
@@ -9297,7 +9544,7 @@
         },
         {
           "id": "mobile",
-          "label": "手机版",
+          "label": "手机版 Pro",
           "platform": "mobile",
           "version": "5.1.7-pro",
           "tag_name": "5.1.7-pro",
@@ -9315,7 +9562,7 @@
           "downloads": [
             {
               "filename": "mobile-pro.apk",
-              "label": "手机版",
+              "label": "手机版 Pro",
               "architecture": "universal",
               "recommended": true,
               "size": 146837110,
@@ -9339,7 +9586,7 @@
         },
         {
           "id": "leanback",
-          "label": "电视版",
+          "label": "电视版 Pro",
           "platform": "tv",
           "version": "5.1.7-pro",
           "tag_name": "5.1.7-pro",
@@ -9402,8 +9649,130 @@
           ]
         },
         {
-          "id": "mobile",
+          "id": "mobile-standard",
           "label": "手机版",
+          "platform": "mobile",
+          "version": "5.1.0",
+          "tag_name": "5.1.0",
+          "version_code": null,
+          "notes": [
+            "弹幕设置新增弹幕时间",
+            "playerContent新增adblock字段",
+            "BUG修复",
+            "修复弹幕时间设置BUG"
+          ],
+          "updated_at": "2026-04-13T03:07:43Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 81839349,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.1.0/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.1.0/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.1.0/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 81051131,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.1.0/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.1.0/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.1.0/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "5.1.0",
+          "tag_name": "5.1.0",
+          "version_code": null,
+          "notes": [
+            "弹幕设置新增弹幕时间",
+            "playerContent新增adblock字段",
+            "BUG修复",
+            "修复弹幕时间设置BUG"
+          ],
+          "updated_at": "2026-04-13T03:07:43Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 86235185,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.1.0/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.1.0/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.1.0/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 85119335,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.1.0/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.1.0/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.1.0/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mobile",
+          "label": "手机版 Pro",
           "platform": "mobile",
           "version": "5.1.6-pro",
           "tag_name": "5.1.6-pro",
@@ -9420,7 +9789,7 @@
           "downloads": [
             {
               "filename": "mobile-pro.apk",
-              "label": "手机版",
+              "label": "手机版 Pro",
               "architecture": "universal",
               "recommended": true,
               "size": 146833014,
@@ -9444,7 +9813,7 @@
         },
         {
           "id": "leanback",
-          "label": "电视版",
+          "label": "电视版 Pro",
           "platform": "tv",
           "version": "5.1.6-pro",
           "tag_name": "5.1.6-pro",
@@ -9506,8 +9875,130 @@
           ]
         },
         {
-          "id": "mobile",
+          "id": "mobile-standard",
           "label": "手机版",
+          "platform": "mobile",
+          "version": "5.0.9",
+          "tag_name": "5.0.9",
+          "version_code": null,
+          "notes": [
+            "[App]",
+            "弹幕设置新增弹幕时间",
+            "playerContent新增adblock字段",
+            "BUG修复"
+          ],
+          "updated_at": "2026-04-12T08:19:14Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 81839337,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.9/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.9/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.9/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 81051120,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.9/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.9/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.9/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "5.0.9",
+          "tag_name": "5.0.9",
+          "version_code": null,
+          "notes": [
+            "[App]",
+            "弹幕设置新增弹幕时间",
+            "playerContent新增adblock字段",
+            "BUG修复"
+          ],
+          "updated_at": "2026-04-12T08:19:14Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 86235199,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.9/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.9/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.9/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 85119335,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.9/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.9/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.9/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mobile",
+          "label": "手机版 Pro",
           "platform": "mobile",
           "version": "5.1.5-pro",
           "tag_name": "5.1.5-pro",
@@ -9524,7 +10015,7 @@
           "downloads": [
             {
               "filename": "mobile-pro.apk",
-              "label": "手机版",
+              "label": "手机版 Pro",
               "architecture": "universal",
               "recommended": true,
               "size": 146820726,
@@ -9548,7 +10039,7 @@
         },
         {
           "id": "leanback",
-          "label": "电视版",
+          "label": "电视版 Pro",
           "platform": "tv",
           "version": "5.1.5-pro",
           "tag_name": "5.1.5-pro",
@@ -9610,8 +10101,274 @@
           ]
         },
         {
-          "id": "mobile",
+          "id": "mobile-standard",
           "label": "手机版",
+          "platform": "mobile",
+          "version": "5.0.8",
+          "tag_name": "5.0.8",
+          "version_code": null,
+          "notes": [
+            "[Exo]",
+            "优化 iso 解析",
+            "修复 dts 软解",
+            "修复 truehd+atmos 直通",
+            "[App]",
+            "BUG修复"
+          ],
+          "updated_at": "2026-04-01T11:18:50Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 81838111,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.8/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.8/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.8/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 81049881,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.8/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.8/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.8/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "5.0.8",
+          "tag_name": "5.0.8",
+          "version_code": null,
+          "notes": [
+            "[Exo]",
+            "优化 iso 解析",
+            "修复 dts 软解",
+            "修复 truehd+atmos 直通",
+            "[App]",
+            "BUG修复"
+          ],
+          "updated_at": "2026-04-01T11:18:50Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 91673801,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.8/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.8/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.8/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 90885620,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.8/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.8/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.8/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mobile-standard",
+          "label": "手机版",
+          "platform": "mobile",
+          "version": "5.0.7",
+          "tag_name": "5.0.7",
+          "version_code": null,
+          "notes": [
+            "[Exo]",
+            "升级至1.10.0",
+            "优化E-AC3解码",
+            "优化DTS-HD解码",
+            "支持RTSP回看",
+            "修复MP4无法播放",
+            "修复SACD DST",
+            "[App]",
+            "不得不更版本",
+            "优化请求线程",
+            "保持软硬解切换时播放进度",
+            "[Mobile]",
+            "修改播放界面返回按钮"
+          ],
+          "updated_at": "2026-04-01T11:09:55Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 81821738,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.7/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.7/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.7/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 81049877,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.7/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.7/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.7/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "5.0.7",
+          "tag_name": "5.0.7",
+          "version_code": null,
+          "notes": [
+            "[Exo]",
+            "升级至1.10.0",
+            "优化E-AC3解码",
+            "优化DTS-HD解码",
+            "支持RTSP回看",
+            "修复MP4无法播放",
+            "修复SACD DST",
+            "[App]",
+            "不得不更版本",
+            "优化请求线程",
+            "保持软硬解切换时播放进度",
+            "[Mobile]",
+            "修改播放界面返回按钮"
+          ],
+          "updated_at": "2026-04-01T11:09:55Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 91657413,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.7/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.7/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.7/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 90885612,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.7/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.7/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.7/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mobile",
+          "label": "手机版 Pro",
           "platform": "mobile",
           "version": "5.1.3-pro",
           "tag_name": "5.1.3-pro",
@@ -9635,7 +10392,7 @@
           "downloads": [
             {
               "filename": "mobile-pro.apk",
-              "label": "手机版",
+              "label": "手机版 Pro",
               "architecture": "universal",
               "recommended": true,
               "size": 146837110,
@@ -9659,7 +10416,7 @@
         },
         {
           "id": "leanback",
-          "label": "电视版",
+          "label": "电视版 Pro",
           "platform": "tv",
           "version": "5.1.3-pro",
           "tag_name": "5.1.3-pro",
@@ -9728,8 +10485,140 @@
           ]
         },
         {
-          "id": "mobile",
+          "id": "mobile-standard",
           "label": "手机版",
+          "platform": "mobile",
+          "version": "5.0.6",
+          "tag_name": "5.0.6",
+          "version_code": null,
+          "notes": [
+            "[Exo]",
+            "对于不支持杜比的设备兼容P7",
+            "优化aac解码",
+            "支持rtsp range",
+            "修复章节显示",
+            "修复音频解码错误处理",
+            "紧急BUG修复",
+            "[App]",
+            "BUG修复"
+          ],
+          "updated_at": "2026-03-29T00:33:24Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 81800706,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.6/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.6/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.6/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 81028860,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.6/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.6/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.6/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "5.0.6",
+          "tag_name": "5.0.6",
+          "version_code": null,
+          "notes": [
+            "[Exo]",
+            "对于不支持杜比的设备兼容P7",
+            "优化aac解码",
+            "支持rtsp range",
+            "修复章节显示",
+            "修复音频解码错误处理",
+            "紧急BUG修复",
+            "[App]",
+            "BUG修复"
+          ],
+          "updated_at": "2026-03-29T00:33:24Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 91619494,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.6/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.6/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.6/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 90847692,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.6/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.6/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.6/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mobile",
+          "label": "手机版 Pro",
           "platform": "mobile",
           "version": "5.1.2-pro",
           "tag_name": "5.1.2-pro",
@@ -9749,7 +10638,7 @@
           "downloads": [
             {
               "filename": "mobile-pro.apk",
-              "label": "手机版",
+              "label": "手机版 Pro",
               "architecture": "universal",
               "recommended": true,
               "size": 146809282,
@@ -9773,7 +10662,7 @@
         },
         {
           "id": "leanback",
-          "label": "电视版",
+          "label": "电视版 Pro",
           "platform": "tv",
           "version": "5.1.2-pro",
           "tag_name": "5.1.2-pro",
@@ -9838,8 +10727,154 @@
           ]
         },
         {
-          "id": "mobile",
+          "id": "mobile-standard",
           "label": "手机版",
+          "platform": "mobile",
+          "version": "5.0.3",
+          "tag_name": "5.0.3",
+          "version_code": null,
+          "notes": [
+            "[Exo]",
+            "回退 mkv 优化",
+            "优化 flv 播放",
+            "优化 aac 播放",
+            "优化 iso 读取",
+            "支持 iso 杜比",
+            "支持 iso sacd",
+            "支持 rtsp mp2t",
+            "优化轨道格式显示",
+            "支持 mpeg1、mjpeg",
+            "支持 dsf、dff、dts",
+            "对于不支持杜比的设备兼容P7",
+            "修复aac解码",
+            "[App]",
+            "修复单身狗BUG",
+            "更新控制栏停留时间"
+          ],
+          "updated_at": "2026-03-25T04:06:32Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 81817099,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.3/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.3/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.3/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 81028888,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.3/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.3/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.3/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "5.0.3",
+          "tag_name": "5.0.3",
+          "version_code": null,
+          "notes": [
+            "[Exo]",
+            "回退 mkv 优化",
+            "优化 flv 播放",
+            "优化 aac 播放",
+            "优化 iso 读取",
+            "支持 iso 杜比",
+            "支持 iso sacd",
+            "支持 rtsp mp2t",
+            "优化轨道格式显示",
+            "支持 mpeg1、mjpeg",
+            "支持 dsf、dff、dts",
+            "对于不支持杜比的设备兼容P7",
+            "修复aac解码",
+            "[App]",
+            "修复单身狗BUG",
+            "更新控制栏停留时间"
+          ],
+          "updated_at": "2026-03-25T04:06:32Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 91635877,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.3/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.3/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.3/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 90847702,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.3/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.3/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.3/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mobile",
+          "label": "手机版 Pro",
           "platform": "mobile",
           "version": "5.1.0-pro",
           "tag_name": "5.1.0-pro",
@@ -9868,7 +10903,7 @@
           "downloads": [
             {
               "filename": "mobile-pro.apk",
-              "label": "手机版",
+              "label": "手机版 Pro",
               "architecture": "universal",
               "recommended": true,
               "size": 146780610,
@@ -9892,7 +10927,7 @@
         },
         {
           "id": "leanback",
-          "label": "电视版",
+          "label": "电视版 Pro",
           "platform": "tv",
           "version": "5.1.0-pro",
           "tag_name": "5.1.0-pro",
@@ -9966,8 +11001,144 @@
           ]
         },
         {
-          "id": "mobile",
+          "id": "mobile-standard",
           "label": "手机版",
+          "platform": "mobile",
+          "version": "5.0.2",
+          "tag_name": "5.0.2",
+          "version_code": null,
+          "notes": [
+            "[Exo]",
+            "修复 iso vc1",
+            "优化 iso ac3",
+            "优化 iso 起播",
+            "优化 mkv 起播",
+            "支持 iso 章节选择",
+            "优化 ffmpeg 软解性能",
+            "[App]",
+            "优化 seek 手势检测",
+            "支持 refresh category api",
+            "headers,proxy,rules,doh配置支持本地远程文件"
+          ],
+          "updated_at": "2026-03-21T08:22:29Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 81800717,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.2/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.2/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.2/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 81012494,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.2/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.2/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.2/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "5.0.2",
+          "tag_name": "5.0.2",
+          "version_code": null,
+          "notes": [
+            "[Exo]",
+            "修复 iso vc1",
+            "优化 iso ac3",
+            "优化 iso 起播",
+            "优化 mkv 起播",
+            "支持 iso 章节选择",
+            "优化 ffmpeg 软解性能",
+            "[App]",
+            "优化 seek 手势检测",
+            "支持 refresh category api",
+            "headers,proxy,rules,doh配置支持本地远程文件"
+          ],
+          "updated_at": "2026-03-21T08:22:29Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 91635862,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.2/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.2/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.2/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 90847677,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.2/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.2/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.2/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mobile",
+          "label": "手机版 Pro",
           "platform": "mobile",
           "version": "5.0.9-pro",
           "tag_name": "5.0.9-pro",
@@ -9989,7 +11160,7 @@
           "downloads": [
             {
               "filename": "mobile-pro.apk",
-              "label": "手机版",
+              "label": "手机版 Pro",
               "architecture": "universal",
               "recommended": true,
               "size": 146977218,
@@ -10013,7 +11184,7 @@
         },
         {
           "id": "leanback",
-          "label": "电视版",
+          "label": "电视版 Pro",
           "platform": "tv",
           "version": "5.0.9-pro",
           "tag_name": "5.0.9-pro",
@@ -10080,8 +11251,132 @@
           ]
         },
         {
-          "id": "mobile",
+          "id": "mobile-standard",
           "label": "手机版",
+          "platform": "mobile",
+          "version": "5.0.1",
+          "tag_name": "5.0.1",
+          "version_code": null,
+          "notes": [
+            "[Exo]",
+            "优化iso播放",
+            "优化iso seek",
+            "回看参数支持timestamp",
+            "iso的TrueHD支持直通"
+          ],
+          "updated_at": "2026-03-16T10:17:26Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 81699864,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.1/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.1/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.1/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 80928028,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.1/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.1/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.1/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "5.0.1",
+          "tag_name": "5.0.1",
+          "version_code": null,
+          "notes": [
+            "[Exo]",
+            "优化iso播放",
+            "优化iso seek",
+            "回看参数支持timestamp",
+            "iso的TrueHD支持直通"
+          ],
+          "updated_at": "2026-03-16T10:17:26Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 91518626,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.1/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.1/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.1/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 90746843,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.1/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.1/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.1/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mobile",
+          "label": "手机版 Pro",
           "platform": "mobile",
           "version": "5.0.8-pro",
           "tag_name": "5.0.8-pro",
@@ -10097,7 +11392,7 @@
           "downloads": [
             {
               "filename": "mobile-pro.apk",
-              "label": "手机版",
+              "label": "手机版 Pro",
               "architecture": "universal",
               "recommended": true,
               "size": 146907473,
@@ -10121,7 +11416,7 @@
         },
         {
           "id": "leanback",
-          "label": "电视版",
+          "label": "电视版 Pro",
           "platform": "tv",
           "version": "5.0.8-pro",
           "tag_name": "5.0.8-pro",
@@ -10182,8 +11477,134 @@
           ]
         },
         {
-          "id": "mobile",
+          "id": "mobile-standard",
           "label": "手机版",
+          "platform": "mobile",
+          "version": "5.0.0",
+          "tag_name": "5.0.0",
+          "version_code": null,
+          "notes": [
+            "[Exo]",
+            "支持 iso 播放",
+            "优化音轨名称显示",
+            "优化Remux播放",
+            "优化 ts 同步",
+            "优化图像字幕显示"
+          ],
+          "updated_at": "2026-03-16T01:34:47Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 81667086,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.0/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.0/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.0/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 80911647,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.0/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.0/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.0/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "5.0.0",
+          "tag_name": "5.0.0",
+          "version_code": null,
+          "notes": [
+            "[Exo]",
+            "支持 iso 播放",
+            "优化音轨名称显示",
+            "优化Remux播放",
+            "优化 ts 同步",
+            "优化图像字幕显示"
+          ],
+          "updated_at": "2026-03-16T01:34:47Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 91501439,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.0/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.0/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.0/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 90746043,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.0/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.0/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.0/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mobile",
+          "label": "手机版 Pro",
           "platform": "mobile",
           "version": "5.0.7-pro",
           "tag_name": "5.0.7-pro",
@@ -10200,7 +11621,7 @@
           "downloads": [
             {
               "filename": "mobile-pro.apk",
-              "label": "手机版",
+              "label": "手机版 Pro",
               "architecture": "universal",
               "recommended": true,
               "size": 146841937,
@@ -10224,7 +11645,7 @@
         },
         {
           "id": "leanback",
-          "label": "电视版",
+          "label": "电视版 Pro",
           "platform": "tv",
           "version": "5.0.7-pro",
           "tag_name": "5.0.7-pro",
@@ -10286,8 +11707,134 @@
           ]
         },
         {
-          "id": "mobile",
+          "id": "mobile-standard",
           "label": "手机版",
+          "platform": "mobile",
+          "version": "3.7.5",
+          "tag_name": "3.7.5",
+          "version_code": null,
+          "notes": [
+            "[App]",
+            "优化配置加载",
+            "[Exo]",
+            "修复音轨名称显示",
+            "修复极光X5等设备播放Remux卡顿Bug",
+            "优化解码"
+          ],
+          "updated_at": "2026-03-11T09:23:54Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 82419484,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.7.5/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.7.5/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.7.5/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 81664043,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.7.5/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.7.5/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.7.5/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "3.7.5",
+          "tag_name": "3.7.5",
+          "version_code": null,
+          "notes": [
+            "[App]",
+            "优化配置加载",
+            "[Exo]",
+            "修复音轨名称显示",
+            "修复极光X5等设备播放Remux卡顿Bug",
+            "优化解码"
+          ],
+          "updated_at": "2026-03-11T09:23:54Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 92236925,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.7.5/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.7.5/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.7.5/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 91481516,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.7.5/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.7.5/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.7.5/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mobile",
+          "label": "手机版 Pro",
           "platform": "mobile",
           "version": "5.0.6-pro",
           "tag_name": "5.0.6-pro",
@@ -10304,7 +11851,7 @@
           "downloads": [
             {
               "filename": "mobile-pro.apk",
-              "label": "手机版",
+              "label": "手机版 Pro",
               "architecture": "universal",
               "recommended": true,
               "size": 146813265,
@@ -10328,7 +11875,7 @@
         },
         {
           "id": "leanback",
-          "label": "电视版",
+          "label": "电视版 Pro",
           "platform": "tv",
           "version": "5.0.6-pro",
           "tag_name": "5.0.6-pro",
@@ -10391,7 +11938,7 @@
         },
         {
           "id": "mobile",
-          "label": "手机版",
+          "label": "手机版 Pro",
           "platform": "mobile",
           "version": "5.0.5-pro",
           "tag_name": "5.0.5-pro",
@@ -10410,7 +11957,7 @@
           "downloads": [
             {
               "filename": "mobile-pro.apk",
-              "label": "手机版",
+              "label": "手机版 Pro",
               "architecture": "universal",
               "recommended": true,
               "size": 146796937,
@@ -10434,7 +11981,7 @@
         },
         {
           "id": "leanback",
-          "label": "电视版",
+          "label": "电视版 Pro",
           "platform": "tv",
           "version": "5.0.5-pro",
           "tag_name": "5.0.5-pro",
@@ -10498,8 +12045,270 @@
           ]
         },
         {
-          "id": "mobile",
+          "id": "mobile-standard",
           "label": "手机版",
+          "platform": "mobile",
+          "version": "3.7.3",
+          "tag_name": "3.7.3",
+          "version_code": null,
+          "notes": [
+            "[App]",
+            "BUG修复",
+            "[Exo]",
+            "优化 rmvb 解码",
+            "优化 ffmpeg 解码",
+            "支持 asf、wma、wmv 解码",
+            "修复live字幕",
+            "修复DTS-HD硬解"
+          ],
+          "updated_at": "2026-03-03T11:20:57Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 82421360,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.7.3/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.7.3/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.7.3/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 81665926,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.7.3/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.7.3/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.7.3/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "3.7.3",
+          "tag_name": "3.7.3",
+          "version_code": null,
+          "notes": [
+            "[App]",
+            "BUG修复",
+            "[Exo]",
+            "优化 rmvb 解码",
+            "优化 ffmpeg 解码",
+            "支持 asf、wma、wmv 解码",
+            "修复live字幕",
+            "修复DTS-HD硬解"
+          ],
+          "updated_at": "2026-03-03T11:20:57Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 92237949,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.7.3/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.7.3/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.7.3/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 91482539,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.7.3/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.7.3/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.7.3/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mobile-standard",
+          "label": "手机版",
+          "platform": "mobile",
+          "version": "3.7.2",
+          "tag_name": "3.7.2",
+          "version_code": null,
+          "notes": [
+            "[App]",
+            "优化 drm 解密",
+            "修复 live bug",
+            "AI去广默认开启",
+            "更新ytb组件",
+            "[Exo]",
+            "支持rmvb",
+            "优化srt字幕解析",
+            "修复解码卡顿bug"
+          ],
+          "updated_at": "2026-02-27T11:53:11Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 82404989,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.7.2/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.7.2/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.7.2/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 81649546,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.7.2/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.7.2/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.7.2/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "3.7.2",
+          "tag_name": "3.7.2",
+          "version_code": null,
+          "notes": [
+            "[App]",
+            "优化 drm 解密",
+            "修复 live bug",
+            "AI去广默认开启",
+            "更新ytb组件",
+            "[Exo]",
+            "支持rmvb",
+            "优化srt字幕解析",
+            "修复解码卡顿bug"
+          ],
+          "updated_at": "2026-02-27T11:53:11Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 92237943,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.7.2/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.7.2/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.7.2/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 91482534,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.7.2/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.7.2/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.7.2/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mobile",
+          "label": "手机版 Pro",
           "platform": "mobile",
           "version": "5.0.3-pro",
           "tag_name": "5.0.3-pro",
@@ -10519,7 +12328,7 @@
           "downloads": [
             {
               "filename": "mobile-pro.apk",
-              "label": "手机版",
+              "label": "手机版 Pro",
               "architecture": "universal",
               "recommended": true,
               "size": 146829705,
@@ -10543,7 +12352,7 @@
         },
         {
           "id": "leanback",
-          "label": "电视版",
+          "label": "电视版 Pro",
           "platform": "tv",
           "version": "5.0.3-pro",
           "tag_name": "5.0.3-pro",
@@ -10609,7 +12418,7 @@
         },
         {
           "id": "mobile",
-          "label": "手机版",
+          "label": "手机版 Pro",
           "platform": "mobile",
           "version": "5.0.1-pro",
           "tag_name": "5.0.1-pro",
@@ -10624,7 +12433,7 @@
           "downloads": [
             {
               "filename": "mobile-pro.apk",
-              "label": "手机版",
+              "label": "手机版 Pro",
               "architecture": "universal",
               "recommended": true,
               "size": 146252169,
@@ -10648,7 +12457,7 @@
         },
         {
           "id": "leanback",
-          "label": "电视版",
+          "label": "电视版 Pro",
           "platform": "tv",
           "version": "5.0.1-pro",
           "tag_name": "5.0.1-pro",
@@ -10708,8 +12517,254 @@
           ]
         },
         {
-          "id": "mobile",
+          "id": "mobile-standard",
           "label": "手机版",
+          "platform": "mobile",
+          "version": "3.7.0",
+          "tag_name": "3.7.0",
+          "version_code": null,
+          "notes": [
+            "[App]",
+            "更新 Youtube 组件",
+            "更新 gif 组件",
+            "优化低端设备 UI 流畅度"
+          ],
+          "updated_at": "2026-02-25T09:24:33Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 81831543,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.7.0/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.7.0/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.7.0/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 81059709,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.7.0/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.7.0/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.7.0/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "3.7.0",
+          "tag_name": "3.7.0",
+          "version_code": null,
+          "notes": [
+            "[App]",
+            "更新 Youtube 组件",
+            "更新 gif 组件",
+            "优化低端设备 UI 流畅度"
+          ],
+          "updated_at": "2026-02-25T09:24:33Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 91664486,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.7.0/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.7.0/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.7.0/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 90892698,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.7.0/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.7.0/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.7.0/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mobile-standard",
+          "label": "手机版",
+          "platform": "mobile",
+          "version": "3.6.9",
+          "tag_name": "3.6.9",
+          "version_code": null,
+          "notes": [
+            "[App]",
+            "BUG修复",
+            "lrc歌词支持qrc格式",
+            "[Exo]",
+            "升级至1.9.2"
+          ],
+          "updated_at": "2026-02-12T00:18:07Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 81831544,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.6.9/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.6.9/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.6.9/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 81059700,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.6.9/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.6.9/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.6.9/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "3.6.9",
+          "tag_name": "3.6.9",
+          "version_code": null,
+          "notes": [
+            "[App]",
+            "BUG修复",
+            "lrc歌词支持qrc格式",
+            "[Exo]",
+            "升级至1.9.2"
+          ],
+          "updated_at": "2026-02-12T00:18:07Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 91664503,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.6.9/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.6.9/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.6.9/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 90892699,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.6.9/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.6.9/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.6.9/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mobile",
+          "label": "手机版 Pro",
           "platform": "mobile",
           "version": "5.0.0-pro",
           "tag_name": "5.0.0-pro",
@@ -10724,7 +12779,7 @@
           "downloads": [
             {
               "filename": "mobile-pro.apk",
-              "label": "手机版",
+              "label": "手机版 Pro",
               "architecture": "universal",
               "recommended": true,
               "size": 146203017,
@@ -10748,7 +12803,7 @@
         },
         {
           "id": "leanback",
-          "label": "电视版",
+          "label": "电视版 Pro",
           "platform": "tv",
           "version": "5.0.0-pro",
           "tag_name": "5.0.0-pro",
@@ -10808,8 +12863,128 @@
           ]
         },
         {
-          "id": "mobile",
+          "id": "mobile-standard",
           "label": "手机版",
+          "platform": "mobile",
+          "version": "3.6.8",
+          "tag_name": "3.6.8",
+          "version_code": null,
+          "notes": [
+            "[App]",
+            "修复js的rsaX函数",
+            "lrc歌词支持双语"
+          ],
+          "updated_at": "2026-02-08T10:02:55Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 81831591,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.6.8/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.6.8/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.6.8/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 81059765,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.6.8/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.6.8/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.6.8/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "3.6.8",
+          "tag_name": "3.6.8",
+          "version_code": null,
+          "notes": [
+            "[App]",
+            "修复js的rsaX函数",
+            "lrc歌词支持双语"
+          ],
+          "updated_at": "2026-02-08T10:02:55Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 91664523,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.6.8/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.6.8/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.6.8/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 90892719,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.6.8/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.6.8/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.6.8/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mobile",
+          "label": "手机版 Pro",
           "platform": "mobile",
           "version": "3.9.9-pro",
           "tag_name": "3.9.9-pro",
@@ -10824,7 +12999,7 @@
           "downloads": [
             {
               "filename": "mobile-pro.apk",
-              "label": "手机版",
+              "label": "手机版 Pro",
               "architecture": "universal",
               "recommended": true,
               "size": 146248073,
@@ -10848,7 +13023,7 @@
         },
         {
           "id": "leanback",
-          "label": "电视版",
+          "label": "电视版 Pro",
           "platform": "tv",
           "version": "3.9.9-pro",
           "tag_name": "3.9.9-pro",
@@ -10908,8 +13083,130 @@
           ]
         },
         {
-          "id": "mobile",
+          "id": "mobile-standard",
           "label": "手机版",
+          "platform": "mobile",
+          "version": "3.6.7",
+          "tag_name": "3.6.7",
+          "version_code": null,
+          "notes": [
+            "[App]",
+            "BUG修复",
+            "优化 vod api",
+            "优化配置加载提示"
+          ],
+          "updated_at": "2026-02-04T02:44:55Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 81831582,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.6.7/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.6.7/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.6.7/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 81059759,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.6.7/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.6.7/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.6.7/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "3.6.7",
+          "tag_name": "3.6.7",
+          "version_code": null,
+          "notes": [
+            "[App]",
+            "BUG修复",
+            "优化 vod api",
+            "优化配置加载提示"
+          ],
+          "updated_at": "2026-02-04T02:44:55Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 91664511,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.6.7/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.6.7/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.6.7/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 90892723,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.6.7/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.6.7/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.6.7/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mobile",
+          "label": "手机版 Pro",
           "platform": "mobile",
           "version": "3.9.8-pro",
           "tag_name": "3.9.8-pro",
@@ -10926,7 +13223,7 @@
           "downloads": [
             {
               "filename": "mobile-pro.apk",
-              "label": "手机版",
+              "label": "手机版 Pro",
               "architecture": "universal",
               "recommended": true,
               "size": 146223497,
@@ -10950,7 +13247,7 @@
         },
         {
           "id": "leanback",
-          "label": "电视版",
+          "label": "电视版 Pro",
           "platform": "tv",
           "version": "3.9.8-pro",
           "tag_name": "3.9.8-pro",
@@ -11013,7 +13310,7 @@
         },
         {
           "id": "mobile",
-          "label": "手机版",
+          "label": "手机版 Pro",
           "platform": "mobile",
           "version": "3.9.7-pro",
           "tag_name": "3.9.7-pro",
@@ -11039,7 +13336,7 @@
           "downloads": [
             {
               "filename": "mobile-pro.apk",
-              "label": "手机版",
+              "label": "手机版 Pro",
               "architecture": "universal",
               "recommended": true,
               "size": 146264457,
@@ -11063,7 +13360,7 @@
         },
         {
           "id": "leanback",
-          "label": "电视版",
+          "label": "电视版 Pro",
           "platform": "tv",
           "version": "3.9.7-pro",
           "tag_name": "3.9.7-pro",
@@ -11128,6 +13425,134 @@
                   "label": "CDN 2",
                   "provider": "GH Proxy",
                   "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.9.7-pro/leanback-pro-v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mobile-standard",
+          "label": "手机版",
+          "platform": "mobile",
+          "version": "3.6.6",
+          "tag_name": "3.6.6",
+          "version_code": null,
+          "notes": [
+            "[App]",
+            "EXO更新至1.9.1",
+            "更新Youtube组件",
+            "支持歌词(playContent字段lrc)",
+            "歌词支持krc格式",
+            "优化歌词",
+            "BUG修复"
+          ],
+          "updated_at": "2026-01-31T02:55:54Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 81831079,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.6.6/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.6.6/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.6.6/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 81059246,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.6.6/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.6.6/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.6.6/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "3.6.6",
+          "tag_name": "3.6.6",
+          "version_code": null,
+          "notes": [
+            "[App]",
+            "EXO更新至1.9.1",
+            "更新Youtube组件",
+            "支持歌词(playContent字段lrc)",
+            "歌词支持krc格式",
+            "优化歌词",
+            "BUG修复"
+          ],
+          "updated_at": "2026-01-31T02:55:54Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 91664003,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.6.6/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.6.6/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.6.6/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 90892222,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.6.6/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.6.6/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.6.6/leanback-arm64_v8a.apk"
                 }
               ]
             }
