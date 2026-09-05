@@ -428,6 +428,118 @@
           ]
         }
       ]
+    },
+    {
+      "id": "fmapp",
+      "name": "影视TV",
+      "description": "lystv 的开源 Android 影视播放器",
+      "homepage": "https://github.com/lystv/fmapp/releases",
+      "repository": "lystv/fmapp",
+      "icon": "https://avatars.githubusercontent.com/u/117786160?v=4",
+      "source_revision": "main",
+      "updated_at": "2026-04-19T11:14:12Z",
+      "releases": [
+        {
+          "id": "mobile",
+          "label": "手机版",
+          "platform": "mobile",
+          "version": "5.2.1-pro",
+          "version_code": null,
+          "notes": [
+            "[Exo]",
+            "支持m2ts",
+            "ts支持bdmv",
+            "[App]",
+            "BUG修复"
+          ],
+          "updated_at": "2026-04-19T11:14:12Z",
+          "downloads": [
+            {
+              "filename": "mobile-pro.apk",
+              "label": "手机版",
+              "architecture": "universal",
+              "recommended": true,
+              "size": 147828985,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.2.1-pro/mobile-pro.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.2.1-pro/mobile-pro.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.2.1-pro/mobile-pro.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "5.2.1-pro",
+          "version_code": null,
+          "notes": [
+            "[Exo]",
+            "支持m2ts",
+            "ts支持bdmv",
+            "[App]",
+            "BUG修复"
+          ],
+          "updated_at": "2026-04-19T11:14:12Z",
+          "downloads": [
+            {
+              "filename": "leanback-pro.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 137940406,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.2.1-pro/leanback-pro.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.2.1-pro/leanback-pro.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.2.1-pro/leanback-pro.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-pro-v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 141965899,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.2.1-pro/leanback-pro-v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.2.1-pro/leanback-pro-v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.2.1-pro/leanback-pro-v8a.apk"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

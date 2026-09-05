@@ -177,6 +177,49 @@
           ]
         }
       ]
+    },
+    {
+      "id": "fmapp",
+      "type": "github-release",
+      "name": "影视TV",
+      "description": "lystv 的开源 Android 影视播放器",
+      "homepage": "https://github.com/lystv/fmapp/releases",
+      "repository": "lystv/fmapp",
+      "icon": "https://avatars.githubusercontent.com/u/117786160?v=4",
+      "packages": [
+        {
+          "id": "mobile",
+          "label": "手机版",
+          "platform": "mobile",
+          "downloads": [
+            {
+              "asset_suffix": "mobile-pro.apk",
+              "label": "手机版",
+              "architecture": "universal",
+              "recommended": true
+            }
+          ]
+        },
+        {
+          "id": "leanback",
+          "label": "电视版",
+          "platform": "tv",
+          "downloads": [
+            {
+              "asset_suffix": "leanback-pro.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false
+            },
+            {
+              "asset_suffix": "leanback-pro-v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true
+            }
+          ]
+        }
+      ]
     }
   ]
 }
