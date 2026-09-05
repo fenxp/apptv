@@ -210,6 +210,7 @@ def release_history_signature(source: dict[str, Any]) -> str:
                         "architecture": download.get("architecture"),
                         "label": download.get("label"),
                         "recommended": bool(download.get("recommended")),
+                        "optional": bool(download.get("optional")),
                     }
                     for download in package.get("downloads", [])
                 ],
@@ -259,6 +260,8 @@ def build_release_entries(
                 raise CatalogError(f"Release download is missing asset_suffix: {package.get('id')}")
             matches = [asset for asset in assets if str(asset.get("name", "")).endswith(suffix)]
             if len(matches) != 1:
+                if download.get("optional") and not matches:
+                    continue
                 raise CatalogError(
                     f"Expected one asset ending with {suffix!r}, found {len(matches)} for {source['repository']}"
                 )

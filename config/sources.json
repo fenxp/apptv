@@ -224,6 +224,13 @@
               "label": "64 位",
               "architecture": "arm64-v8a",
               "recommended": true
+            },
+            {
+              "asset_suffix": "hisense.apk",
+              "label": "海信电视专版",
+              "architecture": "universal",
+              "recommended": false,
+              "optional": true
             }
           ]
         },

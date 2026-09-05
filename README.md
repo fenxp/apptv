@@ -112,6 +112,8 @@ https://你的项目名.pages.dev/
 
 如果同一仓库同时发布多个变体，可以在 `packages` 中使用 `tag_pattern` 或 `exclude_tag_pattern` 按 Release 标签选择安装包组。例如 `tag_pattern: "-pro$"` 只匹配 Pro 版本，`exclude_tag_pattern: "-pro$"` 匹配普通版本。这样同一个软件可以同时保留不同变体的历史版本。
 
+少数版本才提供的安装包可以在下载项上设置 `optional: true`。资产不存在时只跳过该下载项，不会丢弃整个版本；例如 `fmapp` 的海信电视专版 `hisense.apk`。
+
 当前下载地址仅允许 GitHub 官方域名。需要增加其他可信发布域名时，同时更新 `scripts/update_apps.py` 中的 `ALLOWED_DOWNLOAD_HOSTS`。
 
 影视配置接口维护在 `config/sources.json` 的 `interfaces` 数组中，页面会显示完整地址并提供复制按钮。

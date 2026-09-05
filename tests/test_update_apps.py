@@ -273,7 +273,10 @@ class CatalogTests(unittest.TestCase):
                     "label": "Pro",
                     "platform": "mobile",
                     "tag_pattern": "-pro$",
-                    "downloads": [{"asset_suffix": "-pro.apk", "architecture": "universal"}],
+                    "downloads": [
+                        {"asset_suffix": "-pro.apk", "architecture": "universal"},
+                        {"asset_suffix": "-optional.apk", "architecture": "universal", "optional": True},
+                    ],
                 },
             ],
         }
@@ -290,6 +293,7 @@ class CatalogTests(unittest.TestCase):
         }
         entries = update_apps.build_release_entries(source, release, [])
         self.assertEqual([entry["id"] for entry in entries], ["pro"])
+        self.assertEqual(len(entries[0]["downloads"]), 1)
 
     def test_rejects_untrusted_download_host(self):
         with self.assertRaises(update_apps.CatalogError):

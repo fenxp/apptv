@@ -153,7 +153,7 @@
       "source_revision": "master",
       "updated_at": "2026-09-03T03:37:54Z",
       "history_complete": true,
-      "history_signature": "b0e2be09070cb0ce3f3c99148f77ccae118e03acf36057df74e58a9773d5626f",
+      "history_signature": "e2accf88628bcc6396ab0106fbf4234f55d3fc7045359af594706d847bbac16d",
       "releases": [
         {
           "id": "tv",
@@ -5450,7 +5450,7 @@
       "source_revision": "ec478b0b697422a7785171c7b51a35b7a526564e",
       "updated_at": "2026-08-31T03:12:58Z",
       "history_complete": true,
-      "history_signature": "a0ab2b7aca1ee31e85706d249cdde8cd2addd5772664f3fe1fc3b82108d24a1a",
+      "history_signature": "511193be14d0d7f7a1890026f843d8d32b81209a368acc0083df6b7c406fec47",
       "releases": [
         {
           "id": "mobile",
@@ -9086,7 +9086,7 @@
       "source_revision": "main",
       "updated_at": "2026-04-19T11:14:12Z",
       "history_complete": true,
-      "history_signature": "f64b935c8eaf37d18e719daf2c83c1cfb5194d70044156661412e7f06d05b5ca",
+      "history_signature": "1583f08ab3ace4dc1389b7c76c4706de6394d7ee860de254e9b87e63fe5868a5",
       "releases": [
         {
           "id": "mobile",
@@ -9311,6 +9311,28 @@
                   "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.1.6/leanback-arm64_v8a.apk"
                 }
               ]
+            },
+            {
+              "filename": "hisense.apk",
+              "label": "海信电视专版",
+              "architecture": "universal",
+              "recommended": false,
+              "size": 86782066,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.1.6/hisense.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.1.6/hisense.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.1.6/hisense.apk"
+                }
+              ]
             }
           ]
         },
@@ -9429,6 +9451,28 @@
                   "label": "CDN 2",
                   "provider": "GH Proxy",
                   "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.1.5/leanback-arm64_v8a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "hisense.apk",
+              "label": "海信电视专版",
+              "architecture": "universal",
+              "recommended": false,
+              "size": 86782040,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.1.5/hisense.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.1.5/hisense.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.1.5/hisense.apk"
                 }
               ]
             }
@@ -9767,6 +9811,28 @@
                   "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.1.0/leanback-arm64_v8a.apk"
                 }
               ]
+            },
+            {
+              "filename": "hisense.apk",
+              "label": "海信电视专版",
+              "architecture": "universal",
+              "recommended": false,
+              "size": 86251562,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.1.0/hisense.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.1.0/hisense.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.1.0/hisense.apk"
+                }
+              ]
             }
           ]
         },
@@ -9991,6 +10057,28 @@
                   "label": "CDN 2",
                   "provider": "GH Proxy",
                   "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.9/leanback-arm64_v8a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "hisense.apk",
+              "label": "海信电视专版",
+              "architecture": "universal",
+              "recommended": false,
+              "size": 86252049,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.9/hisense.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.9/hisense.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.9/hisense.apk"
                 }
               ]
             }
@@ -10223,6 +10311,28 @@
                   "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.8/leanback-arm64_v8a.apk"
                 }
               ]
+            },
+            {
+              "filename": "hisense.apk",
+              "label": "海信电视专版",
+              "architecture": "universal",
+              "recommended": false,
+              "size": 91690153,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.8/hisense.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.8/hisense.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.8/hisense.apk"
+                }
+              ]
             }
           ]
         },
@@ -10361,6 +10471,28 @@
                   "label": "CDN 2",
                   "provider": "GH Proxy",
                   "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.7/leanback-arm64_v8a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "hisense.apk",
+              "label": "海信电视专版",
+              "architecture": "universal",
+              "recommended": false,
+              "size": 91673778,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.7/hisense.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.7/hisense.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.7/hisense.apk"
                 }
               ]
             }
@@ -10611,6 +10743,28 @@
                   "label": "CDN 2",
                   "provider": "GH Proxy",
                   "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.6/leanback-arm64_v8a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "hisense.apk",
+              "label": "海信电视专版",
+              "architecture": "universal",
+              "recommended": false,
+              "size": 91635859,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.6/hisense.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.6/hisense.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.6/hisense.apk"
                 }
               ]
             }
@@ -10867,6 +11021,28 @@
                   "label": "CDN 2",
                   "provider": "GH Proxy",
                   "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.3/leanback-arm64_v8a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "hisense.apk",
+              "label": "海信电视专版",
+              "architecture": "universal",
+              "recommended": false,
+              "size": 91652247,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.3/hisense.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.3/hisense.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.3/hisense.apk"
                 }
               ]
             }
@@ -11133,6 +11309,28 @@
                   "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.2/leanback-arm64_v8a.apk"
                 }
               ]
+            },
+            {
+              "filename": "hisense.apk",
+              "label": "海信电视专版",
+              "architecture": "universal",
+              "recommended": false,
+              "size": 91652237,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.2/hisense.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.2/hisense.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.2/hisense.apk"
+                }
+              ]
             }
           ]
         },
@@ -11371,6 +11569,28 @@
                   "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.1/leanback-arm64_v8a.apk"
                 }
               ]
+            },
+            {
+              "filename": "hisense.apk",
+              "label": "海信电视专版",
+              "architecture": "universal",
+              "recommended": false,
+              "size": 91535005,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.1/hisense.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.1/hisense.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.1/hisense.apk"
+                }
+              ]
             }
           ]
         },
@@ -11597,6 +11817,28 @@
                   "label": "CDN 2",
                   "provider": "GH Proxy",
                   "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.0/leanback-arm64_v8a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "hisense.apk",
+              "label": "海信电视专版",
+              "architecture": "universal",
+              "recommended": false,
+              "size": 91517792,
+              "url": "https://github.com/lystv/fmapp/releases/download/5.0.0/hisense.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/5.0.0/hisense.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/5.0.0/hisense.apk"
                 }
               ]
             }
@@ -11827,6 +12069,28 @@
                   "label": "CDN 2",
                   "provider": "GH Proxy",
                   "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.7.5/leanback-arm64_v8a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "hisense.apk",
+              "label": "海信电视专版",
+              "architecture": "universal",
+              "recommended": false,
+              "size": 92253273,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.7.5/hisense.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.7.5/hisense.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.7.5/hisense.apk"
                 }
               ]
             }
@@ -12171,6 +12435,28 @@
                   "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.7.3/leanback-arm64_v8a.apk"
                 }
               ]
+            },
+            {
+              "filename": "hisense.apk",
+              "label": "海信电视专版",
+              "architecture": "universal",
+              "recommended": false,
+              "size": 92254294,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.7.3/hisense.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.7.3/hisense.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.7.3/hisense.apk"
+                }
+              ]
             }
           ]
         },
@@ -12301,6 +12587,28 @@
                   "label": "CDN 2",
                   "provider": "GH Proxy",
                   "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.7.2/leanback-arm64_v8a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "hisense.apk",
+              "label": "海信电视专版",
+              "architecture": "universal",
+              "recommended": false,
+              "size": 92254291,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.7.2/hisense.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.7.2/hisense.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.7.2/hisense.apk"
                 }
               ]
             }
@@ -12635,6 +12943,28 @@
                   "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.7.0/leanback-arm64_v8a.apk"
                 }
               ]
+            },
+            {
+              "filename": "hisense.apk",
+              "label": "海信电视专版",
+              "architecture": "universal",
+              "recommended": false,
+              "size": 91680852,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.7.0/hisense.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.7.0/hisense.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.7.0/hisense.apk"
+                }
+              ]
             }
           ]
         },
@@ -12757,6 +13087,28 @@
                   "label": "CDN 2",
                   "provider": "GH Proxy",
                   "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.6.9/leanback-arm64_v8a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "hisense.apk",
+              "label": "海信电视专版",
+              "architecture": "universal",
+              "recommended": false,
+              "size": 91680848,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.6.9/hisense.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.6.9/hisense.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.6.9/hisense.apk"
                 }
               ]
             }
@@ -12979,6 +13331,28 @@
                   "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.6.8/leanback-arm64_v8a.apk"
                 }
               ]
+            },
+            {
+              "filename": "hisense.apk",
+              "label": "海信电视专版",
+              "architecture": "universal",
+              "recommended": false,
+              "size": 91680884,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.6.8/hisense.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.6.8/hisense.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.6.8/hisense.apk"
+                }
+              ]
             }
           ]
         },
@@ -13199,6 +13573,28 @@
                   "label": "CDN 2",
                   "provider": "GH Proxy",
                   "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.6.7/leanback-arm64_v8a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "hisense.apk",
+              "label": "海信电视专版",
+              "architecture": "universal",
+              "recommended": false,
+              "size": 91680873,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.6.7/hisense.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.6.7/hisense.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.6.7/hisense.apk"
                 }
               ]
             }
@@ -13553,6 +13949,28 @@
                   "label": "CDN 2",
                   "provider": "GH Proxy",
                   "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.6.6/leanback-arm64_v8a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "hisense.apk",
+              "label": "海信电视专版",
+              "architecture": "universal",
+              "recommended": false,
+              "size": 91680348,
+              "url": "https://github.com/lystv/fmapp/releases/download/3.6.6/hisense.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/3.6.6/hisense.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/3.6.6/hisense.apk"
                 }
               ]
             }
