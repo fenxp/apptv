@@ -217,31 +217,64 @@ function createReleaseCard(app, release) {
   return article;
 }
 
-function flattenedReleases() {
-  return state.apps.flatMap((app) => app.releases.map((release) => ({ app, release })));
+function releaseVersionKey(release) {
+  return String(release.tag_name || release.version || `${release.updated_at || ""}-${release.id || ""}`);
 }
 
-function visibleReleases() {
+function releaseSortTime(release) {
+  const timestamp = Date.parse(release.updated_at || "");
+  return Number.isNaN(timestamp) ? 0 : timestamp;
+}
+
+function releaseMatches(app, release) {
   const query = state.query.trim().toLocaleLowerCase("zh-CN");
-  return flattenedReleases().filter(({ app, release }) => {
-    const platformMatches = state.platform === "all" || release.platform === state.platform;
-    const haystack = [app.name, app.description, release.label, release.version, ...release.notes]
-      .join(" ")
-      .toLocaleLowerCase("zh-CN");
-    return platformMatches && (!query || haystack.includes(query));
+  const platformMatches = state.platform === "all" || release.platform === state.platform;
+  const haystack = [app.name, app.description, release.label, release.version, ...(release.notes || [])]
+    .join(" ")
+    .toLocaleLowerCase("zh-CN");
+  return platformMatches && (!query || haystack.includes(query));
+}
+
+function releaseGroups() {
+  return state.apps.map((app) => {
+    const releases = [...(app.releases || [])].sort((a, b) => releaseSortTime(b) - releaseSortTime(a));
+    const latestKey = releases.length ? releaseVersionKey(releases[0]) : "";
+    return {
+      app,
+      latest: releases.filter((release) => releaseVersionKey(release) === latestKey),
+      history: releases.filter((release) => releaseVersionKey(release) !== latestKey),
+    };
   });
 }
 
+function createHistorySection(app, releases) {
+  const details = element("details", "release-history");
+  const summary = element("summary", "", `历史版本（${releases.length}）`);
+  summary.prepend(icon("archive"));
+  const list = element("div", "release-history-list");
+  releases.forEach((release) => list.append(createReleaseCard(app, release)));
+  details.append(summary, list);
+  if (state.query.trim()) details.open = true;
+  return details;
+}
+
 function render() {
-  const entries = visibleReleases();
+  const groups = releaseGroups();
+  let count = 0;
   listElement.replaceChildren();
   listElement.setAttribute("aria-busy", "false");
-  countElement.textContent = `${entries.length} 个版本`;
 
-  if (!entries.length) {
+  groups.forEach(({ app, latest, history }) => {
+    const latestVisible = latest.filter((release) => releaseMatches(app, release));
+    const historyVisible = history.filter((release) => releaseMatches(app, release));
+    count += latestVisible.length + historyVisible.length;
+    latestVisible.forEach((release) => listElement.append(createReleaseCard(app, release)));
+    if (historyVisible.length) listElement.append(createHistorySection(app, historyVisible));
+  });
+  countElement.textContent = `${count} 个版本`;
+
+  if (!count) {
     listElement.append(element("div", "empty-state", "没有匹配的软件版本，请调整搜索或筛选条件。"));
-  } else {
-    entries.forEach(({ app, release }) => listElement.append(createReleaseCard(app, release)));
   }
   window.lucide?.createIcons();
 }

@@ -377,6 +377,66 @@ h2 {
   gap: 14px;
 }
 
+.release-history {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: var(--shadow);
+}
+
+.release-history > summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 15px 18px;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  list-style: none;
+}
+
+.release-history > summary::-webkit-details-marker {
+  display: none;
+}
+
+.release-history > summary:hover {
+  color: var(--ink);
+  background: #fafafa;
+}
+
+.release-history > summary::after {
+  width: 8px;
+  height: 8px;
+  margin-left: auto;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translateY(-2px);
+  content: "";
+}
+
+.release-history[open] > summary {
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
+}
+
+.release-history[open] > summary::after {
+  transform: rotate(225deg) translate(-1px, -1px);
+}
+
+.release-history > summary svg {
+  width: 16px;
+  height: 16px;
+}
+
+.release-history-list {
+  display: grid;
+  gap: 14px;
+  padding: 14px;
+  background: #fafafa;
+}
+
 .release-card {
   display: grid;
   grid-template-columns: 210px minmax(0, 1fr);
