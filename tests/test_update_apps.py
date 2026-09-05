@@ -120,8 +120,7 @@ class CatalogTests(unittest.TestCase):
         ]
 
         def release_getter(url):
-            self.assertTrue(url.endswith("/repos/owner/releases/releases/latest"))
-            return {
+            release = {
                 "tag_name": "v20260817-1745",
                 "target_commitish": "abc123",
                 "published_at": "2026-08-18T01:26:18Z",
@@ -134,15 +133,119 @@ class CatalogTests(unittest.TestCase):
                     }
                 ],
             }
+            self.assertTrue(url.endswith("/repos/owner/releases/releases?per_page=100&page=1"))
+            return [release]
 
         result = update_apps.build_catalog(self.config, release_getter)
         app = result["apps"][0]
         release = app["releases"][0]
         self.assertEqual(app["source_revision"], "abc123")
         self.assertEqual(release["version"], "20260817-1745")
+        self.assertEqual(release["tag_name"], "v20260817-1745")
         self.assertEqual(release["notes"], ["First change", "Second change"])
         self.assertEqual(release["downloads"][0]["filename"], "release-arm64.apk")
         self.assertTrue(release["downloads"][0]["recommended"])
+
+    def test_incremental_release_update_preserves_history(self):
+        self.config["sources"] = [
+            {
+                "id": "release-demo",
+                "type": "github-release",
+                "name": "Release Demo",
+                "repository": "owner/releases",
+                "packages": [
+                    {
+                        "id": "tv",
+                        "label": "电视版",
+                        "platform": "tv",
+                        "downloads": [
+                            {
+                                "asset_suffix": "-arm64.apk",
+                                "label": "64 位",
+                                "architecture": "arm64-v8a",
+                                "recommended": True,
+                            }
+                        ],
+                    }
+                ],
+            }
+        ]
+        existing = {
+            "schema_version": 1,
+            "apps": [
+                {
+                    "id": "release-demo",
+                    "history_complete": True,
+                    "releases": [
+                        {
+                            "id": "tv",
+                            "tag_name": "v1.0.0",
+                            "version": "1.0.0",
+                            "updated_at": "2026-08-01T00:00:00Z",
+                            "downloads": [],
+                        }
+                    ],
+                }
+            ],
+        }
+        calls = []
+
+        def latest_getter(url):
+            calls.append(url)
+            return {
+                "tag_name": "v1.1.0",
+                "target_commitish": "def456",
+                "published_at": "2026-08-20T00:00:00Z",
+                "body": "* New release",
+                "assets": [
+                    {
+                        "name": "release-arm64.apk",
+                        "size": 4567,
+                        "browser_download_url": "https://github.com/owner/releases/download/v1.1.0/release-arm64.apk",
+                    }
+                ],
+            }
+
+        result = update_apps.build_catalog(self.config, latest_getter, existing)
+        releases = result["apps"][0]["releases"]
+        self.assertEqual(calls, ["https://api.github.com/repos/owner/releases/releases/latest"])
+        self.assertEqual([release["version"] for release in releases], ["1.1.0", "1.0.0"])
+
+    def test_known_latest_release_does_not_refetch_assets(self):
+        self.config["sources"] = [
+            {
+                "id": "release-demo",
+                "type": "github-release",
+                "name": "Release Demo",
+                "repository": "owner/releases",
+                "packages": [
+                    {
+                        "id": "tv",
+                        "label": "电视版",
+                        "platform": "tv",
+                        "downloads": [{"asset_suffix": "-arm64.apk", "architecture": "arm64-v8a"}],
+                    }
+                ],
+            }
+        ]
+        existing_release = {
+            "id": "tv",
+            "tag_name": "v1.0.0",
+            "version": "1.0.0",
+            "updated_at": "2026-08-01T00:00:00Z",
+            "downloads": [],
+        }
+        existing = {
+            "schema_version": 1,
+            "apps": [{"id": "release-demo", "history_complete": True, "releases": [existing_release]}],
+        }
+
+        def latest_getter(url):
+            self.assertTrue(url.endswith("/repos/owner/releases/releases/latest"))
+            return {"tag_name": "v1.0.0", "published_at": "2026-08-02T00:00:00Z"}
+
+        result = update_apps.build_catalog(self.config, latest_getter, existing)
+        self.assertEqual(result["apps"][0]["releases"], [existing_release])
 
     def test_rejects_untrusted_download_host(self):
         with self.assertRaises(update_apps.CatalogError):
