@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T03:52:23Z",
+  "generated_at": "2026-09-18T09:58:50Z",
   "interfaces": [
     {
       "id": "tv-config",
@@ -6780,11 +6780,147 @@
       "homepage": "https://github.com/fish2018/webhtv/releases",
       "repository": "fish2018/webhtv",
       "icon": "https://raw.githubusercontent.com/fish2018/webhtv/main/app/src/main/ic_launcher-playstore.png",
-      "source_revision": "784b90420d646eb6c7ddcc63ad622a92c65b02b4",
-      "updated_at": "2026-09-06T09:02:35Z",
+      "source_revision": "88aceb110959ff50afc23b10d9b9abe3e0f53255",
+      "updated_at": "2026-09-18T09:58:50Z",
       "history_complete": true,
       "history_signature": "511193be14d0d7f7a1890026f843d8d32b81209a368acc0083df6b7c406fec47",
       "releases": [
+        {
+          "id": "mobile",
+          "label": "手机版",
+          "platform": "mobile",
+          "version": "5.6.0-202609181748",
+          "tag_name": "v5.6.0-202609181748",
+          "version_code": null,
+          "notes": [
+            "### 更新内容：",
+            "增强 AVS3/AV3A 播放能力：Exo、MPV 支持 AVS3 基准档次及 0x32 10-bit 解码、设备原生硬解，完善 AV3A 直播兼容性。",
+            "完善 Dolby Vision 支持：新增可选 DV7 FEL 双层重建，Exo 默认启用 DV5 GPU 映射，完善 MPV P8.1 降级 HDR10。",
+            "增强字幕能力：Exo 支持 ASS 特效字幕和双字幕，完善 Exo、MPV 原字体显示。",
+            "新增 MPV 蓝光 HDMV 菜单导航，优化原盘播放兼容性。",
+            "MPV 支持全局智能去广告。",
+            "优化播放器切换、续播、进度跳转及固定清晰度视频的播放稳定性。",
+            "完善播放诊断与 Web 调试日志，支持分类开关和 QuickJS/Python 爬虫日志，优化页面布局、状态统计，取消配对机制。",
+            "完善播放操作：直播增加播放参数入口，修复手机增换源按钮遗漏，MPV 脚本支持独立开关与状态同步，观看历史显示最后观看时间。",
+            "修复电视端 GitHub/CNB Token 保存异常，优化电视弹窗、焦点交互。",
+            "完善网盘检测115分享过期提示"
+          ],
+          "updated_at": "2026-09-18T09:58:50Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 115073384,
+              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609181748/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609181748/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609181748/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 139175227,
+              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609181748/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609181748/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609181748/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "5.6.0-202609181748",
+          "tag_name": "v5.6.0-202609181748",
+          "version_code": null,
+          "notes": [
+            "### 更新内容：",
+            "增强 AVS3/AV3A 播放能力：Exo、MPV 支持 AVS3 基准档次及 0x32 10-bit 解码、设备原生硬解，完善 AV3A 直播兼容性。",
+            "完善 Dolby Vision 支持：新增可选 DV7 FEL 双层重建，Exo 默认启用 DV5 GPU 映射，完善 MPV P8.1 降级 HDR10。",
+            "增强字幕能力：Exo 支持 ASS 特效字幕和双字幕，完善 Exo、MPV 原字体显示。",
+            "新增 MPV 蓝光 HDMV 菜单导航，优化原盘播放兼容性。",
+            "MPV 支持全局智能去广告。",
+            "优化播放器切换、续播、进度跳转及固定清晰度视频的播放稳定性。",
+            "完善播放诊断与 Web 调试日志，支持分类开关和 QuickJS/Python 爬虫日志，优化页面布局、状态统计，取消配对机制。",
+            "完善播放操作：直播增加播放参数入口，修复手机增换源按钮遗漏，MPV 脚本支持独立开关与状态同步，观看历史显示最后观看时间。",
+            "修复电视端 GitHub/CNB Token 保存异常，优化电视弹窗、焦点交互。",
+            "完善网盘检测115分享过期提示"
+          ],
+          "updated_at": "2026-09-18T09:58:50Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 115216230,
+              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609181748/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609181748/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609181748/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 139318073,
+              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609181748/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609181748/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609181748/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "mobile",
           "label": "手机版",
