@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-26T11:15:36Z",
+  "generated_at": "2026-09-26T18:32:56Z",
   "interfaces": [
     {
       "id": "tv-config",
@@ -17,8 +17,8 @@
       "homepage": "https://github.com/FongMi/TV",
       "repository": "FongMi/Release",
       "icon": "https://raw.githubusercontent.com/FongMi/TV/fongmi/app/src/main/ic_launcher-playstore.png",
-      "source_revision": "266893649acac63e4c3685995a631a6b1517243f",
-      "updated_at": "2026-09-26T11:15:36Z",
+      "source_revision": "bc562a3b50005ec8a0ff338aca6f6a5a50f402b0",
+      "updated_at": "2026-09-26T18:32:56Z",
       "history_complete": true,
       "releases": [
         {
@@ -35,7 +35,7 @@
             "新增播放畫面雙擊快轉、倒轉",
             "改善 DRM 播放與手機播放設定"
           ],
-          "updated_at": "2026-09-26T11:15:36Z",
+          "updated_at": "2026-09-26T18:32:56Z",
           "downloads": [
             {
               "filename": "mobile-armeabi_v7a.apk",
@@ -96,7 +96,7 @@
             "整合 ISO 光碟導覽與選單操作",
             "改善 DRM 播放、直播節目表及遙控操作"
           ],
-          "updated_at": "2026-09-26T11:15:36Z",
+          "updated_at": "2026-09-26T18:32:56Z",
           "downloads": [
             {
               "filename": "leanback-armeabi_v7a.apk",
