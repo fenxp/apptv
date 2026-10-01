@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-26T18:32:56Z",
+  "generated_at": "2026-09-29T16:24:49Z",
   "interfaces": [
     {
       "id": "tv-config",
@@ -14,48 +14,56 @@
       "id": "fongmi",
       "name": "FongMi",
       "description": "开源 Android 影视播放器",
-      "homepage": "https://github.com/FongMi/TV",
+      "homepage": "https://github.com/FongMi/Release/releases",
       "repository": "FongMi/Release",
       "icon": "https://raw.githubusercontent.com/FongMi/TV/fongmi/app/src/main/ic_launcher-playstore.png",
-      "source_revision": "bc562a3b50005ec8a0ff338aca6f6a5a50f402b0",
-      "updated_at": "2026-09-26T18:32:56Z",
+      "source_revision": "ca6641c0f9bb61a001f6c11c78debbd94e6403a9",
+      "updated_at": "2026-09-29T05:57:18Z",
       "history_complete": true,
+      "history_signature": "c384fd87e48e38894af7c442a8d184096534857b8259c23a96959fbfcb58fd5c",
       "releases": [
         {
           "id": "mobile",
           "label": "手机版",
           "platform": "mobile",
-          "version": "5.6.4",
-          "version_code": 564,
+          "version": "5.6.8",
+          "tag_name": "5.6.8",
+          "version_code": null,
           "notes": [
-            "支援 Node.js 爬蟲與 WebView 播放",
-            "新增字幕、彈幕內容瀏覽與雙字幕獨立調整",
-            "支援 libass 字型與 mpv 腳本",
-            "整合 ISO 光碟導覽與選單操作",
-            "新增播放畫面雙擊快轉、倒轉",
-            "改善 DRM 播放與手機播放設定"
+            "# 電視版 5.6.8",
+            "恢復直播雙擊開啟選單。",
+            "音量增強上限提高至 20 dB。",
+            "改善解碼設定與播放指令編輯介面。",
+            "更新提示顯示電視版專屬的版本說明。",
+            "改善 Dolby Vision Profile 7 解碼、mpv 字幕及原生播放元件。",
+            "# 手機版 5.6.8",
+            "音量增強上限提高至 20 dB。",
+            "改善解碼設定與播放指令編輯介面。",
+            "改善雙指縮放邊界、回彈與倍率提示。",
+            "更新提示顯示手機版專屬的版本說明。",
+            "改善 Dolby Vision Profile 7 解碼、mpv 字幕及原生播放元件。"
           ],
-          "updated_at": "2026-09-26T18:32:56Z",
+          "updated_at": "2026-09-29T05:57:18Z",
           "downloads": [
             {
               "filename": "mobile-armeabi_v7a.apk",
               "label": "32 位",
               "architecture": "armeabi-v7a",
               "recommended": false,
-              "size": 69872338,
-              "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-armeabi_v7a.apk",
+              "size": 133847961,
+              "url": "https://github.com/FongMi/Release/releases/download/5.6.8/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.6.8/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.6.8/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -64,20 +72,20 @@
               "label": "64 位",
               "architecture": "arm64-v8a",
               "recommended": true,
-              "size": 73632156,
-              "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-arm64_v8a.apk",
+              "size": 156932695,
+              "url": "https://github.com/FongMi/Release/releases/download/5.6.8/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.6.8/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.6.8/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -87,36 +95,44 @@
           "id": "leanback",
           "label": "电视版",
           "platform": "tv",
-          "version": "5.6.4",
-          "version_code": 564,
+          "version": "5.6.8",
+          "tag_name": "5.6.8",
+          "version_code": null,
           "notes": [
-            "支援 Node.js 爬蟲與 WebView 播放",
-            "新增字幕、彈幕內容瀏覽與雙字幕獨立調整",
-            "支援 libass 字型與 mpv 腳本",
-            "整合 ISO 光碟導覽與選單操作",
-            "改善 DRM 播放、直播節目表及遙控操作"
+            "# 電視版 5.6.8",
+            "恢復直播雙擊開啟選單。",
+            "音量增強上限提高至 20 dB。",
+            "改善解碼設定與播放指令編輯介面。",
+            "更新提示顯示電視版專屬的版本說明。",
+            "改善 Dolby Vision Profile 7 解碼、mpv 字幕及原生播放元件。",
+            "# 手機版 5.6.8",
+            "音量增強上限提高至 20 dB。",
+            "改善解碼設定與播放指令編輯介面。",
+            "改善雙指縮放邊界、回彈與倍率提示。",
+            "更新提示顯示手機版專屬的版本說明。",
+            "改善 Dolby Vision Profile 7 解碼、mpv 字幕及原生播放元件。"
           ],
-          "updated_at": "2026-09-26T18:32:56Z",
+          "updated_at": "2026-09-29T05:57:18Z",
           "downloads": [
             {
               "filename": "leanback-armeabi_v7a.apk",
               "label": "32 位",
               "architecture": "armeabi-v7a",
               "recommended": true,
-              "size": 69960059,
-              "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-armeabi_v7a.apk",
+              "size": 133923394,
+              "url": "https://github.com/FongMi/Release/releases/download/5.6.8/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.6.8/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.6.8/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -125,20 +141,20 @@
               "label": "64 位",
               "architecture": "arm64-v8a",
               "recommended": false,
-              "size": 73719877,
-              "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-arm64_v8a.apk",
+              "size": 157008128,
+              "url": "https://github.com/FongMi/Release/releases/download/5.6.8/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.6.8/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.6.8/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -148,35 +164,43 @@
           "id": "mobile",
           "label": "手机版",
           "platform": "mobile",
-          "version": "5.6.3",
-          "version_code": 563,
+          "version": "5.6.7",
+          "tag_name": "5.6.7",
+          "version_code": null,
           "notes": [
-            "支持雙字幕",
-            "支持字形設置",
-            "支持 libass",
-            "調整倍速頁面寬度"
+            "# 電視版 5.6.7",
+            "改善解碼模式、倍速預設與 mpv.conf 設定介面。",
+            "修正 mpv 次字幕預設與位置套用，並統一播放器介面設定的優先順序。",
+            "改善 ISO 原盤起播、光碟選單及播放狀態切換。",
+            "強化 VOD 預載與快取，改善含參數的媒體網址辨識。",
+            "修正播放腳本輸入時的全螢幕顯示及遙控器確認鍵操作。",
+            "# 手機版 5.6.7",
+            "支援依雙指手勢方向調整畫面縮放。",
+            "改善全螢幕雙擊操作。",
+            "修正 mpv 次字幕設定與 ISO 原盤播放狀態切換。",
+            "強化 VOD 預載與快取，改善含參數的媒體網址辨識。"
           ],
-          "updated_at": "2026-08-28T12:27:09Z",
+          "updated_at": "2026-09-28T18:39:04Z",
           "downloads": [
             {
               "filename": "mobile-armeabi_v7a.apk",
               "label": "32 位",
               "architecture": "armeabi-v7a",
               "recommended": false,
-              "size": 83119642,
-              "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-armeabi_v7a.apk",
+              "size": 133827401,
+              "url": "https://github.com/FongMi/Release/releases/download/5.6.7/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.6.7/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.6.7/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -185,20 +209,20 @@
               "label": "64 位",
               "architecture": "arm64-v8a",
               "recommended": true,
-              "size": 97012964,
-              "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-arm64_v8a.apk",
+              "size": 156928519,
+              "url": "https://github.com/FongMi/Release/releases/download/5.6.7/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.6.7/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.6.7/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -208,35 +232,43 @@
           "id": "leanback",
           "label": "电视版",
           "platform": "tv",
-          "version": "5.6.3",
-          "version_code": 563,
+          "version": "5.6.7",
+          "tag_name": "5.6.7",
+          "version_code": null,
           "notes": [
-            "支持雙字幕",
-            "支持字形設置",
-            "支持 libass",
-            "調整倍速頁面寬度"
+            "# 電視版 5.6.7",
+            "改善解碼模式、倍速預設與 mpv.conf 設定介面。",
+            "修正 mpv 次字幕預設與位置套用，並統一播放器介面設定的優先順序。",
+            "改善 ISO 原盤起播、光碟選單及播放狀態切換。",
+            "強化 VOD 預載與快取，改善含參數的媒體網址辨識。",
+            "修正播放腳本輸入時的全螢幕顯示及遙控器確認鍵操作。",
+            "# 手機版 5.6.7",
+            "支援依雙指手勢方向調整畫面縮放。",
+            "改善全螢幕雙擊操作。",
+            "修正 mpv 次字幕設定與 ISO 原盤播放狀態切換。",
+            "強化 VOD 預載與快取，改善含參數的媒體網址辨識。"
           ],
-          "updated_at": "2026-08-28T12:27:09Z",
+          "updated_at": "2026-09-28T18:39:04Z",
           "downloads": [
             {
               "filename": "leanback-armeabi_v7a.apk",
               "label": "32 位",
               "architecture": "armeabi-v7a",
               "recommended": true,
-              "size": 83203002,
-              "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-armeabi_v7a.apk",
+              "size": 133906930,
+              "url": "https://github.com/FongMi/Release/releases/download/5.6.7/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.6.7/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.6.7/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -245,20 +277,20 @@
               "label": "64 位",
               "architecture": "arm64-v8a",
               "recommended": false,
-              "size": 97096324,
-              "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-arm64_v8a.apk",
+              "size": 157008048,
+              "url": "https://github.com/FongMi/Release/releases/download/5.6.7/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.6.7/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.6.7/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -276,7 +308,7 @@
       "source_revision": "master",
       "updated_at": "2026-09-25T04:05:56Z",
       "history_complete": true,
-      "history_signature": "e2accf88628bcc6396ab0106fbf4234f55d3fc7045359af594706d847bbac16d",
+      "history_signature": "2028443a89cb2726a09a42fbbd281e5d03f6ff14085af8f7cae6aaf97933bb60",
       "releases": [
         {
           "id": "tv",
@@ -7198,7 +7230,7 @@
       "source_revision": "d187f6ae8bfaf0a4720724281d0a91186c57f73d",
       "updated_at": "2026-09-24T05:06:22Z",
       "history_complete": true,
-      "history_signature": "511193be14d0d7f7a1890026f843d8d32b81209a368acc0083df6b7c406fec47",
+      "history_signature": "04dffb7d94f0abb4443f5c8a6edeb1677699c95f843ae3d0e4f6f705266d3277",
       "releases": [
         {
           "id": "mobile",
@@ -7350,19 +7382,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 115073384,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609181748/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609181748/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609181748/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609181748/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609181748/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609181748/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -7372,19 +7404,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 139175227,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609181748/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609181748/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609181748/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609181748/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609181748/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609181748/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -7418,19 +7450,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 115216230,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609181748/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609181748/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609181748/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609181748/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609181748/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609181748/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -7440,19 +7472,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 139318073,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609181748/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609181748/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609181748/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609181748/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609181748/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609181748/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -7485,19 +7517,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 112825912,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609061650/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609061650/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609061650/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609061650/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609061650/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609061650/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -7507,19 +7539,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 133716090,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609061650/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609061650/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609061650/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609061650/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609061650/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609061650/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -7552,19 +7584,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 112969702,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609061650/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609061650/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609061650/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609061650/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609061650/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609061650/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -7574,153 +7606,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 133859880,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609061650/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609061650/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609061650/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609061650/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609061650/leanback-arm64_v8a.apk"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "mobile",
-          "label": "手机版",
-          "platform": "mobile",
-          "version": "5.6.0-202609061209",
-          "tag_name": "v5.6.0-202609061209",
-          "version_code": null,
-          "notes": [
-            "### 更新内容",
-            "新增MPV自定义脚本按钮功能",
-            "修复电视端搜索结果聚焦问题",
-            "优化 Exo、MPV 音频播放，完善硬件解码、压缩音频直出、PCM 回退和多声道处理。",
-            "修复 AAC、MP3、ALAC、APE、AV3A 音频播放异常。",
-            "增强 AV3A 5.1、DASH/MPD 和异常声道布局兼容性。",
-            "修复部分电视设备 AAC/MP3 无声问题。",
-            "MPV 增加 Dolby Vision P8.1 不兼容时自动降级 HDR10。",
-            "MPV 硬解失败后不再自动切换软件解码。",
-            "播放参数显示实际解码器和音频输出状态。"
-          ],
-          "updated_at": "2026-09-06T04:22:00Z",
-          "downloads": [
-            {
-              "filename": "mobile-armeabi_v7a.apk",
-              "label": "32 位",
-              "architecture": "armeabi-v7a",
-              "recommended": false,
-              "size": 112826116,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609061209/mobile-armeabi_v7a.apk",
-              "mirrors": [
-                {
-                  "id": "cainisi",
-                  "label": "CDN 1",
-                  "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609061209/mobile-armeabi_v7a.apk"
-                },
-                {
-                  "id": "gh-proxy",
-                  "label": "CDN 2",
-                  "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609061209/mobile-armeabi_v7a.apk"
-                }
-              ]
-            },
-            {
-              "filename": "mobile-arm64_v8a.apk",
-              "label": "64 位",
-              "architecture": "arm64-v8a",
-              "recommended": true,
-              "size": 133716294,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609061209/mobile-arm64_v8a.apk",
-              "mirrors": [
-                {
-                  "id": "cainisi",
-                  "label": "CDN 1",
-                  "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609061209/mobile-arm64_v8a.apk"
-                },
-                {
-                  "id": "gh-proxy",
-                  "label": "CDN 2",
-                  "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609061209/mobile-arm64_v8a.apk"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "leanback",
-          "label": "电视版",
-          "platform": "tv",
-          "version": "5.6.0-202609061209",
-          "tag_name": "v5.6.0-202609061209",
-          "version_code": null,
-          "notes": [
-            "### 更新内容",
-            "新增MPV自定义脚本按钮功能",
-            "修复电视端搜索结果聚焦问题",
-            "优化 Exo、MPV 音频播放，完善硬件解码、压缩音频直出、PCM 回退和多声道处理。",
-            "修复 AAC、MP3、ALAC、APE、AV3A 音频播放异常。",
-            "增强 AV3A 5.1、DASH/MPD 和异常声道布局兼容性。",
-            "修复部分电视设备 AAC/MP3 无声问题。",
-            "MPV 增加 Dolby Vision P8.1 不兼容时自动降级 HDR10。",
-            "MPV 硬解失败后不再自动切换软件解码。",
-            "播放参数显示实际解码器和音频输出状态。"
-          ],
-          "updated_at": "2026-09-06T04:22:00Z",
-          "downloads": [
-            {
-              "filename": "leanback-armeabi_v7a.apk",
-              "label": "32 位",
-              "architecture": "armeabi-v7a",
-              "recommended": false,
-              "size": 112969902,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609061209/leanback-armeabi_v7a.apk",
-              "mirrors": [
-                {
-                  "id": "cainisi",
-                  "label": "CDN 1",
-                  "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609061209/leanback-armeabi_v7a.apk"
-                },
-                {
-                  "id": "gh-proxy",
-                  "label": "CDN 2",
-                  "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609061209/leanback-armeabi_v7a.apk"
-                }
-              ]
-            },
-            {
-              "filename": "leanback-arm64_v8a.apk",
-              "label": "64 位",
-              "architecture": "arm64-v8a",
-              "recommended": true,
-              "size": 133860080,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609061209/leanback-arm64_v8a.apk",
-              "mirrors": [
-                {
-                  "id": "cainisi",
-                  "label": "CDN 1",
-                  "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609061209/leanback-arm64_v8a.apk"
-                },
-                {
-                  "id": "gh-proxy",
-                  "label": "CDN 2",
-                  "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609061209/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609061650/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -7735,13 +7633,8 @@
           "version_code": null,
           "notes": [
             "### 更新内容",
-            "优化 Exo、MPV 音频播放，完善硬件解码、压缩音频直出、PCM 回退和多声道处理。",
-            "修复 AAC、MP3、ALAC、APE、AV3A 音频播放异常。",
-            "增强 AV3A 5.1、DASH/MPD 和异常声道布局兼容性。",
-            "修复部分电视设备 AAC/MP3 无声问题。",
-            "MPV 增加 Dolby Vision P8.1 不兼容时自动降级 HDR10。",
-            "MPV 硬解失败后不再自动切换软件解码。",
-            "播放参数显示实际解码器和音频输出状态。"
+            "apk推送功能增加通过链接方式推送",
+            "在线更新渠道新增OCI(默认)，github更新渠道支持设置代理"
           ],
           "updated_at": "2026-09-05T07:38:20Z",
           "downloads": [
@@ -7751,19 +7644,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 112721052,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609051525/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609051525/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609051525/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609051525/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609051525/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609051525/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -7773,19 +7666,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 133627614,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609051525/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609051525/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609051525/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609051525/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609051525/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609051525/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -7800,13 +7693,8 @@
           "version_code": null,
           "notes": [
             "### 更新内容",
-            "优化 Exo、MPV 音频播放，完善硬件解码、压缩音频直出、PCM 回退和多声道处理。",
-            "修复 AAC、MP3、ALAC、APE、AV3A 音频播放异常。",
-            "增强 AV3A 5.1、DASH/MPD 和异常声道布局兼容性。",
-            "修复部分电视设备 AAC/MP3 无声问题。",
-            "MPV 增加 Dolby Vision P8.1 不兼容时自动降级 HDR10。",
-            "MPV 硬解失败后不再自动切换软件解码。",
-            "播放参数显示实际解码器和音频输出状态。"
+            "apk推送功能增加通过链接方式推送",
+            "在线更新渠道新增OCI(默认)，github更新渠道支持设置代理"
           ],
           "updated_at": "2026-09-05T07:38:20Z",
           "downloads": [
@@ -7816,19 +7704,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 112864910,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609051525/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609051525/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609051525/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609051525/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609051525/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609051525/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -7838,257 +7726,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 133771472,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609051525/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609051525/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609051525/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609051525/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202609051525/leanback-arm64_v8a.apk"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "mobile",
-          "label": "手机版",
-          "platform": "mobile",
-          "version": "5.6.0-202608311100",
-          "tag_name": "v5.6.0-202608311100",
-          "version_code": null,
-          "notes": [
-            "### 更新内容",
-            "apk推送功能增加通过链接方式推送",
-            "在线更新渠道新增OCI(默认)，github更新渠道支持设置代理"
-          ],
-          "updated_at": "2026-08-31T03:12:58Z",
-          "downloads": [
-            {
-              "filename": "mobile-armeabi_v7a.apk",
-              "label": "32 位",
-              "architecture": "armeabi-v7a",
-              "recommended": false,
-              "size": 112721052,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608311100/mobile-armeabi_v7a.apk",
-              "mirrors": [
-                {
-                  "id": "cainisi",
-                  "label": "CDN 1",
-                  "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608311100/mobile-armeabi_v7a.apk"
-                },
-                {
-                  "id": "gh-proxy",
-                  "label": "CDN 2",
-                  "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608311100/mobile-armeabi_v7a.apk"
-                }
-              ]
-            },
-            {
-              "filename": "mobile-arm64_v8a.apk",
-              "label": "64 位",
-              "architecture": "arm64-v8a",
-              "recommended": true,
-              "size": 133627614,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608311100/mobile-arm64_v8a.apk",
-              "mirrors": [
-                {
-                  "id": "cainisi",
-                  "label": "CDN 1",
-                  "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608311100/mobile-arm64_v8a.apk"
-                },
-                {
-                  "id": "gh-proxy",
-                  "label": "CDN 2",
-                  "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608311100/mobile-arm64_v8a.apk"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "leanback",
-          "label": "电视版",
-          "platform": "tv",
-          "version": "5.6.0-202608311100",
-          "tag_name": "v5.6.0-202608311100",
-          "version_code": null,
-          "notes": [
-            "### 更新内容",
-            "apk推送功能增加通过链接方式推送",
-            "在线更新渠道新增OCI(默认)，github更新渠道支持设置代理"
-          ],
-          "updated_at": "2026-08-31T03:12:58Z",
-          "downloads": [
-            {
-              "filename": "leanback-armeabi_v7a.apk",
-              "label": "32 位",
-              "architecture": "armeabi-v7a",
-              "recommended": false,
-              "size": 112864910,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608311100/leanback-armeabi_v7a.apk",
-              "mirrors": [
-                {
-                  "id": "cainisi",
-                  "label": "CDN 1",
-                  "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608311100/leanback-armeabi_v7a.apk"
-                },
-                {
-                  "id": "gh-proxy",
-                  "label": "CDN 2",
-                  "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608311100/leanback-armeabi_v7a.apk"
-                }
-              ]
-            },
-            {
-              "filename": "leanback-arm64_v8a.apk",
-              "label": "64 位",
-              "architecture": "arm64-v8a",
-              "recommended": true,
-              "size": 133771472,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608311100/leanback-arm64_v8a.apk",
-              "mirrors": [
-                {
-                  "id": "cainisi",
-                  "label": "CDN 1",
-                  "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608311100/leanback-arm64_v8a.apk"
-                },
-                {
-                  "id": "gh-proxy",
-                  "label": "CDN 2",
-                  "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608311100/leanback-arm64_v8a.apk"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "mobile",
-          "label": "手机版",
-          "platform": "mobile",
-          "version": "5.6.0-202608311100",
-          "version_code": null,
-          "notes": [
-            "### 更新内容",
-            "apk推送功能增加通过链接方式推送",
-            "在线更新渠道新增OCI(默认)，github更新渠道支持设置代理"
-          ],
-          "updated_at": "2026-08-31T03:12:58Z",
-          "downloads": [
-            {
-              "filename": "mobile-armeabi_v7a.apk",
-              "label": "32 位",
-              "architecture": "armeabi-v7a",
-              "recommended": false,
-              "size": 112721052,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608311100/mobile-armeabi_v7a.apk",
-              "mirrors": [
-                {
-                  "id": "cainisi",
-                  "label": "CDN 1",
-                  "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608311100/mobile-armeabi_v7a.apk"
-                },
-                {
-                  "id": "gh-proxy",
-                  "label": "CDN 2",
-                  "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608311100/mobile-armeabi_v7a.apk"
-                }
-              ]
-            },
-            {
-              "filename": "mobile-arm64_v8a.apk",
-              "label": "64 位",
-              "architecture": "arm64-v8a",
-              "recommended": true,
-              "size": 133627614,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608311100/mobile-arm64_v8a.apk",
-              "mirrors": [
-                {
-                  "id": "cainisi",
-                  "label": "CDN 1",
-                  "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608311100/mobile-arm64_v8a.apk"
-                },
-                {
-                  "id": "gh-proxy",
-                  "label": "CDN 2",
-                  "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608311100/mobile-arm64_v8a.apk"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "leanback",
-          "label": "电视版",
-          "platform": "tv",
-          "version": "5.6.0-202608311100",
-          "version_code": null,
-          "notes": [
-            "### 更新内容",
-            "apk推送功能增加通过链接方式推送",
-            "在线更新渠道新增OCI(默认)，github更新渠道支持设置代理"
-          ],
-          "updated_at": "2026-08-31T03:12:58Z",
-          "downloads": [
-            {
-              "filename": "leanback-armeabi_v7a.apk",
-              "label": "32 位",
-              "architecture": "armeabi-v7a",
-              "recommended": false,
-              "size": 112864910,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608311100/leanback-armeabi_v7a.apk",
-              "mirrors": [
-                {
-                  "id": "cainisi",
-                  "label": "CDN 1",
-                  "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608311100/leanback-armeabi_v7a.apk"
-                },
-                {
-                  "id": "gh-proxy",
-                  "label": "CDN 2",
-                  "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608311100/leanback-armeabi_v7a.apk"
-                }
-              ]
-            },
-            {
-              "filename": "leanback-arm64_v8a.apk",
-              "label": "64 位",
-              "architecture": "arm64-v8a",
-              "recommended": true,
-              "size": 133771472,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608311100/leanback-arm64_v8a.apk",
-              "mirrors": [
-                {
-                  "id": "cainisi",
-                  "label": "CDN 1",
-                  "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608311100/leanback-arm64_v8a.apk"
-                },
-                {
-                  "id": "gh-proxy",
-                  "label": "CDN 2",
-                  "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608311100/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202609051525/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -8126,19 +7776,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 112676528,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608301534/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.6.0-202608301534/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608301534/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202608301534/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608301534/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202608301534/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -8148,19 +7798,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 133583090,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608301534/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.6.0-202608301534/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608301534/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202608301534/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608301534/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202608301534/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -8198,19 +7848,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 112828598,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608301534/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.6.0-202608301534/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608301534/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202608301534/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608301534/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202608301534/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -8220,19 +7870,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 133735160,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608301534/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.6.0-202608301534/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608301534/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202608301534/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608301534/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202608301534/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -8277,19 +7927,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 105891323,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608201815/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.6.0-202608201815/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608201815/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202608201815/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608201815/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202608201815/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -8299,19 +7949,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 123963471,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608201815/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.6.0-202608201815/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608201815/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202608201815/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608201815/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202608201815/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -8356,19 +8006,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 106043353,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608201815/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.6.0-202608201815/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608201815/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202608201815/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608201815/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202608201815/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -8378,19 +8028,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 124115501,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608201815/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.6.0-202608201815/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608201815/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202608201815/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.6.0-202608201815/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.6.0-202608201815/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -8446,19 +8096,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 97120883,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202608072014/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202608072014/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202608072014/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202608072014/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202608072014/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202608072014/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -8468,19 +8118,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 113917809,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202608072014/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202608072014/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202608072014/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202608072014/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202608072014/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202608072014/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -8536,19 +8186,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 97277205,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202608072014/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202608072014/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202608072014/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202608072014/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202608072014/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202608072014/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -8558,19 +8208,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 114074131,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202608072014/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202608072014/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202608072014/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202608072014/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202608072014/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202608072014/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -8594,19 +8244,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 101444695,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607201306/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607201306/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607201306/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607201306/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607201306/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607201306/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -8616,19 +8266,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 116193621,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607201306/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607201306/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607201306/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607201306/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607201306/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607201306/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -8652,19 +8302,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 101601065,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607201306/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607201306/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607201306/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607201306/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607201306/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607201306/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -8674,19 +8324,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 116349991,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607201306/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607201306/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607201306/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607201306/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607201306/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607201306/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -8717,19 +8367,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 101436395,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607201026/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607201026/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607201026/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607201026/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607201026/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607201026/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -8739,19 +8389,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 116185321,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607201026/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607201026/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607201026/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607201026/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607201026/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607201026/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -8782,19 +8432,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 101601065,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607201026/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607201026/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607201026/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607201026/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607201026/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607201026/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -8804,19 +8454,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 116349991,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607201026/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607201026/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607201026/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607201026/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607201026/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607201026/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -8840,19 +8490,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 101435739,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607200309/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607200309/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607200309/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607200309/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607200309/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607200309/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -8862,19 +8512,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 116184665,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607200309/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607200309/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607200309/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607200309/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607200309/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607200309/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -8898,19 +8548,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 101600393,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607200309/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607200309/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607200309/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607200309/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607200309/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607200309/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -8920,19 +8570,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 116349319,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607200309/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607200309/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607200309/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607200309/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607200309/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607200309/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -8966,19 +8616,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 101419355,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607191031/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607191031/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607191031/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607191031/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607191031/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607191031/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -8988,19 +8638,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 116168281,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607191031/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607191031/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607191031/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607191031/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607191031/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607191031/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -9034,19 +8684,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 101584009,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607191031/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607191031/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607191031/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607191031/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607191031/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607191031/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -9056,19 +8706,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 116332935,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607191031/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607191031/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607191031/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607191031/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607191031/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607191031/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -9099,19 +8749,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 101271379,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607171829/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607171829/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607171829/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607171829/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607171829/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607171829/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -9121,19 +8771,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 116036689,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607171829/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607171829/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607171829/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607171829/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607171829/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607171829/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -9164,19 +8814,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 101454553,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607171829/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607171829/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607171829/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607171829/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607171829/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607171829/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -9186,19 +8836,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 116219863,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607171829/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607171829/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607171829/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607171829/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607171829/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607171829/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -9229,19 +8879,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 99896427,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607161050/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607161050/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607161050/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607161050/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607161050/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607161050/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -9251,19 +8901,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 114498009,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607161050/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607161050/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607161050/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607161050/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607161050/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607161050/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -9294,19 +8944,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 100079601,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607161050/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607161050/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607161050/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607161050/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607161050/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607161050/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -9316,19 +8966,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 114681183,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607161050/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607161050/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607161050/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607161050/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607161050/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607161050/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -9400,19 +9050,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 103082191,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607121254/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607121254/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607121254/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607121254/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607121254/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607121254/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -9422,19 +9072,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 117874431,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607121254/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607121254/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607121254/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607121254/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607121254/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607121254/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -9506,19 +9156,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 103171613,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607121254/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607121254/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607121254/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607121254/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607121254/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607121254/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -9528,19 +9178,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 117963853,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607121254/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607121254/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607121254/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607121254/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607121254/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607121254/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -9575,19 +9225,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 103066004,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607102005/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607102005/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607102005/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607102005/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607102005/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607102005/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -9597,19 +9247,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 117858244,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607102005/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607102005/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607102005/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607102005/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607102005/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607102005/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -9644,19 +9294,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 103139278,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607102005/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607102005/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607102005/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607102005/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607102005/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607102005/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -9666,19 +9316,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 117931518,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607102005/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607102005/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607102005/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607102005/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607102005/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607102005/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -9716,19 +9366,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 66413384,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607061936/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607061936/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607061936/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607061936/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607061936/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607061936/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -9738,19 +9388,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 74490408,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607061936/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607061936/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607061936/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607061936/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607061936/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607061936/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -9788,19 +9438,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 66447809,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607061936/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607061936/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607061936/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607061936/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607061936/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607061936/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -9810,19 +9460,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 74508449,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607061936/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607061936/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607061936/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607061936/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607061936/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607061936/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -9851,19 +9501,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 66371322,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607021334/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607021334/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607021334/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607021334/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607021334/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607021334/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -9873,19 +9523,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 74448346,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607021334/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607021334/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607021334/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607021334/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607021334/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607021334/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -9914,19 +9564,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 66408738,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607021334/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607021334/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607021334/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607021334/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607021334/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607021334/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -9936,19 +9586,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 74485762,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607021334/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607021334/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607021334/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607021334/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607021334/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607021334/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -9983,19 +9633,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 66370694,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607012127/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607012127/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607012127/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607012127/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607012127/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607012127/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -10005,19 +9655,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 74447718,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607012127/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607012127/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607012127/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607012127/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607012127/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607012127/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -10052,19 +9702,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 66408114,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607012127/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607012127/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607012127/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607012127/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607012127/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607012127/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -10074,19 +9724,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 74485138,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607012127/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607012127/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607012127/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607012127/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.6-202607012127/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.6-202607012127/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -10115,19 +9765,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 66368934,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606301926/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606301926/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606301926/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606301926/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606301926/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606301926/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -10137,19 +9787,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 74445958,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606301926/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606301926/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606301926/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606301926/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606301926/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606301926/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -10178,19 +9828,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 66406378,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606301926/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606301926/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606301926/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606301926/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606301926/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606301926/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -10200,19 +9850,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 74483402,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606301926/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606301926/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606301926/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606301926/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606301926/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606301926/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -10249,19 +9899,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 66351318,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606291817/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606291817/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606291817/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606291817/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606291817/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606291817/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -10271,19 +9921,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 74428342,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606291817/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606291817/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606291817/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606291817/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606291817/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606291817/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -10320,19 +9970,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 66388862,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606291817/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606291817/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606291817/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606291817/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606291817/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606291817/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -10342,19 +9992,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 74465886,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606291817/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606291817/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606291817/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606291817/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606291817/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606291817/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -10391,19 +10041,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 66353806,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606290732/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606290732/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606290732/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606290732/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606290732/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606290732/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -10413,19 +10063,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 74430830,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606290732/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606290732/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606290732/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606290732/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606290732/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606290732/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -10462,19 +10112,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 66392023,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606290732/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606290732/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606290732/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606290732/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606290732/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606290732/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -10484,19 +10134,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 74469047,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606290732/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606290732/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606290732/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606290732/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606290732/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606290732/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -10534,19 +10184,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 66353806,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606281316/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606281316/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606281316/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606281316/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606281316/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606281316/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -10556,19 +10206,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 74430830,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606281316/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606281316/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606281316/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606281316/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606281316/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606281316/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -10606,19 +10256,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 66375607,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606281316/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606281316/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606281316/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606281316/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606281316/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606281316/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -10628,19 +10278,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 74469015,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606281316/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606281316/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606281316/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606281316/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.5-202606281316/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.5-202606281316/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -10679,19 +10329,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 65730313,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606271956/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606271956/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606271956/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606271956/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606271956/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606271956/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -10701,19 +10351,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 73807337,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606271956/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606271956/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606271956/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606271956/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606271956/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606271956/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -10752,19 +10402,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 65784259,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606271956/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606271956/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606271956/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606271956/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606271956/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606271956/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -10774,19 +10424,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 73861283,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606271956/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606271956/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606271956/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606271956/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606271956/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606271956/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -10819,19 +10469,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 65679327,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606252022/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606252022/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606252022/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606252022/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606252022/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606252022/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -10841,19 +10491,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 73756351,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606252022/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606252022/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606252022/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606252022/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606252022/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606252022/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -10886,19 +10536,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 65734351,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606252022/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606252022/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606252022/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606252022/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606252022/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606252022/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -10908,19 +10558,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 73811375,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606252022/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606252022/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606252022/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606252022/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606252022/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606252022/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -10959,19 +10609,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 62437673,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606240518/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606240518/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606240518/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606240518/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606240518/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606240518/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -10981,19 +10631,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 70498313,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606240518/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606240518/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606240518/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606240518/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606240518/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606240518/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -11032,19 +10682,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 62610289,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606240518/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606240518/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606240518/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606240518/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606240518/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606240518/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -11054,19 +10704,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 70670929,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606240518/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606240518/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606240518/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606240518/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606240518/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606240518/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -11109,19 +10759,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 60836953,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606210646/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606210646/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606210646/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606210646/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606210646/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606210646/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -11131,19 +10781,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 68897593,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606210646/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606210646/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606210646/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606210646/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606210646/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606210646/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -11186,19 +10836,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 61061378,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606210646/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606210646/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606210646/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606210646/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606210646/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606210646/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -11208,19 +10858,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 69122018,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606210646/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606210646/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606210646/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606210646/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606210646/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606210646/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -11247,19 +10897,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 46479632,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606062331/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606062331/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606062331/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606062331/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606062331/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606062331/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -11269,19 +10919,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 53786614,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606062331/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606062331/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606062331/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606062331/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606062331/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606062331/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -11308,19 +10958,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 46714244,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606062331/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606062331/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606062331/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606062331/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606062331/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606062331/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -11330,19 +10980,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 54021226,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606062331/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606062331/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606062331/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606062331/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606062331/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606062331/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -11373,19 +11023,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 46475700,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606061204/mobile-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606061204/mobile-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606061204/mobile-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606061204/mobile-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606061204/mobile-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606061204/mobile-armeabi_v7a.apk"
                 }
               ]
             },
@@ -11395,19 +11045,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 53782682,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606061204/mobile-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606061204/mobile-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606061204/mobile-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606061204/mobile-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606061204/mobile-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606061204/mobile-arm64_v8a.apk"
                 }
               ]
             }
@@ -11438,19 +11088,19 @@
               "architecture": "armeabi-v7a",
               "recommended": false,
               "size": 46553248,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606061204/leanback-armeabi_v7a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606061204/leanback-armeabi_v7a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606061204/leanback-armeabi_v7a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606061204/leanback-armeabi_v7a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606061204/leanback-armeabi_v7a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606061204/leanback-armeabi_v7a.apk"
                 }
               ]
             },
@@ -11460,19 +11110,19 @@
               "architecture": "arm64-v8a",
               "recommended": true,
               "size": 53860230,
-              "url": "https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606061204/leanback-arm64_v8a.apk",
+              "url": "https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606061204/leanback-arm64_v8a.apk",
               "mirrors": [
                 {
                   "id": "cainisi",
                   "label": "CDN 1",
                   "provider": "菜妮丝 CDN",
-                  "url": "https://cns.菜妮丝.top/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606061204/leanback-arm64_v8a.apk"
+                  "url": "https://cns.菜妮丝.top/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606061204/leanback-arm64_v8a.apk"
                 },
                 {
                   "id": "gh-proxy",
                   "label": "CDN 2",
                   "provider": "GH Proxy",
-                  "url": "https://gh-proxy.com/https://github.com/fish2018/webhtv/releases/download/v5.5.2-sdk28-202606061204/leanback-arm64_v8a.apk"
+                  "url": "https://gh-proxy.com/https://github.com/webhtv/webhtv/releases/download/v5.5.2-sdk28-202606061204/leanback-arm64_v8a.apk"
                 }
               ]
             }
@@ -11488,10 +11138,284 @@
       "repository": "lystv/fmapp",
       "icon": "https://avatars.githubusercontent.com/u/117786160?v=4",
       "source_revision": "main",
-      "updated_at": "2026-04-19T11:14:12Z",
+      "updated_at": "2026-09-29T16:24:49Z",
       "history_complete": true,
-      "history_signature": "1583f08ab3ace4dc1389b7c76c4706de6394d7ee860de254e9b87e63fe5868a5",
+      "history_signature": "23d6a30e14e8b1e2abd15c1f3920df35533ba9702833f08f5c164b80261115e4",
       "releases": [
+        {
+          "id": "mobile-standard",
+          "label": "手机版",
+          "platform": "mobile",
+          "version": "FM-5.6.7",
+          "tag_name": "FM-5.6.7",
+          "version_code": null,
+          "notes": [
+            "# 電視版 5.6.7",
+            "改善解碼模式、倍速預設與 mpv.conf 設定介面。",
+            "修正 mpv 次字幕預設與位置套用，並統一播放器介面設定的優先順序。",
+            "改善 ISO 原盤起播、光碟選單及播放狀態切換。",
+            "強化 VOD 預載與快取，改善含參數的媒體網址辨識。",
+            "修正播放腳本輸入時的全螢幕顯示及遙控器確認鍵操作。",
+            "# 手機版 5.6.7",
+            "支援依雙指手勢方向調整畫面縮放。",
+            "改善全螢幕雙擊操作。",
+            "修正 mpv 次字幕設定與 ISO 原盤播放狀態切換。",
+            "強化 VOD 預載與快取，改善含參數的媒體網址辨識。"
+          ],
+          "updated_at": "2026-09-29T16:24:49Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 133827401,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.6.7/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.6.7/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.6.7/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 156928519,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.6.7/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.6.7/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.6.7/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "FM-5.6.7",
+          "tag_name": "FM-5.6.7",
+          "version_code": null,
+          "notes": [
+            "# 電視版 5.6.7",
+            "改善解碼模式、倍速預設與 mpv.conf 設定介面。",
+            "修正 mpv 次字幕預設與位置套用，並統一播放器介面設定的優先順序。",
+            "改善 ISO 原盤起播、光碟選單及播放狀態切換。",
+            "強化 VOD 預載與快取，改善含參數的媒體網址辨識。",
+            "修正播放腳本輸入時的全螢幕顯示及遙控器確認鍵操作。",
+            "# 手機版 5.6.7",
+            "支援依雙指手勢方向調整畫面縮放。",
+            "改善全螢幕雙擊操作。",
+            "修正 mpv 次字幕設定與 ISO 原盤播放狀態切換。",
+            "強化 VOD 預載與快取，改善含參數的媒體網址辨識。"
+          ],
+          "updated_at": "2026-09-29T16:24:49Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 133906930,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.6.7/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.6.7/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.6.7/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 157008048,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.6.7/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.6.7/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.6.7/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mobile-standard",
+          "label": "手机版",
+          "platform": "mobile",
+          "version": "FM-5.6.8",
+          "tag_name": "FM-5.6.8",
+          "version_code": null,
+          "notes": [
+            "# 電視版 5.6.8",
+            "恢復直播雙擊開啟選單。",
+            "音量增強上限提高至 20 dB。",
+            "改善解碼設定與播放指令編輯介面。",
+            "更新提示顯示電視版專屬的版本說明。",
+            "改善 Dolby Vision Profile 7 解碼、mpv 字幕及原生播放元件。",
+            "# 手機版 5.6.8",
+            "音量增強上限提高至 20 dB。",
+            "改善解碼設定與播放指令編輯介面。",
+            "改善雙指縮放邊界、回彈與倍率提示。",
+            "更新提示顯示手機版專屬的版本說明。",
+            "改善 Dolby Vision Profile 7 解碼、mpv 字幕及原生播放元件。"
+          ],
+          "updated_at": "2026-09-29T16:07:10Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 133847961,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.6.8/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.6.8/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.6.8/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 156932695,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.6.8/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.6.8/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.6.8/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "FM-5.6.8",
+          "tag_name": "FM-5.6.8",
+          "version_code": null,
+          "notes": [
+            "# 電視版 5.6.8",
+            "恢復直播雙擊開啟選單。",
+            "音量增強上限提高至 20 dB。",
+            "改善解碼設定與播放指令編輯介面。",
+            "更新提示顯示電視版專屬的版本說明。",
+            "改善 Dolby Vision Profile 7 解碼、mpv 字幕及原生播放元件。",
+            "# 手機版 5.6.8",
+            "音量增強上限提高至 20 dB。",
+            "改善解碼設定與播放指令編輯介面。",
+            "改善雙指縮放邊界、回彈與倍率提示。",
+            "更新提示顯示手機版專屬的版本說明。",
+            "改善 Dolby Vision Profile 7 解碼、mpv 字幕及原生播放元件。"
+          ],
+          "updated_at": "2026-09-29T16:07:10Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 133923394,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.6.8/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.6.8/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.6.8/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 157008128,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.6.8/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.6.8/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.6.8/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "mobile",
           "label": "手机版 Pro",

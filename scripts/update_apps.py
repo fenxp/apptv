@@ -197,7 +197,7 @@ def package_matches_release(package: dict[str, Any], release: dict[str, Any]) ->
 
 def release_history_signature(source: dict[str, Any]) -> str:
     """Identify the package matching rules used to build release history."""
-    payload = []
+    payload = [{"history_namespace": source.get("history_namespace", "")}]
     for package in source["packages"]:
         payload.append(
             {
@@ -321,6 +321,9 @@ def build_release_source(
     )
 
     if not history_initialized:
+        # A source migration (for example branch files -> GitHub Releases) must
+        # rebuild its history so stale download URLs are not retained.
+        existing_releases = []
         history = fetch_all_releases(repository, getter)
         if not history:
             raise CatalogError(f"No formal releases found for {repository}")

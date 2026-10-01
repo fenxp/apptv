@@ -99,7 +99,7 @@ https://你的项目名.pages.dev/
 
 对于 `github-release` 数据源，第一次同步时会分页抓取仓库的全部正式 Release，并把每个版本的安装包、发布日期和更新说明保存在 `data/apps.json`。完成初始化后，后续定时任务只请求 GitHub 的 `releases/latest` 接口：如果最新版本已经存在，就直接复用本地历史；如果发现新版本，只解析并追加这个版本，不会重复抓取旧版本。
 
-旧版本如果因为上游更改了资产命名而无法匹配，会跳过该版本但不会影响其他版本；最新版本资产缺失时同步会失败并保留上一份有效目录。目录型数据源（例如 FongMi）只能读取分支中的当前文件，脚本会保留它已经记录的历史版本，并在后续发现新版本时追加。
+旧版本如果因为上游更改了资产命名而无法匹配，会跳过该版本但不会影响其他版本；最新版本资产缺失时同步会失败并保留上一份有效目录。当前 FongMi 也使用 Release 数据源，直接读取 [FongMi/Release](https://github.com/FongMi/Release/releases) 的正式版本历史。
 
 ## 添加其他软件
 
@@ -122,4 +122,4 @@ https://你的项目名.pages.dev/
 
 ## 数据来源
 
-当前预置数据来自 [FongMi/Release](https://github.com/FongMi/Release) 的公开发布分支，应用图标与项目归属来自 [FongMi/TV](https://github.com/FongMi/TV)。本站只整理公开信息，不修改安装包。
+当前预置数据来自 [FongMi/Release](https://github.com/FongMi/Release/releases) 的公开 Release，应用图标与项目归属来自 [FongMi/TV](https://github.com/FongMi/TV)。本站只整理公开信息，不修改安装包。
