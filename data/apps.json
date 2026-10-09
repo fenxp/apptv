@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-05T06:46:56Z",
+  "generated_at": "2026-10-09T05:00:49Z",
   "interfaces": [
     {
       "id": "tv-config",
@@ -18,10 +18,158 @@
       "repository": "FongMi/Release",
       "icon": "https://raw.githubusercontent.com/FongMi/TV/fongmi/app/src/main/ic_launcher-playstore.png",
       "source_revision": "ca6641c0f9bb61a001f6c11c78debbd94e6403a9",
-      "updated_at": "2026-10-05T05:47:34Z",
+      "updated_at": "2026-10-09T04:58:56Z",
       "history_complete": true,
       "history_signature": "c384fd87e48e38894af7c442a8d184096534857b8259c23a96959fbfcb58fd5c",
       "releases": [
+        {
+          "id": "mobile",
+          "label": "手机版",
+          "platform": "mobile",
+          "version": "5.7.0",
+          "tag_name": "5.7.0",
+          "version_code": null,
+          "notes": [
+            "# 電視版 5.7.0",
+            "修正接口歷史顯示。",
+            "改善網頁全螢幕與返回操作。",
+            "支援爬蟲 WebSocket 長連線。",
+            "改善來源切換、畫質選擇與磁力連結相容性。",
+            "Exo 支援預載與無縫換集，改善片尾跳過與播放恢復。",
+            "移除 JianPian、ForceTech 與 mitv 播放支援。",
+            "新增模組管理，支援 BD-J、Python、Node.js、QuickJS、Thunder 獨立安裝、更新與檢測。",
+            "# 手機版 5.7.0",
+            "修正接口歷史顯示。",
+            "精簡播放設定面板與縮放操作。",
+            "改善網頁返回操作與系統列圖示對比。",
+            "支援爬蟲 WebSocket 長連線。",
+            "改善來源切換、畫質選擇與磁力連結相容性。",
+            "Exo 支援預載與無縫換集，改善片尾跳過與播放恢復。",
+            "移除 JianPian、ForceTech 與 mitv 播放支援。",
+            "新增模組管理，支援 BD-J、Python、Node.js、QuickJS、Thunder 獨立安裝、更新與檢測。"
+          ],
+          "updated_at": "2026-10-09T04:58:56Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 60100583,
+              "url": "https://github.com/FongMi/Release/releases/download/5.7.0/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.7.0/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.7.0/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 70332349,
+              "url": "https://github.com/FongMi/Release/releases/download/5.7.0/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.7.0/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.7.0/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "5.7.0",
+          "tag_name": "5.7.0",
+          "version_code": null,
+          "notes": [
+            "# 電視版 5.7.0",
+            "修正接口歷史顯示。",
+            "改善網頁全螢幕與返回操作。",
+            "支援爬蟲 WebSocket 長連線。",
+            "改善來源切換、畫質選擇與磁力連結相容性。",
+            "Exo 支援預載與無縫換集，改善片尾跳過與播放恢復。",
+            "移除 JianPian、ForceTech 與 mitv 播放支援。",
+            "新增模組管理，支援 BD-J、Python、Node.js、QuickJS、Thunder 獨立安裝、更新與檢測。",
+            "# 手機版 5.7.0",
+            "修正接口歷史顯示。",
+            "精簡播放設定面板與縮放操作。",
+            "改善網頁返回操作與系統列圖示對比。",
+            "支援爬蟲 WebSocket 長連線。",
+            "改善來源切換、畫質選擇與磁力連結相容性。",
+            "Exo 支援預載與無縫換集，改善片尾跳過與播放恢復。",
+            "移除 JianPian、ForceTech 與 mitv 播放支援。",
+            "新增模組管理，支援 BD-J、Python、Node.js、QuickJS、Thunder 獨立安裝、更新與檢測。"
+          ],
+          "updated_at": "2026-10-09T04:58:56Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": true,
+              "size": 60196608,
+              "url": "https://github.com/FongMi/Release/releases/download/5.7.0/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.7.0/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.7.0/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": false,
+              "size": 70428374,
+              "url": "https://github.com/FongMi/Release/releases/download/5.7.0/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.7.0/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.7.0/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "mobile",
           "label": "手机版",
@@ -11280,10 +11428,158 @@
       "repository": "lystv/fmapp",
       "icon": "https://avatars.githubusercontent.com/u/117786160?v=4",
       "source_revision": "main",
-      "updated_at": "2026-10-05T06:46:56Z",
+      "updated_at": "2026-10-09T05:00:49Z",
       "history_complete": true,
       "history_signature": "23d6a30e14e8b1e2abd15c1f3920df35533ba9702833f08f5c164b80261115e4",
       "releases": [
+        {
+          "id": "mobile-standard",
+          "label": "手机版",
+          "platform": "mobile",
+          "version": "FM-5.7.0",
+          "tag_name": "FM-5.7.0",
+          "version_code": null,
+          "notes": [
+            "# 電視版 5.7.0",
+            "修正接口歷史顯示。",
+            "改善網頁全螢幕與返回操作。",
+            "支援爬蟲 WebSocket 長連線。",
+            "改善來源切換、畫質選擇與磁力連結相容性。",
+            "Exo 支援預載與無縫換集，改善片尾跳過與播放恢復。",
+            "移除 JianPian、ForceTech 與 mitv 播放支援。",
+            "新增模組管理，支援 BD-J、Python、Node.js、QuickJS、Thunder 獨立安裝、更新與檢測。",
+            "# 手機版 5.7.0",
+            "修正接口歷史顯示。",
+            "精簡播放設定面板與縮放操作。",
+            "改善網頁返回操作與系統列圖示對比。",
+            "支援爬蟲 WebSocket 長連線。",
+            "改善來源切換、畫質選擇與磁力連結相容性。",
+            "Exo 支援預載與無縫換集，改善片尾跳過與播放恢復。",
+            "移除 JianPian、ForceTech 與 mitv 播放支援。",
+            "新增模組管理，支援 BD-J、Python、Node.js、QuickJS、Thunder 獨立安裝、更新與檢測。"
+          ],
+          "updated_at": "2026-10-09T05:00:49Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 60100583,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.7.0/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.7.0/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.7.0/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 70332349,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.7.0/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.7.0/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.7.0/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "FM-5.7.0",
+          "tag_name": "FM-5.7.0",
+          "version_code": null,
+          "notes": [
+            "# 電視版 5.7.0",
+            "修正接口歷史顯示。",
+            "改善網頁全螢幕與返回操作。",
+            "支援爬蟲 WebSocket 長連線。",
+            "改善來源切換、畫質選擇與磁力連結相容性。",
+            "Exo 支援預載與無縫換集，改善片尾跳過與播放恢復。",
+            "移除 JianPian、ForceTech 與 mitv 播放支援。",
+            "新增模組管理，支援 BD-J、Python、Node.js、QuickJS、Thunder 獨立安裝、更新與檢測。",
+            "# 手機版 5.7.0",
+            "修正接口歷史顯示。",
+            "精簡播放設定面板與縮放操作。",
+            "改善網頁返回操作與系統列圖示對比。",
+            "支援爬蟲 WebSocket 長連線。",
+            "改善來源切換、畫質選擇與磁力連結相容性。",
+            "Exo 支援預載與無縫換集，改善片尾跳過與播放恢復。",
+            "移除 JianPian、ForceTech 與 mitv 播放支援。",
+            "新增模組管理，支援 BD-J、Python、Node.js、QuickJS、Thunder 獨立安裝、更新與檢測。"
+          ],
+          "updated_at": "2026-10-09T05:00:49Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 60196608,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.7.0/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.7.0/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.7.0/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 70428374,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.7.0/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.7.0/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.7.0/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "mobile-standard",
           "label": "手机版",
