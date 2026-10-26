@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T17:26:46Z",
+  "generated_at": "2026-10-26T01:41:58Z",
   "interfaces": [
     {
       "id": "tv-config",
@@ -18,10 +18,158 @@
       "repository": "FongMi/Release",
       "icon": "https://raw.githubusercontent.com/FongMi/TV/fongmi/app/src/main/ic_launcher-playstore.png",
       "source_revision": "ca6641c0f9bb61a001f6c11c78debbd94e6403a9",
-      "updated_at": "2026-10-24T17:24:24Z",
+      "updated_at": "2026-10-26T01:40:09Z",
       "history_complete": true,
       "history_signature": "c384fd87e48e38894af7c442a8d184096534857b8259c23a96959fbfcb58fd5c",
       "releases": [
+        {
+          "id": "mobile",
+          "label": "手机版",
+          "platform": "mobile",
+          "version": "5.8.3",
+          "tag_name": "5.8.3",
+          "version_code": null,
+          "notes": [
+            "# 電視版 5.8.3",
+            "支援爬蟲共用互動對話框。",
+            "支援 HTTP 原始二進位請求。",
+            "改善 MPV 音效套用與錯誤回報。",
+            "改善 MPV 定位、字幕與播放狀態同步。",
+            "支援本機 ClearKey 的下一集預載。",
+            "更新 FFmpeg 與 MPV 播放核心。",
+            "更新後請至「設定 → 模組」更新 Python、QuickJS 與 MPV。",
+            "# 手機版 5.8.3",
+            "修正手機版篩選捲動。",
+            "支援爬蟲共用互動對話框。",
+            "支援 HTTP 原始二進位請求。",
+            "改善 MPV 音效套用與錯誤回報。",
+            "改善 MPV 定位、字幕與播放狀態同步。",
+            "支援本機 ClearKey 的下一集預載。",
+            "更新 FFmpeg 與 MPV 播放核心。",
+            "更新後請至「設定 → 模組」更新 Python、QuickJS 與 MPV。"
+          ],
+          "updated_at": "2026-10-26T01:40:09Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 44664075,
+              "url": "https://github.com/FongMi/Release/releases/download/5.8.3/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.8.3/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.8.3/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 51308091,
+              "url": "https://github.com/FongMi/Release/releases/download/5.8.3/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.8.3/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.8.3/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "5.8.3",
+          "tag_name": "5.8.3",
+          "version_code": null,
+          "notes": [
+            "# 電視版 5.8.3",
+            "支援爬蟲共用互動對話框。",
+            "支援 HTTP 原始二進位請求。",
+            "改善 MPV 音效套用與錯誤回報。",
+            "改善 MPV 定位、字幕與播放狀態同步。",
+            "支援本機 ClearKey 的下一集預載。",
+            "更新 FFmpeg 與 MPV 播放核心。",
+            "更新後請至「設定 → 模組」更新 Python、QuickJS 與 MPV。",
+            "# 手機版 5.8.3",
+            "修正手機版篩選捲動。",
+            "支援爬蟲共用互動對話框。",
+            "支援 HTTP 原始二進位請求。",
+            "改善 MPV 音效套用與錯誤回報。",
+            "改善 MPV 定位、字幕與播放狀態同步。",
+            "支援本機 ClearKey 的下一集預載。",
+            "更新 FFmpeg 與 MPV 播放核心。",
+            "更新後請至「設定 → 模組」更新 Python、QuickJS 與 MPV。"
+          ],
+          "updated_at": "2026-10-26T01:40:09Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": true,
+              "size": 44749643,
+              "url": "https://github.com/FongMi/Release/releases/download/5.8.3/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.8.3/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.8.3/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": false,
+              "size": 51393659,
+              "url": "https://github.com/FongMi/Release/releases/download/5.8.3/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.8.3/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.8.3/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "mobile",
           "label": "手机版",
@@ -12542,10 +12690,158 @@
       "repository": "lystv/fmapp",
       "icon": "https://avatars.githubusercontent.com/u/117786160?v=4",
       "source_revision": "main",
-      "updated_at": "2026-10-24T17:26:46Z",
+      "updated_at": "2026-10-26T01:41:58Z",
       "history_complete": true,
       "history_signature": "23d6a30e14e8b1e2abd15c1f3920df35533ba9702833f08f5c164b80261115e4",
       "releases": [
+        {
+          "id": "mobile-standard",
+          "label": "手机版",
+          "platform": "mobile",
+          "version": "FM-5.8.3",
+          "tag_name": "FM-5.8.3",
+          "version_code": null,
+          "notes": [
+            "# 電視版 5.8.3",
+            "支援爬蟲共用互動對話框。",
+            "支援 HTTP 原始二進位請求。",
+            "改善 MPV 音效套用與錯誤回報。",
+            "改善 MPV 定位、字幕與播放狀態同步。",
+            "支援本機 ClearKey 的下一集預載。",
+            "更新 FFmpeg 與 MPV 播放核心。",
+            "更新後請至「設定 → 模組」更新 Python、QuickJS 與 MPV。",
+            "# 手機版 5.8.3",
+            "修正手機版篩選捲動。",
+            "支援爬蟲共用互動對話框。",
+            "支援 HTTP 原始二進位請求。",
+            "改善 MPV 音效套用與錯誤回報。",
+            "改善 MPV 定位、字幕與播放狀態同步。",
+            "支援本機 ClearKey 的下一集預載。",
+            "更新 FFmpeg 與 MPV 播放核心。",
+            "更新後請至「設定 → 模組」更新 Python、QuickJS 與 MPV。"
+          ],
+          "updated_at": "2026-10-26T01:41:58Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 44664075,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.8.3/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.8.3/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.8.3/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 51308091,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.8.3/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.8.3/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.8.3/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "FM-5.8.3",
+          "tag_name": "FM-5.8.3",
+          "version_code": null,
+          "notes": [
+            "# 電視版 5.8.3",
+            "支援爬蟲共用互動對話框。",
+            "支援 HTTP 原始二進位請求。",
+            "改善 MPV 音效套用與錯誤回報。",
+            "改善 MPV 定位、字幕與播放狀態同步。",
+            "支援本機 ClearKey 的下一集預載。",
+            "更新 FFmpeg 與 MPV 播放核心。",
+            "更新後請至「設定 → 模組」更新 Python、QuickJS 與 MPV。",
+            "# 手機版 5.8.3",
+            "修正手機版篩選捲動。",
+            "支援爬蟲共用互動對話框。",
+            "支援 HTTP 原始二進位請求。",
+            "改善 MPV 音效套用與錯誤回報。",
+            "改善 MPV 定位、字幕與播放狀態同步。",
+            "支援本機 ClearKey 的下一集預載。",
+            "更新 FFmpeg 與 MPV 播放核心。",
+            "更新後請至「設定 → 模組」更新 Python、QuickJS 與 MPV。"
+          ],
+          "updated_at": "2026-10-26T01:41:58Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 44749643,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.8.3/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.8.3/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.8.3/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 51393659,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.8.3/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.8.3/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.8.3/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "mobile-standard",
           "label": "手机版",
