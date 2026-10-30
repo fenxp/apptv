@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T18:07:26Z",
+  "generated_at": "2026-10-30T17:12:29Z",
   "interfaces": [
     {
       "id": "tv-config",
@@ -18,10 +18,166 @@
       "repository": "FongMi/Release",
       "icon": "https://raw.githubusercontent.com/FongMi/TV/fongmi/app/src/main/ic_launcher-playstore.png",
       "source_revision": "ca6641c0f9bb61a001f6c11c78debbd94e6403a9",
-      "updated_at": "2026-10-26T18:05:47Z",
+      "updated_at": "2026-10-30T17:10:05Z",
       "history_complete": true,
       "history_signature": "c384fd87e48e38894af7c442a8d184096534857b8259c23a96959fbfcb58fd5c",
       "releases": [
+        {
+          "id": "mobile",
+          "label": "手机版",
+          "platform": "mobile",
+          "version": "5.8.5",
+          "tag_name": "5.8.5",
+          "version_code": null,
+          "notes": [
+            "# 電視版 5.8.5",
+            "記住各播放器的解碼模式。",
+            "修正部分代理網址造成的閃退。",
+            "改善 STRM 網址解析與播放。",
+            "統一爬蟲接口，舊版爬蟲需配合調整。",
+            "播放速度與彈幕偏移僅套用當次播放。",
+            "修正 Android 7 裝置相容性。",
+            "恢復本機字幕搜尋並支援 VTT 上傳。",
+            "改善 MKV、ISO 與藍光起播及字幕效能。",
+            "改善遙控器快轉、倒轉與切換播放時的進度控制。",
+            "更新後請至「設定 → 模組」更新 Python、QuickJS 與 MPV。",
+            "# 手機版 5.8.5",
+            "記住各播放器的解碼模式。",
+            "修正部分代理網址造成的閃退。",
+            "改善 STRM 網址解析與播放。",
+            "統一爬蟲接口，舊版爬蟲需配合調整。",
+            "播放速度與彈幕偏移僅套用當次播放。",
+            "修正 Android 7 裝置相容性。",
+            "恢復本機字幕搜尋並支援 VTT 上傳。",
+            "改善 MKV、ISO 與藍光起播及字幕效能。",
+            "更新後請至「設定 → 模組」更新 Python、QuickJS 與 MPV。"
+          ],
+          "updated_at": "2026-10-30T17:10:05Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 44681967,
+              "url": "https://github.com/FongMi/Release/releases/download/5.8.5/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.8.5/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.8.5/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 51325983,
+              "url": "https://github.com/FongMi/Release/releases/download/5.8.5/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.8.5/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.8.5/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "5.8.5",
+          "tag_name": "5.8.5",
+          "version_code": null,
+          "notes": [
+            "# 電視版 5.8.5",
+            "記住各播放器的解碼模式。",
+            "修正部分代理網址造成的閃退。",
+            "改善 STRM 網址解析與播放。",
+            "統一爬蟲接口，舊版爬蟲需配合調整。",
+            "播放速度與彈幕偏移僅套用當次播放。",
+            "修正 Android 7 裝置相容性。",
+            "恢復本機字幕搜尋並支援 VTT 上傳。",
+            "改善 MKV、ISO 與藍光起播及字幕效能。",
+            "改善遙控器快轉、倒轉與切換播放時的進度控制。",
+            "更新後請至「設定 → 模組」更新 Python、QuickJS 與 MPV。",
+            "# 手機版 5.8.5",
+            "記住各播放器的解碼模式。",
+            "修正部分代理網址造成的閃退。",
+            "改善 STRM 網址解析與播放。",
+            "統一爬蟲接口，舊版爬蟲需配合調整。",
+            "播放速度與彈幕偏移僅套用當次播放。",
+            "修正 Android 7 裝置相容性。",
+            "恢復本機字幕搜尋並支援 VTT 上傳。",
+            "改善 MKV、ISO 與藍光起播及字幕效能。",
+            "更新後請至「設定 → 模組」更新 Python、QuickJS 與 MPV。"
+          ],
+          "updated_at": "2026-10-30T17:10:05Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": true,
+              "size": 44767547,
+              "url": "https://github.com/FongMi/Release/releases/download/5.8.5/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.8.5/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.8.5/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": false,
+              "size": 51411563,
+              "url": "https://github.com/FongMi/Release/releases/download/5.8.5/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.8.5/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.8.5/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "mobile",
           "label": "手机版",
@@ -12828,10 +12984,166 @@
       "repository": "lystv/fmapp",
       "icon": "https://avatars.githubusercontent.com/u/117786160?v=4",
       "source_revision": "main",
-      "updated_at": "2026-10-26T18:07:26Z",
+      "updated_at": "2026-10-30T17:12:29Z",
       "history_complete": true,
       "history_signature": "23d6a30e14e8b1e2abd15c1f3920df35533ba9702833f08f5c164b80261115e4",
       "releases": [
+        {
+          "id": "mobile-standard",
+          "label": "手机版",
+          "platform": "mobile",
+          "version": "FM-5.8.5",
+          "tag_name": "FM-5.8.5",
+          "version_code": null,
+          "notes": [
+            "# 電視版 5.8.5",
+            "記住各播放器的解碼模式。",
+            "修正部分代理網址造成的閃退。",
+            "改善 STRM 網址解析與播放。",
+            "統一爬蟲接口，舊版爬蟲需配合調整。",
+            "播放速度與彈幕偏移僅套用當次播放。",
+            "修正 Android 7 裝置相容性。",
+            "恢復本機字幕搜尋並支援 VTT 上傳。",
+            "改善 MKV、ISO 與藍光起播及字幕效能。",
+            "改善遙控器快轉、倒轉與切換播放時的進度控制。",
+            "更新後請至「設定 → 模組」更新 Python、QuickJS 與 MPV。",
+            "# 手機版 5.8.5",
+            "記住各播放器的解碼模式。",
+            "修正部分代理網址造成的閃退。",
+            "改善 STRM 網址解析與播放。",
+            "統一爬蟲接口，舊版爬蟲需配合調整。",
+            "播放速度與彈幕偏移僅套用當次播放。",
+            "修正 Android 7 裝置相容性。",
+            "恢復本機字幕搜尋並支援 VTT 上傳。",
+            "改善 MKV、ISO 與藍光起播及字幕效能。",
+            "更新後請至「設定 → 模組」更新 Python、QuickJS 與 MPV。"
+          ],
+          "updated_at": "2026-10-30T17:12:29Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 44681967,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.8.5/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.8.5/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.8.5/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 51325983,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.8.5/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.8.5/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.8.5/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "FM-5.8.5",
+          "tag_name": "FM-5.8.5",
+          "version_code": null,
+          "notes": [
+            "# 電視版 5.8.5",
+            "記住各播放器的解碼模式。",
+            "修正部分代理網址造成的閃退。",
+            "改善 STRM 網址解析與播放。",
+            "統一爬蟲接口，舊版爬蟲需配合調整。",
+            "播放速度與彈幕偏移僅套用當次播放。",
+            "修正 Android 7 裝置相容性。",
+            "恢復本機字幕搜尋並支援 VTT 上傳。",
+            "改善 MKV、ISO 與藍光起播及字幕效能。",
+            "改善遙控器快轉、倒轉與切換播放時的進度控制。",
+            "更新後請至「設定 → 模組」更新 Python、QuickJS 與 MPV。",
+            "# 手機版 5.8.5",
+            "記住各播放器的解碼模式。",
+            "修正部分代理網址造成的閃退。",
+            "改善 STRM 網址解析與播放。",
+            "統一爬蟲接口，舊版爬蟲需配合調整。",
+            "播放速度與彈幕偏移僅套用當次播放。",
+            "修正 Android 7 裝置相容性。",
+            "恢復本機字幕搜尋並支援 VTT 上傳。",
+            "改善 MKV、ISO 與藍光起播及字幕效能。",
+            "更新後請至「設定 → 模組」更新 Python、QuickJS 與 MPV。"
+          ],
+          "updated_at": "2026-10-30T17:12:29Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 44767547,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.8.5/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.8.5/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.8.5/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 51411563,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.8.5/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.8.5/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.8.5/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "mobile-standard",
           "label": "手机版",
