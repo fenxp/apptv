@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T01:27:17Z",
+  "generated_at": "2026-11-01T18:12:24Z",
   "interfaces": [
     {
       "id": "tv-config",
@@ -18,10 +18,148 @@
       "repository": "FongMi/Release",
       "icon": "https://raw.githubusercontent.com/FongMi/TV/fongmi/app/src/main/ic_launcher-playstore.png",
       "source_revision": "ca6641c0f9bb61a001f6c11c78debbd94e6403a9",
-      "updated_at": "2026-11-01T01:24:35Z",
+      "updated_at": "2026-11-01T18:10:16Z",
       "history_complete": true,
       "history_signature": "c384fd87e48e38894af7c442a8d184096534857b8259c23a96959fbfcb58fd5c",
       "releases": [
+        {
+          "id": "mobile",
+          "label": "手机版",
+          "platform": "mobile",
+          "version": "5.8.7",
+          "tag_name": "5.8.7",
+          "version_code": null,
+          "notes": [
+            "# 電視版 5.8.7",
+            "改善爬蟲生命週期管理。",
+            "改善模組安裝與錯誤提示。",
+            "修正磁力與種子檔案選集及續播。",
+            "修正 YouTube 播放清單解析與選集。",
+            "更新後請至「設定 → 模組」更新 Python、Node.js 與 QuickJS。",
+            "# 手機版 5.8.7",
+            "改善爬蟲生命週期管理。",
+            "改善模組安裝與錯誤提示。",
+            "修正磁力與種子檔案選集及續播。",
+            "修正 YouTube 播放清單解析與選集。",
+            "更新後請至「設定 → 模組」更新 Python、Node.js 與 QuickJS。"
+          ],
+          "updated_at": "2026-11-01T18:10:16Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 44682547,
+              "url": "https://github.com/FongMi/Release/releases/download/5.8.7/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.8.7/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.8.7/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 51326563,
+              "url": "https://github.com/FongMi/Release/releases/download/5.8.7/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.8.7/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.8.7/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "5.8.7",
+          "tag_name": "5.8.7",
+          "version_code": null,
+          "notes": [
+            "# 電視版 5.8.7",
+            "改善爬蟲生命週期管理。",
+            "改善模組安裝與錯誤提示。",
+            "修正磁力與種子檔案選集及續播。",
+            "修正 YouTube 播放清單解析與選集。",
+            "更新後請至「設定 → 模組」更新 Python、Node.js 與 QuickJS。",
+            "# 手機版 5.8.7",
+            "改善爬蟲生命週期管理。",
+            "改善模組安裝與錯誤提示。",
+            "修正磁力與種子檔案選集及續播。",
+            "修正 YouTube 播放清單解析與選集。",
+            "更新後請至「設定 → 模組」更新 Python、Node.js 與 QuickJS。"
+          ],
+          "updated_at": "2026-11-01T18:10:16Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": true,
+              "size": 44768123,
+              "url": "https://github.com/FongMi/Release/releases/download/5.8.7/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.8.7/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.8.7/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": false,
+              "size": 51412139,
+              "url": "https://github.com/FongMi/Release/releases/download/5.8.7/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.8.7/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.8.7/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "mobile",
           "label": "手机版",
@@ -13128,10 +13266,148 @@
       "repository": "lystv/fmapp",
       "icon": "https://avatars.githubusercontent.com/u/117786160?v=4",
       "source_revision": "main",
-      "updated_at": "2026-11-01T01:27:17Z",
+      "updated_at": "2026-11-01T18:12:24Z",
       "history_complete": true,
       "history_signature": "23d6a30e14e8b1e2abd15c1f3920df35533ba9702833f08f5c164b80261115e4",
       "releases": [
+        {
+          "id": "mobile-standard",
+          "label": "手机版",
+          "platform": "mobile",
+          "version": "FM-5.8.7",
+          "tag_name": "FM-5.8.7",
+          "version_code": null,
+          "notes": [
+            "# 電視版 5.8.7",
+            "改善爬蟲生命週期管理。",
+            "改善模組安裝與錯誤提示。",
+            "修正磁力與種子檔案選集及續播。",
+            "修正 YouTube 播放清單解析與選集。",
+            "更新後請至「設定 → 模組」更新 Python、Node.js 與 QuickJS。",
+            "# 手機版 5.8.7",
+            "改善爬蟲生命週期管理。",
+            "改善模組安裝與錯誤提示。",
+            "修正磁力與種子檔案選集及續播。",
+            "修正 YouTube 播放清單解析與選集。",
+            "更新後請至「設定 → 模組」更新 Python、Node.js 與 QuickJS。"
+          ],
+          "updated_at": "2026-11-01T18:12:24Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 44682547,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.8.7/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.8.7/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.8.7/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 51326563,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.8.7/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.8.7/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.8.7/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "FM-5.8.7",
+          "tag_name": "FM-5.8.7",
+          "version_code": null,
+          "notes": [
+            "# 電視版 5.8.7",
+            "改善爬蟲生命週期管理。",
+            "改善模組安裝與錯誤提示。",
+            "修正磁力與種子檔案選集及續播。",
+            "修正 YouTube 播放清單解析與選集。",
+            "更新後請至「設定 → 模組」更新 Python、Node.js 與 QuickJS。",
+            "# 手機版 5.8.7",
+            "改善爬蟲生命週期管理。",
+            "改善模組安裝與錯誤提示。",
+            "修正磁力與種子檔案選集及續播。",
+            "修正 YouTube 播放清單解析與選集。",
+            "更新後請至「設定 → 模組」更新 Python、Node.js 與 QuickJS。"
+          ],
+          "updated_at": "2026-11-01T18:12:24Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 44768123,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.8.7/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.8.7/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.8.7/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 51412139,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.8.7/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.8.7/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.8.7/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "mobile-standard",
           "label": "手机版",
