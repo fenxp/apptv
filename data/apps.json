@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T06:02:08Z",
+  "generated_at": "2026-11-18T07:10:36Z",
   "interfaces": [
     {
       "id": "tv-config",
@@ -18,10 +18,156 @@
       "repository": "FongMi/Release",
       "icon": "https://raw.githubusercontent.com/FongMi/TV/fongmi/app/src/main/ic_launcher-playstore.png",
       "source_revision": "ca6641c0f9bb61a001f6c11c78debbd94e6403a9",
-      "updated_at": "2026-11-13T15:36:44Z",
+      "updated_at": "2026-11-18T07:08:26Z",
       "history_complete": true,
       "history_signature": "c384fd87e48e38894af7c442a8d184096534857b8259c23a96959fbfcb58fd5c",
       "releases": [
+        {
+          "id": "mobile",
+          "label": "手机版",
+          "platform": "mobile",
+          "version": "5.8.9",
+          "tag_name": "5.8.9",
+          "version_code": null,
+          "notes": [
+            "# 電視版 5.8.9",
+            "整理播放輸出設定。",
+            "修正下一集預載交接。",
+            "支援播放中調整畫面補幀。",
+            "改善 Exo 視訊解碼回退。",
+            "新增 MPV 播放中的 GPU 輸出切換。",
+            "請至「設定 → 模組」更新 QuickJS 與 MPV。",
+            "改善 Dolby Vision、音訊直通與切換播放的處理。",
+            "# 手機版 5.8.9",
+            "整理播放輸出設定。",
+            "修正下一集預載交接。",
+            "支援播放中調整畫面補幀。",
+            "改善 Exo 視訊解碼回退。",
+            "新增 MPV 播放中的 GPU 輸出切換。",
+            "請至「設定 → 模組」更新 QuickJS 與 MPV。",
+            "改善 Dolby Vision、音訊直通與切換播放的處理。"
+          ],
+          "updated_at": "2026-11-18T07:08:26Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 48915211,
+              "url": "https://github.com/FongMi/Release/releases/download/5.8.9/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.8.9/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.8.9/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 57672761,
+              "url": "https://github.com/FongMi/Release/releases/download/5.8.9/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.8.9/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.8.9/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "5.8.9",
+          "tag_name": "5.8.9",
+          "version_code": null,
+          "notes": [
+            "# 電視版 5.8.9",
+            "整理播放輸出設定。",
+            "修正下一集預載交接。",
+            "支援播放中調整畫面補幀。",
+            "改善 Exo 視訊解碼回退。",
+            "新增 MPV 播放中的 GPU 輸出切換。",
+            "請至「設定 → 模組」更新 QuickJS 與 MPV。",
+            "改善 Dolby Vision、音訊直通與切換播放的處理。",
+            "# 手機版 5.8.9",
+            "整理播放輸出設定。",
+            "修正下一集預載交接。",
+            "支援播放中調整畫面補幀。",
+            "改善 Exo 視訊解碼回退。",
+            "新增 MPV 播放中的 GPU 輸出切換。",
+            "請至「設定 → 模組」更新 QuickJS 與 MPV。",
+            "改善 Dolby Vision、音訊直通與切換播放的處理。"
+          ],
+          "updated_at": "2026-11-18T07:08:26Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": true,
+              "size": 49001620,
+              "url": "https://github.com/FongMi/Release/releases/download/5.8.9/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.8.9/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.8.9/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": false,
+              "size": 57759170,
+              "url": "https://github.com/FongMi/Release/releases/download/5.8.9/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/FongMi/Release/releases/download/5.8.9/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.8.9/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "mobile",
           "label": "手机版",
@@ -2438,10 +2584,156 @@
       "repository": "q215613905/TVBoxOSCRelease",
       "icon": "https://raw.githubusercontent.com/q215613905/TVBoxOS/refs/heads/main/app/src/main/res/drawable-xxxhdpi/app_icon.png",
       "source_revision": "master",
-      "updated_at": "2026-11-16T06:02:08Z",
+      "updated_at": "2026-11-18T06:33:48Z",
       "history_complete": true,
       "history_signature": "2028443a89cb2726a09a42fbbd281e5d03f6ff14085af8f7cae6aaf97933bb60",
       "releases": [
+        {
+          "id": "tv",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "20261118-1218",
+          "tag_name": "20261118-1218",
+          "version_code": null,
+          "notes": [
+            "修一处列表加载bug"
+          ],
+          "updated_at": "2026-11-18T06:33:48Z",
+          "downloads": [
+            {
+              "filename": "TVBox_q215613905_20261118-1218-java.apk",
+              "label": "Java 通用版",
+              "architecture": "universal",
+              "recommended": false,
+              "size": 33313893,
+              "url": "https://github.com/q215613905/TVBoxOSCRelease/releases/download/20261118-1218/TVBox_q215613905_20261118-1218-java.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20261118-1218/TVBox_q215613905_20261118-1218-java.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20261118-1218/TVBox_q215613905_20261118-1218-java.apk"
+                }
+              ]
+            },
+            {
+              "filename": "TVBox_q215613905_20261118-1218-java32.apk",
+              "label": "Java 32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 19814923,
+              "url": "https://github.com/q215613905/TVBoxOSCRelease/releases/download/20261118-1218/TVBox_q215613905_20261118-1218-java32.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20261118-1218/TVBox_q215613905_20261118-1218-java32.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20261118-1218/TVBox_q215613905_20261118-1218-java32.apk"
+                }
+              ]
+            },
+            {
+              "filename": "TVBox_q215613905_20261118-1218-java64.apk",
+              "label": "Java 64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 20775914,
+              "url": "https://github.com/q215613905/TVBoxOSCRelease/releases/download/20261118-1218/TVBox_q215613905_20261118-1218-java64.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20261118-1218/TVBox_q215613905_20261118-1218-java64.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20261118-1218/TVBox_q215613905_20261118-1218-java64.apk"
+                }
+              ]
+            },
+            {
+              "filename": "TVBox_q215613905_20261118-1218-python.apk",
+              "label": "Python 通用版",
+              "architecture": "universal",
+              "recommended": false,
+              "size": 52634789,
+              "url": "https://github.com/q215613905/TVBoxOSCRelease/releases/download/20261118-1218/TVBox_q215613905_20261118-1218-python.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20261118-1218/TVBox_q215613905_20261118-1218-python.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20261118-1218/TVBox_q215613905_20261118-1218-python.apk"
+                }
+              ]
+            },
+            {
+              "filename": "TVBox_q215613905_20261118-1218-python32.apk",
+              "label": "Python 32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 31615885,
+              "url": "https://github.com/q215613905/TVBoxOSCRelease/releases/download/20261118-1218/TVBox_q215613905_20261118-1218-python32.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20261118-1218/TVBox_q215613905_20261118-1218-python32.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20261118-1218/TVBox_q215613905_20261118-1218-python32.apk"
+                }
+              ]
+            },
+            {
+              "filename": "TVBox_q215613905_20261118-1218-python64.apk",
+              "label": "Python 64 位",
+              "architecture": "arm64-v8a",
+              "recommended": false,
+              "size": 33063115,
+              "url": "https://github.com/q215613905/TVBoxOSCRelease/releases/download/20261118-1218/TVBox_q215613905_20261118-1218-python64.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20261118-1218/TVBox_q215613905_20261118-1218-python64.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/q215613905/TVBoxOSCRelease/releases/download/20261118-1218/TVBox_q215613905_20261118-1218-python64.apk"
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "tv",
           "label": "电视版",
@@ -13570,10 +13862,156 @@
       "repository": "lystv/fmapp",
       "icon": "https://avatars.githubusercontent.com/u/117786160?v=4",
       "source_revision": "main",
-      "updated_at": "2026-11-13T15:38:32Z",
+      "updated_at": "2026-11-18T07:10:36Z",
       "history_complete": true,
       "history_signature": "23d6a30e14e8b1e2abd15c1f3920df35533ba9702833f08f5c164b80261115e4",
       "releases": [
+        {
+          "id": "mobile-standard",
+          "label": "手机版",
+          "platform": "mobile",
+          "version": "FM-5.8.9",
+          "tag_name": "FM-5.8.9",
+          "version_code": null,
+          "notes": [
+            "# 電視版 5.8.9",
+            "整理播放輸出設定。",
+            "修正下一集預載交接。",
+            "支援播放中調整畫面補幀。",
+            "改善 Exo 視訊解碼回退。",
+            "新增 MPV 播放中的 GPU 輸出切換。",
+            "請至「設定 → 模組」更新 QuickJS 與 MPV。",
+            "改善 Dolby Vision、音訊直通與切換播放的處理。",
+            "# 手機版 5.8.9",
+            "整理播放輸出設定。",
+            "修正下一集預載交接。",
+            "支援播放中調整畫面補幀。",
+            "改善 Exo 視訊解碼回退。",
+            "新增 MPV 播放中的 GPU 輸出切換。",
+            "請至「設定 → 模組」更新 QuickJS 與 MPV。",
+            "改善 Dolby Vision、音訊直通與切換播放的處理。"
+          ],
+          "updated_at": "2026-11-18T07:10:36Z",
+          "downloads": [
+            {
+              "filename": "mobile-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 48915211,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.8.9/mobile-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.8.9/mobile-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.8.9/mobile-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "mobile-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 57672761,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.8.9/mobile-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.8.9/mobile-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.8.9/mobile-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leanback-standard",
+          "label": "电视版",
+          "platform": "tv",
+          "version": "FM-5.8.9",
+          "tag_name": "FM-5.8.9",
+          "version_code": null,
+          "notes": [
+            "# 電視版 5.8.9",
+            "整理播放輸出設定。",
+            "修正下一集預載交接。",
+            "支援播放中調整畫面補幀。",
+            "改善 Exo 視訊解碼回退。",
+            "新增 MPV 播放中的 GPU 輸出切換。",
+            "請至「設定 → 模組」更新 QuickJS 與 MPV。",
+            "改善 Dolby Vision、音訊直通與切換播放的處理。",
+            "# 手機版 5.8.9",
+            "整理播放輸出設定。",
+            "修正下一集預載交接。",
+            "支援播放中調整畫面補幀。",
+            "改善 Exo 視訊解碼回退。",
+            "新增 MPV 播放中的 GPU 輸出切換。",
+            "請至「設定 → 模組」更新 QuickJS 與 MPV。",
+            "改善 Dolby Vision、音訊直通與切換播放的處理。"
+          ],
+          "updated_at": "2026-11-18T07:10:36Z",
+          "downloads": [
+            {
+              "filename": "leanback-armeabi_v7a.apk",
+              "label": "32 位",
+              "architecture": "armeabi-v7a",
+              "recommended": false,
+              "size": 49001620,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.8.9/leanback-armeabi_v7a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.8.9/leanback-armeabi_v7a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.8.9/leanback-armeabi_v7a.apk"
+                }
+              ]
+            },
+            {
+              "filename": "leanback-arm64_v8a.apk",
+              "label": "64 位",
+              "architecture": "arm64-v8a",
+              "recommended": true,
+              "size": 57759170,
+              "url": "https://github.com/lystv/fmapp/releases/download/FM-5.8.9/leanback-arm64_v8a.apk",
+              "mirrors": [
+                {
+                  "id": "cainisi",
+                  "label": "CDN 1",
+                  "provider": "菜妮丝 CDN",
+                  "url": "https://cns.菜妮丝.top/https://github.com/lystv/fmapp/releases/download/FM-5.8.9/leanback-arm64_v8a.apk"
+                },
+                {
+                  "id": "gh-proxy",
+                  "label": "CDN 2",
+                  "provider": "GH Proxy",
+                  "url": "https://gh-proxy.com/https://github.com/lystv/fmapp/releases/download/FM-5.8.9/leanback-arm64_v8a.apk"
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "mobile-standard",
           "label": "手机版",
